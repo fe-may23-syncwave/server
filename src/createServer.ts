@@ -7,7 +7,6 @@ dotenv.config();
 const CLIENT_URL = process.env.CLIENT_URL;
 
 export function createServer() {
-
   const app = express();
 
   app.use(cors({ origin: CLIENT_URL }));
