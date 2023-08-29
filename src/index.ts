@@ -1,7 +1,13 @@
+import dotenv from 'dotenv';
 import {createServer} from './createServer';
 
+
+dotenv.config();
+
+const PORT = process.env.PORT;
+
 createServer()
-  .listen(3000, () => {
+  .listen(PORT, () => {
     // eslint-disable-next-line no-console
-    console.log('Server is running on localhost:3000');
+    console.log(`Server is running on localhost:${PORT}`);
   });
