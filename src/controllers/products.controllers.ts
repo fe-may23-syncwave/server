@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import * as productsService from '../services/products';
+import * as productsService from '../services/products.services';
 
 const getAllProducts = (req: Request, res: Response) => {
   const products = productsService.getAll();
@@ -7,7 +7,4 @@ const getAllProducts = (req: Request, res: Response) => {
   res.send(products);
 };
 
-export {
-  getAllProducts,
-};
-
+export { getAllProducts };
