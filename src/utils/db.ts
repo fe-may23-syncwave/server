@@ -1,16 +1,16 @@
-import { Sequelize } from 'sequelize';
+import { Sequelize } from 'sequelize/types';
 
-const { DB_PASSWORD, DB_HOST, DB_NAME, DB_USER } = process.env;
-const URI = `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`;
+const { DB_PASSWORD, DB_HOST, DB_DATABASE, DB_USERNAME } = process.env;
+const URI = `postgres://${DB_USERNAME}:${DB_PASSWORD}@${DB_HOST}/${DB_DATABASE}`;
 
-export const sequelize = new Sequelize(URI,{
+export const sequelize = new Sequelize(URI, {
   dialectOptions: {
     ssl: {
       require: true,
       rejectUnauthorized: false,
     },
-  }}
-);
+  },
+});
 
 export async function connect() {
   try {
