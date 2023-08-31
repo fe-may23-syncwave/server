@@ -3,7 +3,7 @@ import {
   Column,
   DataType,
   Model,
-  Table
+  Table,
 } from 'sequelize-typescript';
 import { Optional } from 'sequelize';
 
@@ -20,8 +20,10 @@ export interface CapacityCreationAttributes
   modelName: 'Capacity',
   timestamps: false,
 })
-export class Capacity
-  extends Model<CapacityAttributes, CapacityCreationAttributes> {
+export class Capacity extends Model<
+  CapacityAttributes,
+  CapacityCreationAttributes
+> {
   @AllowNull(false)
   @Column({
     type: DataType.INTEGER,

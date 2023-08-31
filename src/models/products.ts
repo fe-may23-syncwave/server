@@ -4,7 +4,7 @@ import {
   DataType,
   Model,
   Table,
-  ForeignKey
+  ForeignKey,
 } from 'sequelize-typescript';
 import { Category } from './category';
 import { Capacity } from './capacity';
@@ -35,98 +35,99 @@ interface ProductAttributes {
 })
 export class Product
   extends Model<ProductAttributes>
-  implements ProductAttributes {
-    @AllowNull(false)
-    @Column({
-      type: DataType.INTEGER,
-      autoIncrement: true,
-      primaryKey: true,
-    })
-      id!: number;
+  implements ProductAttributes
+{
+  @AllowNull(false)
+  @Column({
+    type: DataType.INTEGER,
+    autoIncrement: true,
+    primaryKey: true,
+  })
+    id!: number;
 
-    @ForeignKey(() => Category)
-    @Column({
-      type: DataType.INTEGER,
-      allowNull: false,
-    })
-      category_id!: number;
+  @ForeignKey(() => Category)
+  @Column({
+    type: DataType.INTEGER,
+    allowNull: false,
+  })
+    category_id!: number;
 
-    @AllowNull(false)
-    @Column({
-      type: DataType.STRING,
-    })
-      phoneId!: string;
+  @AllowNull(false)
+  @Column({
+    type: DataType.STRING,
+  })
+    phoneId!: string;
 
-    @AllowNull(false)
-    @Column({
-      type: DataType.STRING,
-    })
-      itemId!: string;
+  @AllowNull(false)
+  @Column({
+    type: DataType.STRING,
+  })
+    itemId!: string;
 
-    @AllowNull(false)
-    @Column({
-      type: DataType.STRING,
-    })
-      name!: string;
+  @AllowNull(false)
+  @Column({
+    type: DataType.STRING,
+  })
+    name!: string;
 
-    @AllowNull(false)
-    @Column({
-      type: DataType.FLOAT,
-    })
-      fullPrice!: number;
+  @AllowNull(false)
+  @Column({
+    type: DataType.FLOAT,
+  })
+    fullPrice!: number;
 
-    @Column({
-      type: DataType.FLOAT,
-    })
-      discountPrice!: number | null;
+  @Column({
+    type: DataType.FLOAT,
+  })
+    discountPrice!: number | null;
 
-    @AllowNull(false)
-    @Column({
-      type: DataType.STRING,
-    })
-      screen!: string;
+  @AllowNull(false)
+  @Column({
+    type: DataType.STRING,
+  })
+    screen!: string;
 
-    @ForeignKey(() => Capacity)
-    @Column({
-      type: DataType.INTEGER,
-      allowNull: false,
-    })
-      capacity_id!: number;
+  @ForeignKey(() => Capacity)
+  @Column({
+    type: DataType.INTEGER,
+    allowNull: false,
+  })
+    capacity_id!: number;
 
-    @ForeignKey(() => Colors)
-    @Column({
-      type: DataType.INTEGER,
-      allowNull: false,
-    })
-      color_id!: number;
+  @ForeignKey(() => Colors)
+  @Column({
+    type: DataType.INTEGER,
+    allowNull: false,
+  })
+    color_id!: number;
 
-    @AllowNull(false)
-    @Column({
-      type: DataType.STRING,
-    })
-      ram!: string;
+  @AllowNull(false)
+  @Column({
+    type: DataType.STRING,
+  })
+    ram!: string;
 
-    @AllowNull(false)
-    @Column({
-      type: DataType.INTEGER,
-    })
-      year!: number;
+  @AllowNull(false)
+  @Column({
+    type: DataType.INTEGER,
+  })
+    year!: number;
 
-    @AllowNull(false)
-    @Column({
-      type: DataType.STRING,
-    })
-      image!: string;
+  @AllowNull(false)
+  @Column({
+    type: DataType.STRING,
+  })
+    image!: string;
 
-    @AllowNull(false)
-    @Column({
-      type: DataType.DATE,
-    })
-      createdAt!: Date;
+  @AllowNull(false)
+  @Column({
+    type: DataType.DATE,
+  })
+    createdAt!: Date;
 
-    @AllowNull(false)
-    @Column({
-      type: DataType.DATE,
-    })
-      updatedAt!: Date;
+  @AllowNull(false)
+  @Column({
+    type: DataType.DATE,
+  })
+    updatedAt!: Date;
 }

@@ -5,8 +5,8 @@ import * as models from '../models';
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const sequelize = new Sequelize({
   ...development,
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-} as any, );
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+} as any);
 
 sequelize.addModels(Object.values(models));
 

@@ -22,7 +22,7 @@ async function getAll(queries: Props) {
     }
 
     return products.slice(fromPage, toPage);
-  } catch(error) {
+  } catch (error) {
     console.log(error);
   }
 }
@@ -31,7 +31,4 @@ function getProductById(id: number) {
   return Product.findByPk(id);
 }
 
-export {
-  getAll,
-  getProductById,
-};
+export { getAll, getProductById };

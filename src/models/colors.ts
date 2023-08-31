@@ -3,7 +3,7 @@ import {
   Column,
   DataType,
   Model,
-  Table
+  Table,
 } from 'sequelize-typescript';
 import { Optional } from 'sequelize';
 
