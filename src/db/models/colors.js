@@ -4,7 +4,7 @@ export default (sequelize, DataTypes) => {
   class Colors extends Model {
     static associate(models) {
       Colors.hasMany(models.Product, {
-        foreignKey: 'color_id'
+        foreignKey: 'color_id',
       });
     }
   }

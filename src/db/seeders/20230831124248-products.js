@@ -1,7 +1,8 @@
 /* eslint-disable max-len */
 'use strict';
 
-const CLOUDINARY_BASE_URL = 'https://res.cloudinary.com/myfinance/image/upload/v1693416024/syncwave/';
+const CLOUDINARY_BASE_URL =
+  'https://res.cloudinary.com/myfinance/image/upload/v1693416024/syncwave/';
 
 const phones = [
   {
@@ -122,7 +123,9 @@ const phones = [
     color_id: 10,
     ram: '4GB',
     year: 2019,
-    image: CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro/midnightgreen/00.jpg',
+    image:
+      CLOUDINARY_BASE_URL +
+      'img/phones/apple-iphone-11-pro/midnightgreen/00.jpg',
   },
   {
     id: '9',
@@ -152,7 +155,9 @@ const phones = [
     color_id: 6,
     ram: '4GB',
     year: 2019,
-    image: CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro-max/spacegray/00.jpg',
+    image:
+      CLOUDINARY_BASE_URL +
+      'img/phones/apple-iphone-11-pro-max/spacegray/00.jpg',
   },
   {
     id: '11',
@@ -167,7 +172,8 @@ const phones = [
     color_id: 2,
     ram: '4GB',
     year: 2019,
-    image: CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro-max/gold/00.jpg',
+    image:
+      CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro-max/gold/00.jpg',
   },
   {
     id: '12',
@@ -182,7 +188,9 @@ const phones = [
     color_id: 6,
     ram: '4GB',
     year: 2019,
-    image: CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro-max/spacegray/00.jpg',
+    image:
+      CLOUDINARY_BASE_URL +
+      'img/phones/apple-iphone-11-pro-max/spacegray/00.jpg',
   },
   {
     id: '13',
@@ -377,7 +385,8 @@ const phones = [
     color_id: 6,
     ram: '4GB',
     year: 2019,
-    image: CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro/spacegray/00.jpg',
+    image:
+      CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro/spacegray/00.jpg',
   },
   {
     id: '26',
@@ -392,7 +401,8 @@ const phones = [
     color_id: 5,
     ram: '4GB',
     year: 2019,
-    image: CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro-max/silver/00.jpg',
+    image:
+      CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro-max/silver/00.jpg',
   },
   {
     id: '27',
@@ -407,7 +417,9 @@ const phones = [
     color_id: 10,
     ram: '4GB',
     year: 2019,
-    image: CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg',
+    image:
+      CLOUDINARY_BASE_URL +
+      'img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg',
   },
   {
     id: '28',
@@ -422,7 +434,8 @@ const phones = [
     color_id: 5,
     ram: '4GB',
     year: 2019,
-    image: CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro-max/silver/00.jpg',
+    image:
+      CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro-max/silver/00.jpg',
   },
   {
     id: '29',
@@ -602,7 +615,9 @@ const phones = [
     color_id: 10,
     ram: '4GB',
     year: 2019,
-    image: CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro/midnightgreen/00.jpg',
+    image:
+      CLOUDINARY_BASE_URL +
+      'img/phones/apple-iphone-11-pro/midnightgreen/00.jpg',
   },
   {
     id: '41',
@@ -647,7 +662,9 @@ const phones = [
     color_id: 10,
     ram: '4GB',
     year: 2019,
-    image: CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg',
+    image:
+      CLOUDINARY_BASE_URL +
+      'img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg',
   },
   {
     id: '44',
@@ -662,7 +679,9 @@ const phones = [
     color_id: 6,
     ram: '4GB',
     year: 2019,
-    image: CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro-max/spacegray/00.jpg',
+    image:
+      CLOUDINARY_BASE_URL +
+      'img/phones/apple-iphone-11-pro-max/spacegray/00.jpg',
   },
   {
     id: '45',
@@ -722,7 +741,8 @@ const phones = [
     color_id: 6,
     ram: '4GB',
     year: 2018,
-    image: CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-xs-max/spacegray/00.jpg',
+    image:
+      CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-xs-max/spacegray/00.jpg',
   },
   {
     id: '49',
@@ -737,7 +757,8 @@ const phones = [
     color_id: 12,
     ram: '3GB',
     year: 2016,
-    image: CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-7-plus/rosegold/00.jpg',
+    image:
+      CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-7-plus/rosegold/00.jpg',
   },
   {
     id: '50',
@@ -827,7 +848,8 @@ const phones = [
     color_id: 6,
     ram: '4GB',
     year: 2019,
-    image: CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro/spacegray/00.jpg',
+    image:
+      CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro/spacegray/00.jpg',
   },
   {
     id: '56',
@@ -842,7 +864,9 @@ const phones = [
     color_id: 10,
     ram: '4GB',
     year: 2019,
-    image: CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro/midnightgreen/00.jpg',
+    image:
+      CLOUDINARY_BASE_URL +
+      'img/phones/apple-iphone-11-pro/midnightgreen/00.jpg',
   },
   {
     id: '57',
@@ -857,7 +881,8 @@ const phones = [
     color_id: 2,
     ram: '4GB',
     year: 2019,
-    image: CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro-max/gold/00.jpg',
+    image:
+      CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro-max/gold/00.jpg',
   },
   {
     id: '58',
@@ -872,7 +897,8 @@ const phones = [
     color_id: 5,
     ram: '4GB',
     year: 2019,
-    image: CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro-max/silver/00.jpg',
+    image:
+      CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro-max/silver/00.jpg',
   },
   {
     id: '59',
@@ -887,7 +913,9 @@ const phones = [
     color_id: 10,
     ram: '4GB',
     year: 2019,
-    image: CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg',
+    image:
+      CLOUDINARY_BASE_URL +
+      'img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg',
   },
   {
     id: '60',
@@ -947,7 +975,8 @@ const phones = [
     color_id: 2,
     ram: '4GB',
     year: 2019,
-    image: CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro-max/gold/00.jpg',
+    image:
+      CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro-max/gold/00.jpg',
   },
   {
     id: '64',
@@ -977,7 +1006,8 @@ const phones = [
     color_id: 6,
     ram: '4GB',
     year: 2019,
-    image: CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro/spacegray/00.jpg',
+    image:
+      CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-11-pro/spacegray/00.jpg',
   },
   {
     id: '66',
@@ -1022,7 +1052,8 @@ const phones = [
     color_id: 6,
     ram: '4GB',
     year: 2018,
-    image: CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-xs-max/spacegray/00.jpg',
+    image:
+      CLOUDINARY_BASE_URL + 'img/phones/apple-iphone-xs-max/spacegray/00.jpg',
   },
   {
     id: '69',
@@ -1071,19 +1102,21 @@ const phones = [
   },
 ];
 
-
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
-  async up (queryInterface, Sequelize) {
-    await queryInterface.bulkInsert('products',
-      phones.map(phone => ({
+  async up(queryInterface, Sequelize) {
+    await queryInterface.bulkInsert(
+      'products',
+      phones.map((phone) => ({
         ...phone,
         createdAt: Sequelize.fn('now'),
         updatedAt: Sequelize.fn('now'),
-      })), {});
+      })),
+      {},
+    );
   },
 
-  async down (queryInterface) {
+  async down(queryInterface) {
     await queryInterface.bulkDelete('products', null, {});
-  }
+  },
 };
