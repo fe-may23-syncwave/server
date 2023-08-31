@@ -17,6 +17,6 @@ module.exports = {
     });
   },
   async down(queryInterface) {
-    await queryInterface.dropTable('Colors');
+    await queryInterface.dropTable('colors');
   },
 };

@@ -23,6 +23,6 @@ module.exports = {
     });
   },
   async down(queryInterface) {
-    await queryInterface.dropTable('Capacities');
+    await queryInterface.dropTable('capacities');
   },
 };
