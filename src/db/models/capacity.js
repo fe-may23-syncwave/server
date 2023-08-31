@@ -11,11 +11,14 @@ export default (sequelize, DataTypes) => {
     //   define association here
     // }
   }
-  Capacity.init({
-    name: DataTypes.STRING
-  }, {
-    sequelize,
-    modelName: 'Capacity',
-  });
+  Capacity.init(
+    {
+      name: DataTypes.STRING,
+    },
+    {
+      sequelize,
+      modelName: 'Capacity',
+    },
+  );
   return Capacity;
 };

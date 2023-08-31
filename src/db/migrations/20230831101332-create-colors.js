@@ -7,7 +7,7 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       name: {
         allowNull: false,
@@ -18,5 +18,5 @@ module.exports = {
   },
   async down(queryInterface) {
     await queryInterface.dropTable('Colors');
-  }
+  },
 };

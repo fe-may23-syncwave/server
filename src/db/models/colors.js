@@ -11,11 +11,14 @@ export default (sequelize, DataTypes) => {
     //   // define association here
     // }
   }
-  Colors.init({
-    name: DataTypes.STRING
-  }, {
-    sequelize,
-    modelName: 'Colors',
-  });
+  Colors.init(
+    {
+      name: DataTypes.STRING,
+    },
+    {
+      sequelize,
+      modelName: 'Colors',
+    },
+  );
   return Colors;
 };

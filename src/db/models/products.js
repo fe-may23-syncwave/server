@@ -11,11 +11,14 @@ export default (sequelize, DataTypes) => {
     //   // define association here
     // }
   }
-  Products.init({
-    name: DataTypes.STRING
-  }, {
-    sequelize,
-    modelName: 'Products',
-  });
+  Products.init(
+    {
+      name: DataTypes.STRING,
+    },
+    {
+      sequelize,
+      modelName: 'Products',
+    },
+  );
   return Products;
 };

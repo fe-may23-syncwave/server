@@ -11,11 +11,14 @@ export default (sequelize, DataTypes) => {
     //   // define association here
     // }
   }
-  Category.init({
-    name: DataTypes.STRING
-  }, {
-    sequelize,
-    modelName: 'Category',
-  });
+  Category.init(
+    {
+      name: DataTypes.STRING,
+    },
+    {
+      sequelize,
+      modelName: 'Category',
+    },
+  );
   return Category;
 };
