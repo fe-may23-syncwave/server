@@ -5,7 +5,7 @@ import path from 'path';
 import dotenv from 'dotenv';
 import { Sequelize } from 'sequelize';
 import process from 'process';
-import configJs from '../config/config';
+import configJs from '../config/config.cjs';
 
 dotenv.config();
 

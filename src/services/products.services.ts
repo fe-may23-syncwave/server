@@ -139,7 +139,7 @@ const products = [
 const perPageItems = 4;
 // added for testing
 
-interface Props{
+interface Props {
   page?: string;
   perPage?: string;
 }

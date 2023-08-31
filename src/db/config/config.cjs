@@ -1,6 +1,6 @@
-import dotenv from 'dotenv';
-
-dotenv.config();
+// config.js
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+require('dotenv').config();
 
 const { DB_DRIVER, DB_USERNAME, DB_PASSWORD, DB_HOST, DB_DATABASE } =
   process.env;
