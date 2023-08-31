@@ -136,8 +136,24 @@ const products = [
   },
 ];
 
-function getAll() {
-  return products;
+const perPageItems = 4;
+// added for testing
+
+interface Props{
+  page?: string;
+  perPage?: string;
+}
+
+function getAll(queries: Props) {
+  let availableProducts = [...products];
+
+  if (queries.page) {
+    const toPage = perPageItems * +queries.page;
+    const fromPage = toPage - perPageItems;
+    availableProducts = availableProducts.slice(fromPage, toPage);
+  }
+
+  return availableProducts;
 }
 
 export { getAll };
