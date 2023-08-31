@@ -15,8 +15,7 @@
     "make-db-seed": "sequelize-cli seed:generate --name",
     "db-seed": "sequelize-cli db:seed:all",
     "db-migrate": "sequelize-cli db:migrate",
-    "migrate:undo": "sequelize-cli db:migrate:undo",
-    "db-connect": "psql postgres://icbonupj:vwIC0z4xnDnvKkTrQt5wP_tTifLSbjo3@snuffleupagus.db.elephantsql.com/icbonupj"
+    "migrate-undo-all": "sequelize-cli db:migrate:undo:all"
   },
   "husky": {
     "hooks": {

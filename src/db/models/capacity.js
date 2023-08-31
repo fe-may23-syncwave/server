@@ -2,22 +2,29 @@
 import { Model } from 'sequelize';
 export default (sequelize, DataTypes) => {
   class Capacity extends Model {
-    /**
-     * Helper method for defining associations.
-     * This method is not a part of Sequelize lifecycle.
-     * The `models/index` file will call this method automatically.
-     */
-    // static associate(models) {
-    //   define association here
-    // }
+    static associate(models) {
+      Capacity.hasMany(models.Product, {
+        foreignKey: 'capacity_id'
+      });
+    }
   }
   Capacity.init(
     {
-      name: DataTypes.STRING,
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: DataTypes.INTEGER,
+      },
+      name: {
+        allowNull: false,
+        type: DataTypes.STRING,
+        unique: true,
+      },
     },
     {
       sequelize,
-      modelName: 'Capacity',
+      modelName: 'capacities',
     },
   );
   return Capacity;
