@@ -139,13 +139,14 @@ const products = [
 const perPageItems = 4;
 // added for testing
 
-interface Props{
+interface Props {
   page?: string;
   perPage?: string;
 }
 
-function getAll(queries: Props) {
+function getAll(productType: string, queries: Props) {
   let availableProducts = [...products];
+  console.log(productType);
 
   if (queries.page) {
     const toPage = perPageItems * +queries.page;

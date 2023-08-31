@@ -13,7 +13,7 @@ export function createServer() {
 
   app.use(cors({ origin: CLIENT_URL }));
 
-  app.use('/phones', express.json(), ProductsRouter);
+  app.use('/', express.json(), ProductsRouter);
 
   return app;
 }
