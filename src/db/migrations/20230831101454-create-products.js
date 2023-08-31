@@ -51,7 +51,7 @@ module.exports = {
       color_id: {
         allowNull: false,
         references: {
-          model: 'capacities',
+          model: 'colors',
           key: 'id',
         },
         type: Sequelize.INTEGER,
