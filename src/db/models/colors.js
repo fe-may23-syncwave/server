@@ -1,7 +1,7 @@
 'use strict';
 import { Model } from 'sequelize';
 export default (sequelize, DataTypes) => {
-  class Products extends Model {
+  class Colors extends Model {
     /**
      * Helper method for defining associations.
      * This method is not a part of Sequelize lifecycle.
@@ -11,11 +11,11 @@ export default (sequelize, DataTypes) => {
     //   // define association here
     // }
   }
-  Products.init({
+  Colors.init({
     name: DataTypes.STRING
   }, {
     sequelize,
-    modelName: 'Products',
+    modelName: 'Colors',
   });
-  return Products;
+  return Colors;
 };

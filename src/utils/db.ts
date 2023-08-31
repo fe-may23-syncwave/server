@@ -1,16 +1,7 @@
 import { Sequelize } from 'sequelize/types';
+import { development } from '../db/config/config.cjs';
 
-const { DB_PASSWORD, DB_HOST, DB_DATABASE, DB_USERNAME } = process.env;
-const URI = `postgres://${DB_USERNAME}:${DB_PASSWORD}@${DB_HOST}/${DB_DATABASE}`;
-
-export const sequelize = new Sequelize(URI, {
-  dialectOptions: {
-    ssl: {
-      require: true,
-      rejectUnauthorized: false,
-    },
-  },
-});
+export const sequelize = new Sequelize(development);
 
 export async function connect() {
   try {
