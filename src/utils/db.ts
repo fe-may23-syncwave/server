@@ -2,20 +2,17 @@ import { Sequelize } from 'sequelize-typescript';
 import dotenv from 'dotenv';
 import * as models from '../models';
 
-
 dotenv.config();
 
-const { DB_USERNAME, DB_PASSWORD, DB_HOST, DB_DATABASE } =
-  process.env;
+const { DB_USERNAME, DB_PASSWORD, DB_HOST, DB_DATABASE } = process.env;
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const sequelize = new Sequelize({
-  username: DB_USERNAME,
-  password: DB_PASSWORD,
-  database: DB_DATABASE,
-  host: DB_HOST,
-  dialect: 'postgres',
-  port: 5432,
+const URI = `postgres://${DB_USERNAME}:${DB_PASSWORD}@${DB_HOST}/${DB_DATABASE}`;
+
+export const sequelize = new Sequelize(URI, {
+  models: [models.Product, models.Category, models.Capacity, models.Colors],
+  dialectOptions: {
+    ssl: true,
+  }
 });
 
 sequelize.addModels(Object.values(models));
@@ -28,3 +25,4 @@ export async function connect() {
     console.error('Unable to connect to the database:', error);
   }
 }
+
