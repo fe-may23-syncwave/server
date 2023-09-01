@@ -7,11 +7,11 @@ const { DB_DRIVER, DB_USERNAME, DB_PASSWORD, DB_HOST, DB_DATABASE } =
 // const URI = `${DB_DRIVER}://${DB_USERNAME}:${DB_PASSWORD}@${DB_HOST}/${DB_DATABASE}`;
 
 const settings = {
-  dialect: DB_DRIVER,
-  host: DB_HOST,
   username: DB_USERNAME,
   password: DB_PASSWORD,
   database: DB_DATABASE,
+  host: DB_HOST,
+  dialect: DB_DRIVER,
   dialectOptions: {
     ssl: false,
   },
