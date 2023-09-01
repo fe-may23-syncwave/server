@@ -3,14 +3,17 @@ require('dotenv').config();
 
 const { DB_USERNAME, DB_PASSWORD, DB_HOST, DB_DATABASE } = process.env;
 
+const URI = `postgres://${DB_USERNAME}:${DB_PASSWORD}@${DB_HOST}/${DB_DATABASE}`;
+
+
 const settings = {
-  username: DB_USERNAME,
-  password: DB_PASSWORD,
-  database: DB_DATABASE,
-  host: DB_HOST,
+  url: URI,
   dialect: 'postgres',
   dialectOptions: {
-    ssl: true,
+    ssl: {
+      require: true,
+      rejectUnauthorized: false,
+    }
   },
 };
 

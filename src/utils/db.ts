@@ -15,8 +15,6 @@ export const sequelize = new Sequelize(URI, {
   },
 });
 
-sequelize.addModels(Object.values(models));
-
 export async function connect() {
   try {
     await sequelize.authenticate();
