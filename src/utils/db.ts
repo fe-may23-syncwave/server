@@ -12,7 +12,7 @@ export const sequelize = new Sequelize(URI, {
   models: [models.Product, models.Category, models.Capacity, models.Colors],
   dialectOptions: {
     ssl: true,
-  }
+  },
 });
 
 sequelize.addModels(Object.values(models));
@@ -25,4 +25,3 @@ export async function connect() {
     console.error('Unable to connect to the database:', error);
   }
 }
-
