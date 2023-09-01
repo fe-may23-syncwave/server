@@ -6,6 +6,7 @@ import * as models from '../models';
 export const sequelize = new Sequelize({
   ...development,
   dialect: 'postgres',
+  port: 5432,
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
 } as any);
 
