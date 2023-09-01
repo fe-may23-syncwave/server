@@ -5,6 +5,7 @@ import * as models from '../models';
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const sequelize = new Sequelize({
   ...development,
+  dialect: 'postgres',
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
 } as any);
 
