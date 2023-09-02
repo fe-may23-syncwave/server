@@ -17,7 +17,7 @@ module.exports = {
         },
         type: Sequelize.INTEGER,
       },
-      phoneId: {
+      productId: {
         allowNull: false,
         type: Sequelize.STRING,
       },
@@ -57,16 +57,16 @@ module.exports = {
         type: Sequelize.INTEGER,
       },
       ram: {
+        type: Sequelize.STRING,
+        allowNull: true,
+      },
+      image: {
         allowNull: false,
         type: Sequelize.STRING,
       },
       year: {
         allowNull: false,
         type: Sequelize.INTEGER,
-      },
-      image: {
-        allowNull: false,
-        type: Sequelize.STRING,
       },
       createdAt: {
         allowNull: false,

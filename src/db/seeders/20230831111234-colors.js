@@ -54,6 +54,18 @@ module.exports = {
           id: 12,
           name: 'rosegold',
         },
+        {
+          id: 13,
+          name: 'gray',
+        },
+        {
+          id: 14,
+          name: 'blue',
+        },
+        {
+          id: 15,
+          name: 'pink',
+        },
       ],
       {},
     );

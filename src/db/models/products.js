@@ -71,12 +71,12 @@ export default (sequelize, DataTypes) => {
         type: DataTypes.INTEGER,
       },
       ram: {
-        allowNull: false,
         type: DataTypes.STRING,
+        allowNull: true,
       },
       year: {
-        allowNull: false,
         type: DataTypes.INTEGER,
+        allowNull: true,
       },
       image: {
         allowNull: false,

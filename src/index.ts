@@ -3,7 +3,7 @@ import { createServer } from './createServer';
 
 dotenv.config();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 createServer().listen(PORT, () => {
   // eslint-disable-next-line no-console
