@@ -1,8 +1,8 @@
 [
   {
-    "id":" apple-ipad-air-4-64gb-blue",
+    "id": "apple-ipad-air-4-64gb-blue",
     "namespaceId": "apple-ipad-air-4",
-    "name": "Apple iPad Air 4 64GB Blue" ,
+    "name": "Apple iPad Air 4 64GB Blue",
     "capacityAvailable": ["64GB", "128GB", "256GB"],
     "capacity": "64GB",
     "fullPrice": 620,
@@ -46,9 +46,9 @@
     "year": 2020
   },
   {
-    "id":" apple-ipad-air-4-64gb-gold",
+    "id": "apple-ipad-air-4-64gb-gold",
     "namespaceId": "apple-ipad-air-4",
-    "name": "Apple iPad Air 4 64GB Gold" ,
+    "name": "Apple iPad Air 4 64GB Gold",
     "capacityAvailable": ["64GB", "128GB", "256GB"],
     "capacity": "64GB",
     "fullPrice": 620,
@@ -92,9 +92,9 @@
     "year": 2020
   },
   {
-    "id":" apple-ipad-air-4-64gb-gray",
+    "id": "apple-ipad-air-4-64gb-gray",
     "namespaceId": "apple-ipad-air-4",
-    "name": "Apple iPad Air 4 64GB Gray" ,
+    "name": "Apple iPad Air 4 64GB Gray",
     "capacityAvailable": ["64GB", "128GB", "256GB"],
     "capacity": "64GB",
     "fullPrice": 620,
@@ -138,9 +138,9 @@
     "year": 2020
   },
   {
-    "id":" apple-ipad-air-4-64gb-green",
+    "id": "apple-ipad-air-4-64gb-green",
     "namespaceId": "apple-ipad-air-4",
-    "name": "Apple iPad Air 4 64GB Green" ,
+    "name": "Apple iPad Air 4 64GB Green",
     "capacityAvailable": ["64GB", "128GB", "256GB"],
     "capacity": "64GB",
     "fullPrice": 620,
@@ -184,7 +184,7 @@
     "year": 2020
   },
   {
-    "id":" apple-ipad-air-4-64gb-silver",
+    "id": "apple-ipad-air-4-64gb-silver",
     "namespaceId": "apple-ipad-air-4",
     "name": "Apple iPad Air 4 64GB Silver",
     "capacityAvailable": ["64GB", "128GB", "256GB"],
@@ -230,7 +230,7 @@
     "year": 2020
   },
   {
-    "id":" apple-ipad-air-4-128gb-blue",
+    "id": "apple-ipad-air-4-128gb-blue",
     "namespaceId": "apple-ipad-air-4",
     "name": "Apple iPad Air 4 128 Blue",
     "capacityAvailable": ["64GB", "128GB", "256GB"],
@@ -276,9 +276,9 @@
     "year": 2020
   },
   {
-    "id":" apple-ipad-air-4-128gb-gold",
+    "id": "apple-ipad-air-4-128gb-gold",
     "namespaceId": "apple-ipad-air-4",
-    "name": "Apple iPad Air 4 128 Gold" ,
+    "name": "Apple iPad Air 4 128 Gold",
     "capacityAvailable": ["64GB", "128GB", "256GB"],
     "capacity": "128GB",
     "fullPrice": 744,
@@ -322,9 +322,9 @@
     "year": 2020
   },
   {
-    "id":" apple-ipad-air-4-128gb-gray",
+    "id": "apple-ipad-air-4-128gb-gray",
     "namespaceId": "apple-ipad-air-4",
-    "name": "Apple iPad Air 4 128 Gray" ,
+    "name": "Apple iPad Air 4 128 Gray",
     "capacityAvailable": ["64GB", "128GB", "256GB"],
     "capacity": "128GB",
     "fullPrice": 744,
@@ -368,9 +368,9 @@
     "year": 2020
   },
   {
-    "id":" apple-ipad-air-4-128gb-green",
+    "id": "apple-ipad-air-4-128gb-green",
     "namespaceId": "apple-ipad-air-4",
-    "name": "Apple iPad Air 4 128 Green" ,
+    "name": "Apple iPad Air 4 128 Green",
     "capacityAvailable": ["64GB", "128GB", "256GB"],
     "capacity": "128GB",
     "fullPrice": 744,
@@ -414,7 +414,7 @@
     "year": 2020
   },
   {
-    "id":" apple-ipad-air-4-128gb-silver",
+    "id": "apple-ipad-air-4-128gb-silver",
     "namespaceId": "apple-ipad-air-4",
     "name": "Apple iPad Air 4 128 Silver",
     "capacityAvailable": ["64GB", "128GB", "256GB"],
@@ -460,7 +460,7 @@
     "year": 2020
   },
   {
-    "id":" apple-ipad-air-4-256gb-blue",
+    "id": "apple-ipad-air-4-256gb-blue",
     "namespaceId": "apple-ipad-air-4",
     "name": "Apple iPad Air 4 256 Blue",
     "capacityAvailable": ["64GB", "128GB", "256GB"],
@@ -506,7 +506,7 @@
     "year": 2020
   },
   {
-    "id":" apple-ipad-air-4-256gb-gold",
+    "id": "apple-ipad-air-4-256gb-gold",
     "namespaceId": "apple-ipad-air-4",
     "name": "Apple iPad Air 4 256 Gold",
     "capacityAvailable": ["64GB", "128GB", "256GB"],
@@ -552,7 +552,7 @@
     "year": 2020
   },
   {
-    "id":" apple-ipad-air-4-256gb-gray",
+    "id": "apple-ipad-air-4-256gb-gray",
     "namespaceId": "apple-ipad-air-4",
     "name": "Apple iPad Air 4 256 Gray",
     "capacityAvailable": ["64GB", "128GB", "256GB"],
@@ -598,7 +598,7 @@
     "year": 2020
   },
   {
-    "id":" apple-ipad-air-4-256gb-green",
+    "id": "apple-ipad-air-4-256gb-green",
     "namespaceId": "apple-ipad-air-4",
     "name": "Apple iPad Air 4 256 Green",
     "capacityAvailable": ["64GB", "128GB", "256GB"],
@@ -644,7 +644,7 @@
     "year": 2020
   },
   {
-    "id":" apple-ipad-air-4-256-silver",
+    "id": "apple-ipad-air-4-256gb-silver",
     "namespaceId": "apple-ipad-air-4",
     "name": "Apple iPad Air 4 256 Silver",
     "capacityAvailable": ["64GB", "128GB", "256GB"],
@@ -690,10 +690,10 @@
   },
 
   {
-    "id": "apple-ipad-mini-6-64-gold",
+    "id": "apple-ipad-mini-6-64gb-gold",
     "namespaceId": "apple-ipad-mini-6",
     "name": "Apple iPad Mini 6 64GB Gold",
-    "capacities": ["64GB", "128GB", "256GB"],
+    "capacityAvailable": ["64GB", "128GB", "256GB"],
     "capacity": "64GB",
     "fullPrice": 675,
     "discountPrice": 607,
@@ -736,10 +736,10 @@
   },
 
   {
-    "id": "apple-ipad-mini-6-64-gray",
+    "id": "apple-ipad-mini-6-64gb-gray",
     "namespaceId": "apple-ipad-mini-6",
     "name": "Apple iPad Mini 6 64GB Gray",
-    "capacities": ["64GB", "128GB", "256GB"],
+    "capacityAvailable": ["64GB", "128GB", "256GB"],
     "capacity": "64GB",
     "fullPrice": 675,
     "discountPrice": 607,
@@ -782,10 +782,10 @@
   },
 
   {
-    "id": "apple-ipad-mini-6-64-pink",
+    "id": "apple-ipad-mini-6-64gb-pink",
     "namespaceId": "apple-ipad-mini-6",
     "name": "Apple iPad Mini 6 64GB Pink",
-    "capacities": ["64GB", "128GB", "256GB"],
+    "capacityAvailable": ["64GB", "128GB", "256GB"],
     "capacity": "64GB",
     "fullPrice": 675,
     "discountPrice": 607,
@@ -828,10 +828,10 @@
   },
 
   {
-    "id": "apple-ipad-mini-6-64-purple",
+    "id": "apple-ipad-mini-6-64gb-purple",
     "namespaceId": "apple-ipad-mini-6",
     "name": "Apple iPad Mini 6 64GB Purple",
-    "capacities": ["64GB", "128GB", "256GB"],
+    "capacityAvailable": ["64GB", "128GB", "256GB"],
     "capacity": "64GB",
     "fullPrice": 675,
     "discountPrice": 607,
@@ -873,10 +873,10 @@
     "camera": "12 Mp"
   },
   {
-    "id": "apple-ipad-mini-6-128-gold",
+    "id": "apple-ipad-mini-6-128gb-gold",
     "namespaceId": "apple-ipad-mini-6",
     "name": "Apple iPad Mini 6 128GB Gold",
-    "capacities": ["64GB", "128GB", "256GB"],
+    "capacityAvailable": ["64GB", "128GB", "256GB"],
     "capacity": "128GB",
     "fullPrice": 810,
     "discountPrice": 729,
@@ -919,10 +919,10 @@
   },
 
   {
-    "id": "apple-ipad-mini-6-128-gray",
+    "id": "apple-ipad-mini-6-128gb-gray",
     "namespaceId": "apple-ipad-mini-6",
     "name": "Apple iPad Mini 6 128GB Gray",
-    "capacities": ["64GB", "128GB", "256GB"],
+    "capacityAvailable": ["64GB", "128GB", "256GB"],
     "capacity": "128GB",
     "fullPrice": 810,
     "discountPrice": 729,
@@ -965,10 +965,10 @@
   },
 
   {
-    "id": "apple-ipad-mini-6-128-pink",
+    "id": "apple-ipad-mini-6-128gb-pink",
     "namespaceId": "apple-ipad-mini-6",
     "name": "Apple iPad Mini 6 128GB Pink",
-    "capacities": ["64GB", "128GB", "256GB"],
+    "capacityAvailable": ["64GB", "128GB", "256GB"],
     "capacity": "128GB",
     "fullPrice": 810,
     "discountPrice": 729,
@@ -1011,10 +1011,10 @@
   },
 
   {
-    "id": "apple-ipad-mini-6-128-purple",
+    "id": "apple-ipad-mini-6-128gb-purple",
     "namespaceId": "apple-ipad-mini-6",
     "name": "Apple iPad Mini 6 128GB Purple",
-    "capacities": ["64GB", "128GB", "256GB"],
+    "capacityAvailable": ["64GB", "128GB", "256GB"],
     "capacity": "128GB",
     "fullPrice": 810,
     "discountPrice": 729,
@@ -1056,10 +1056,10 @@
     "camera": "12 Mp"
   },
   {
-    "id": "apple-ipad-mini-6-256-gold",
+    "id": "apple-ipad-mini-6-256gb-gold",
     "namespaceId": "apple-ipad-mini-6",
     "name": "Apple iPad Mini 6 256GB Gold",
-    "capacities": ["64GB", "128GB", "256GB"],
+    "capacityAvailable": ["64GB", "128GB", "256GB"],
     "capacity": "256GB",
     "fullPrice": 972,
     "discountPrice": 874,
@@ -1102,10 +1102,10 @@
   },
 
   {
-    "id": "apple-ipad-mini-6-256-gray",
+    "id": "apple-ipad-mini-6-256gb-gray",
     "namespaceId": "apple-ipad-mini-6",
     "name": "Apple iPad Mini 6 256GB Gray",
-    "capacities": ["64GB", "128GB", "256GB"],
+    "capacityAvailable": ["64GB", "128GB", "256GB"],
     "capacity": "256GB",
     "fullPrice": 972,
     "discountPrice": 874,
@@ -1148,10 +1148,10 @@
   },
 
   {
-    "id": "apple-ipad-mini-6-256-pink",
+    "id": "apple-ipad-mini-6-256gb-pink",
     "namespaceId": "apple-ipad-mini-6",
     "name": "Apple iPad Mini 6 256GB Pink",
-    "capacities": ["64GB", "128GB", "256GB"],
+    "capacityAvailable": ["64GB", "128GB", "256GB"],
     "capacity": "256GB",
     "fullPrice": 972,
     "discountPrice": 874,
@@ -1194,10 +1194,10 @@
   },
 
   {
-    "id": "apple-ipad-mini-6-256-purple",
+    "id": "apple-ipad-mini-6-256gb-purple",
     "namespaceId": "apple-ipad-mini-6",
     "name": "Apple iPad Mini 6 256GB Purple",
-    "capacities": ["64GB", "128GB", "256GB"],
+    "capacityAvailable": ["64GB", "128GB", "256GB"],
     "capacity": "256GB",
     "fullPrice": 972,
     "discountPrice": 874,

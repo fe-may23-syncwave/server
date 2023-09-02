@@ -24,6 +24,7 @@ module.exports = {
       itemId: {
         allowNull: false,
         type: Sequelize.STRING,
+        unique: true,
       },
       name: {
         allowNull: false,
@@ -67,14 +68,6 @@ module.exports = {
       year: {
         allowNull: false,
         type: Sequelize.INTEGER,
-      },
-      createdAt: {
-        allowNull: false,
-        type: Sequelize.DATE,
-      },
-      updatedAt: {
-        allowNull: false,
-        type: Sequelize.DATE,
       },
     });
   },

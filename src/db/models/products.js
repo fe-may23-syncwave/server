@@ -13,6 +13,12 @@ export default (sequelize, DataTypes) => {
       Products.belongsTo(models.Color, {
         foreignKey: 'color_id',
       });
+      Products.hasOne(models.Phones, {
+        foreignKey: 'itemId',
+      });
+      Products.hasOne(models.Tablets, {
+        foreignKey: 'itemId',
+      });
     }
   }
   Products.init(
@@ -38,6 +44,7 @@ export default (sequelize, DataTypes) => {
       itemId: {
         allowNull: false,
         type: DataTypes.STRING,
+        unique: true,
       },
       name: {
         allowNull: false,
@@ -81,14 +88,6 @@ export default (sequelize, DataTypes) => {
       image: {
         allowNull: false,
         type: DataTypes.STRING,
-      },
-      createdAt: {
-        allowNull: false,
-        type: DataTypes.DATE,
-      },
-      updatedAt: {
-        allowNull: false,
-        type: DataTypes.DATE,
       },
     },
     {
