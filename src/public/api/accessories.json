@@ -1,0 +1,433 @@
+[
+  {
+    "id": "iphone-11-silicone-case-black",
+    "name": "iPhone 11 Silicone Case Black",
+    "fullPrice": 49,
+    "colorsAvailable": ["black", "blue", "white", "red"],
+    "color": "black",
+    "images": [
+      "img/accessories/iphone-11-cases/black/00.jpg",
+      "img/accessories/iphone-11-cases/black/01.jpg"
+    ],
+    "description": [
+      {
+        "title": "Enhance Your iPhone 11 Experience.",
+        "text": [
+        "Crafted by Apple to elevate your iPhone 11, this silicone case offers a form-fitting design that seamlessly covers the volume buttons, side button, and contours of your device, all without adding extra bulk."
+        ]
+      },
+      {
+        "title": "Comfort and Convenience in One.",
+        "text": [
+          "Inside, a soft microfiber lining provides added protection for your iPhone. On the outside, the silky, soft-touch finish of the silicone exterior feels incredibly comfortable in your hand. Plus, you can keep it on at all times, even while wirelessly charging your device."
+        ]
+      },
+      {
+        "title": "Exceptional Durability and Design.",
+        "text": [
+          "Like all Apple-designed cases, it undergoes extensive testing during both the design and manufacturing phases. This means it not only looks fantastic but is also engineered to shield your iPhone from scratches and drops."
+        ]
+      }]
+  },
+  {
+    "id": "iphone-11-silicone-case-blue",
+    "name": "iPhone 11 Silicone Case Blue",
+    "fullPrice": 49,
+    "colorsAvailable": ["black", "blue", "white", "red"],
+    "color": "blue",
+    "images": [
+      "img/accessories/iphone-11-cases/blue/00.jpg",
+      "img/accessories/iphone-11-cases/blue/01.jpg"
+    ],
+    "description": [
+      {
+        "title": "Enhance Your iPhone 11 Experience.",
+        "text": [
+          "Crafted by Apple to elevate your iPhone 11, this silicone case offers a form-fitting design that seamlessly covers the volume buttons, side button, and contours of your device, all without adding extra bulk."
+        ]
+      },
+      {
+        "title": "Comfort and Convenience in One.",
+        "text": [
+          "Inside, a soft microfiber lining provides added protection for your iPhone. On the outside, the silky, soft-touch finish of the silicone exterior feels incredibly comfortable in your hand. Plus, you can keep it on at all times, even while wirelessly charging your device."
+        ]
+      },
+      {
+        "title": "Exceptional Durability and Design.",
+        "text": [
+          "Like all Apple-designed cases, it undergoes extensive testing during both the design and manufacturing phases. This means it not only looks fantastic but is also engineered to shield your iPhone from scratches and drops."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iphone-11-silicone-case-white",
+
+    "name": "iPhone 11 Silicone Case White",
+    "fullPrice": 49,
+    "colorsAvailable": ["black", "blue", "white", "red"],
+    "color": "white",
+    "images": [
+      "img/accessories/iphone-11-cases/white/00.jpg",
+      "img/accessories/iphone-11-cases/white/01.jpg"
+    ],
+    "description": [
+      {
+        "title": "Enhance Your iPhone 11 Experience.",
+        "text": [
+          "Crafted by Apple to elevate your iPhone 11, this silicone case offers a form-fitting design that seamlessly covers the volume buttons, side button, and contours of your device, all without adding extra bulk."
+        ]
+      },
+      {
+        "title": "Comfort and Convenience in One.",
+        "text": [
+          "Inside, a soft microfiber lining provides added protection for your iPhone. On the outside, the silky, soft-touch finish of the silicone exterior feels incredibly comfortable in your hand. Plus, you can keep it on at all times, even while wirelessly charging your device."
+        ]
+      },
+      {
+        "title": "Exceptional Durability and Design.",
+        "text": [
+          "Like all Apple-designed cases, it undergoes extensive testing during both the design and manufacturing phases. This means it not only looks fantastic but is also engineered to shield your iPhone from scratches and drops."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iphone-11-silicone-case-red",
+    "name": "iPhone 11 Silicone Case Red",
+    "fullPrice": 49,
+    "colorsAvailable": ["black", "blue", "white", "red"],
+    "color": "red",
+    "images": [
+      "img/accessories/iphone-11-cases/red/00.jpg",
+      "img/accessories/iphone-11-cases/red/01.jpg"
+    ],
+    "description": [
+      {
+        "title": "Enhance Your iPhone 11 Experience.",
+        "text": [
+          "Crafted by Apple to elevate your iPhone 11, this silicone case offers a form-fitting design that seamlessly covers the volume buttons, side button, and contours of your device, all without adding extra bulk."
+        ]
+      },
+      {
+        "title": "Comfort and Convenience in One.",
+        "text": [
+          "Inside, a soft microfiber lining provides added protection for your iPhone. On the outside, the silky, soft-touch finish of the silicone exterior feels incredibly comfortable in your hand. Plus, you can keep it on at all times, even while wirelessly charging your device."
+        ]
+      },
+      {
+        "title": "Exceptional Durability and Design.",
+        "text": [
+          "Like all Apple-designed cases, it undergoes extensive testing during both the design and manufacturing phases. This means it not only looks fantastic but is also engineered to shield your iPhone from scratches and drops."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iphone-xs-silicon-case-blue",
+    "name": "iPhone XS Silicone Case Blue",
+    "fullPrice": 49,
+    "colorsAvailable": ["blue", "pink", "red"],
+    "color": "blue",
+    "images": [
+      "img/accessories/iphone-xs-cases/blue/00.jpg",
+      "img/accessories/iphone-xs-cases/blue/01.jpg"
+    ],
+    "description": [
+      {
+        "title": "Enhance Your iPhone XS Experience.",
+        "text": [
+          "Crafted by Apple to elevate your iPhone XS, this silicone case offers a form-fitting design that seamlessly covers the volume buttons, side button, and contours of your device, all without adding extra bulk."
+        ]
+      },
+      {
+        "title": "Comfort and Convenience in One.",
+        "text": [
+          "Inside, a soft microfiber lining provides added protection for your iPhone. On the outside, the silky, soft-touch finish of the silicone exterior feels incredibly comfortable in your hand. Plus, you can keep it on at all times, even while wirelessly charging your device."
+        ]
+      },
+      {
+        "title": "Exceptional Durability and Design.",
+        "text": [
+          "Like all Apple-designed cases, it undergoes extensive testing during both the design and manufacturing phases. This means it not only looks fantastic but is also engineered to shield your iPhone XS from scratches and drops."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iphone-xs-silicon-case-pink",
+    "name": "iPhone XS Silicone Case Pink",
+    "fullPrice": 49,
+    "colorsAvailable": ["blue", "pink", "red"],
+    "color": "pink",
+    "images": [
+      "img/accessories/iphone-xs-cases/pink/00.jpg",
+      "img/accessories/iphone-xs-cases/pink/01.jpg"
+    ],
+    "description": [
+      {
+        "title": "Enhance Your iPhone XS Experience.",
+        "text": [
+          "Crafted by Apple to elevate your iPhone XS, this silicone case offers a form-fitting design that seamlessly covers the volume buttons, side button, and contours of your device, all without adding extra bulk."
+        ]
+      },
+      {
+        "title": "Comfort and Convenience in One.",
+        "text": [
+          "Inside, a soft microfiber lining provides added protection for your iPhone. On the outside, the silky, soft-touch finish of the silicone exterior feels incredibly comfortable in your hand. Plus, you can keep it on at all times, even while wirelessly charging your device."
+        ]
+      },
+      {
+        "title": "Exceptional Durability and Design.",
+        "text": [
+          "Like all Apple-designed cases, it undergoes extensive testing during both the design and manufacturing phases. This means it not only looks fantastic but is also engineered to shield your iPhone XS from scratches and drops."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iphone-xs-silicon-case-red",
+    "name": "iPhone XS Silicone Case Red",
+    "fullPrice": 49,
+    "colorsAvailable": ["blue", "pink", "red"],
+    "color": "red",
+    "images": [
+      "img/accessories/iphone-xs-cases/red/00.jpg",
+      "img/accessories/iphone-xs-cases/red/01.jpg"
+    ],
+    "description": [
+      {
+        "title": "Enhance Your iPhone XS Experience.",
+        "text": [
+          "Crafted by Apple to elevate your iPhone XS, this silicone case offers a form-fitting design that seamlessly covers the volume buttons, side button, and contours of your device, all without adding extra bulk."
+        ]
+      },
+      {
+        "title": "Comfort and Convenience in One.",
+        "text": [
+          "Inside, a soft microfiber lining provides added protection for your iPhone. On the outside, the silky, soft-touch finish of the silicone exterior feels incredibly comfortable in your hand. Plus, you can keep it on at all times, even while wirelessly charging your device."
+        ]
+      },
+      {
+        "title": "Exceptional Durability and Design.",
+        "text": [
+          "Like all Apple-designed cases, it undergoes extensive testing during both the design and manufacturing phases. This means it not only looks fantastic but is also engineered to shield your iPhone XS from scratches and drops."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iphone-xr-silicon-case-red",
+    "name": "iPhone XR Silicone Case Red",
+    "fullPrice": 49,
+    "colorsAvailable": ["red", "white", "green"],
+    "color": "red",
+    "images": [
+      "img/accessories/iphone-xr-cases/red/00.jpg",
+      "img/accessories/iphone-xr-cases/red/01.jpg"
+    ],
+    "description": [
+      {
+        "title": "Enhance Your iPhone XR Experience.",
+        "text": [
+          "Crafted by Apple to elevate your iPhone XR, this silicone case offers a form-fitting design that seamlessly covers the volume buttons, side button, and contours of your device, all without adding extra bulk."
+        ]
+      },
+      {
+        "title": "Comfort and Convenience in One.",
+        "text": [
+          "Inside, a soft microfiber lining provides added protection for your iPhone. On the outside, the silky, soft-touch finish of the silicone exterior feels incredibly comfortable in your hand. Plus, you can keep it on at all times, even while wirelessly charging your device."
+        ]
+      },
+      {
+        "title": "Exceptional Durability and Design.",
+        "text": [
+          "Like all Apple-designed cases, it undergoes extensive testing during both the design and manufacturing phases. This means it not only looks fantastic but is also engineered to shield your iPhone XR from scratches and drops."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iphone-xr-silicon-case-white",
+    "name": "iPhone XR Silicone Case White",
+    "fullPrice": 49,
+    "colorsAvailable": ["red", "white", "green"],
+    "color": "white",
+    "images": [
+      "img/accessories/iphone-xr-cases/white/00.jpg",
+      "img/accessories/iphone-xr-cases/white/01.jpg"
+    ],
+    "description": [
+      {
+        "title": "Enhance Your iPhone XR Experience.",
+        "text": [
+          "Crafted by Apple to elevate your iPhone XR, this silicone case offers a form-fitting design that seamlessly covers the volume buttons, side button, and contours of your device, all without adding extra bulk."
+        ]
+      },
+      {
+        "title": "Comfort and Convenience in One.",
+        "text": [
+          "Inside, a soft microfiber lining provides added protection for your iPhone. On the outside, the silky, soft-touch finish of the silicone exterior feels incredibly comfortable in your hand. Plus, you can keep it on at all times, even while wirelessly charging your device."
+        ]
+      },
+      {
+        "title": "Exceptional Durability and Design.",
+        "text": [
+          "Like all Apple-designed cases, it undergoes extensive testing during both the design and manufacturing phases. This means it not only looks fantastic but is also engineered to shield your iPhone XR from scratches and drops."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iphone-xr-silicon-case-green",
+    "name": "iPhone XR Silicone Case Green",
+    "fullPrice": 49,
+    "colorsAvailable": ["red", "white", "green"],
+    "color": "green",
+    "images": [
+      "img/accessories/iphone-xr-cases/green/00.jpg",
+      "img/accessories/iphone-xr-cases/green/01.jpg"
+    ],
+    "description": [
+      {
+        "title": "Enhance Your iPhone XR Experience.",
+        "text": [
+          "Crafted by Apple to elevate your iPhone XR, this silicone case offers a form-fitting design that seamlessly covers the volume buttons, side button, and contours of your device, all without adding extra bulk."
+        ]
+      },
+      {
+        "title": "Comfort and Convenience in One.",
+        "text": [
+          "Inside, a soft microfiber lining provides added protection for your iPhone. On the outside, the silky, soft-touch finish of the silicone exterior feels incredibly comfortable in your hand. Plus, you can keep it on at all times, even while wirelessly charging your device."
+        ]
+      },
+      {
+        "title": "Exceptional Durability and Design.",
+        "text": [
+          "Like all Apple-designed cases, it undergoes extensive testing during both the design and manufacturing phases. This means it not only looks fantastic but is also engineered to shield your iPhone XR from scratches and drops."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iphone-7-silicon-case-black",
+    "name": "iPhone 7 Silicone Case Black",
+    "fullPrice": 49,
+    "colorsAvailable": ["black", "pink", "red", "white"],
+    "color": "black",
+    "images": [
+      "img/accessories/iphone-7-cases/black/00.jpg"
+    ],
+    "description": [
+      {
+        "title": "Enhance Your iPhone 7 Experience.",
+        "text": [
+          "Crafted by Apple to elevate your iPhone 7, this silicone case offers a form-fitting design that seamlessly covers the volume buttons, side button, and contours of your device, all without adding extra bulk."
+        ]
+      },
+      {
+        "title": "Comfort and Convenience in One.",
+        "text": [
+          "Inside, a soft microfiber lining provides added protection for your iPhone. On the outside, the silky, soft-touch finish of the silicone exterior feels incredibly comfortable in your hand. Plus, you can keep it on at all times, even while wirelessly charging your device."
+        ]
+      },
+      {
+        "title": "Exceptional Durability and Design.",
+        "text": [
+          "Like all Apple-designed cases, it undergoes extensive testing during both the design and manufacturing phases. This means it not only looks fantastic but is also engineered to shield your iPhone 7 from scratches and drops."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iphone-7-silicon-case-pink",
+    "name": "iPhone 7 Silicone Case Pink",
+    "fullPrice": 49,
+    "colorsAvailable": ["black", "pink", "red", "white"],
+    "color": "pink",
+    "images": [
+      "img/accessories/iphone-7-cases/pink/00.jpg"
+    ],
+    "description": [
+      {
+        "title": "Enhance Your iPhone 7 Experience.",
+        "text": [
+          "Crafted by Apple to elevate your iPhone 7, this silicone case offers a form-fitting design that seamlessly covers the volume buttons, side button, and contours of your device, all without adding extra bulk."
+        ]
+      },
+      {
+        "title": "Comfort and Convenience in One.",
+        "text": [
+          "Inside, a soft microfiber lining provides added protection for your iPhone. On the outside, the silky, soft-touch finish of the silicone exterior feels incredibly comfortable in your hand. Plus, you can keep it on at all times, even while wirelessly charging your device."
+        ]
+      },
+      {
+        "title": "Exceptional Durability and Design.",
+        "text": [
+          "Like all Apple-designed cases, it undergoes extensive testing during both the design and manufacturing phases. This means it not only looks fantastic but is also engineered to shield your iPhone 7 from scratches and drops."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iphone-7-silicon-case-red",
+    "name": "iPhone 7 Silicone Case Red",
+    "fullPrice": 49,
+    "colorsAvailable": ["black", "pink", "red", "white"],
+    "color": "red",
+    "images": [
+      "img/accessories/iphone-7-cases/red/00.jpg"
+    ],
+    "description": [
+      {
+        "title": "Enhance Your iPhone 7 Experience.",
+        "text": [
+          "Crafted by Apple to elevate your iPhone 7, this silicone case offers a form-fitting design that seamlessly covers the volume buttons, side button, and contours of your device, all without adding extra bulk."
+        ]
+      },
+      {
+        "title": "Comfort and Convenience in One.",
+        "text": [
+          "Inside, a soft microfiber lining provides added protection for your iPhone. On the outside, the silky, soft-touch finish of the silicone exterior feels incredibly comfortable in your hand. Plus, you can keep it on at all times, even while wirelessly charging your device."
+        ]
+      },
+      {
+        "title": "Exceptional Durability and Design.",
+        "text": [
+          "Like all Apple-designed cases, it undergoes extensive testing during both the design and manufacturing phases. This means it not only looks fantastic but is also engineered to shield your iPhone 7 from scratches and drops."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iphone-7-silicon-case-white",
+    "name": "iPhone 7 Silicone Case White",
+    "fullPrice": 49,
+    "colorsAvailable": ["black", "pink", "red", "white"],
+    "color": "white",
+    "images": [
+      "img/accessories/iphone-7-cases/white/00.jpg"
+    ],
+    "description": [
+      {
+        "title": "Enhance Your iPhone 7 Experience.",
+        "text": [
+          "Crafted by Apple to elevate your iPhone 7, this silicone case offers a form-fitting design that seamlessly covers the volume buttons, side button, and contours of your device, all without adding extra bulk."
+        ]
+      },
+      {
+        "title": "Comfort and Convenience in One.",
+        "text": [
+          "Inside, a soft microfiber lining provides added protection for your iPhone. On the outside, the silky, soft-touch finish of the silicone exterior feels incredibly comfortable in your hand. Plus, you can keep it on at all times, even while wirelessly charging your device."
+        ]
+      },
+      {
+        "title": "Exceptional Durability and Design.",
+        "text": [
+          "Like all Apple-designed cases, it undergoes extensive testing during both the design and manufacturing phases. This means it not only looks fantastic but is also engineered to shield your iPhone 7 from scratches and drops."
+        ]
+      }
+    ]
+  }
+]
+

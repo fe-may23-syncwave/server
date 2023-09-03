@@ -7,14 +7,14 @@ const tablets = require('../../public/api/tablets');
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface) {
-    const phonesWithDescriptionStringified = tablets.map((tablet) => ({
+    const tabletsWithDescriptionStringified = tablets.map((tablet) => ({
       ...tablet,
       description: JSON.stringify(tablet.description),
     }));
 
     await queryInterface.bulkInsert(
       'tablets',
-      phonesWithDescriptionStringified,
+      tabletsWithDescriptionStringified,
       {},
     );
   },

@@ -20,15 +20,16 @@ module.exports = {
       productId: {
         allowNull: false,
         type: Sequelize.STRING,
+        unique: true,
       },
       itemId: {
-        allowNull: false,
         type: Sequelize.STRING,
         unique: true,
       },
       name: {
         allowNull: false,
         type: Sequelize.STRING,
+        unique: true,
       },
       fullPrice: {
         allowNull: false,
@@ -38,11 +39,9 @@ module.exports = {
         type: Sequelize.FLOAT,
       },
       screen: {
-        allowNull: false,
         type: Sequelize.STRING,
       },
       capacity_id: {
-        allowNull: false,
         references: {
           model: 'capacities',
           key: 'id',
@@ -59,14 +58,12 @@ module.exports = {
       },
       ram: {
         type: Sequelize.STRING,
-        allowNull: true,
       },
       image: {
         allowNull: false,
         type: Sequelize.STRING,
       },
       year: {
-        allowNull: false,
         type: Sequelize.INTEGER,
       },
     });

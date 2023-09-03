@@ -2,22 +2,42 @@
 import { Model } from 'sequelize';
 export default (sequelize, DataTypes) => {
   class Accessories extends Model {
-    /**
-     * Helper method for defining associations.
-     * This method is not a part of Sequelize lifecycle.
-     * The `models/index` file will call this method automatically.
-     */
-    // static associate(models) {
-    //   // define association here
-    // }
   }
   Accessories.init(
     {
-      name: DataTypes.STRING,
+      id: {
+        allowNull: false,
+        primaryKey: true,
+        type: DataTypes.STRING,
+      },
+      name: {
+        allowNull: false,
+        type: DataTypes.STRING,
+      },
+      fullPrice: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+      },
+      colorsAvailable: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      color: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      images: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      description: {
+        type: DataTypes.JSONB,
+        allowNull: false,
+      },
     },
     {
       sequelize,
-      modelName: 'Accessories',
+      modelName: 'accessories',
     },
   );
   return Accessories;
