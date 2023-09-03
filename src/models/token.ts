@@ -32,17 +32,17 @@ export class Token extends Model<TokenAttributes, TokenCreationAttributes> {
   })
     id!: number;
 
-  @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
-    token!: string;
-
   @ForeignKey(() => User)
   @AllowNull(false)
   @Column({
     type: DataType.INTEGER,
   })
     userId!: number;
+
+  @AllowNull(false)
+  @Column({
+    type: DataType.STRING,
+  })
+    refreshToken!: string;
 }
 

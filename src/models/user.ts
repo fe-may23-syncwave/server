@@ -24,13 +24,13 @@ export interface UsersCreationAttributes
 
 @Scopes(() => ({
   defaultScope: {
-    attributes: { exclude: ['password'] },
+    attributes: { exclude: ['password', 'createdAt', 'updatedAt'] },
   },
 }))
 @Table({
   tableName: 'users',
   modelName: 'User',
-  timestamps: false,
+  timestamps: true,
 })
 export class User extends Model<
   UsersAttributes,
@@ -66,9 +66,13 @@ export class User extends Model<
   })
     activationToken!: string;
 
+  @AllowNull(false)
+  @Column({
+    type: DataType.BOOLEAN,
+    defaultValue: false,
+  })
+    isActivated!: boolean;
+
   @HasMany(() => Order)
     orders!: Order[];
-
-
 }
-
