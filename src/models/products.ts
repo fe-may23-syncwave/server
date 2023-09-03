@@ -24,8 +24,6 @@ interface ProductAttributes {
   ram: string;
   year: number;
   image: string;
-  createdAt: Date;
-  updatedAt: Date;
 }
 
 @Table({
@@ -118,16 +116,4 @@ export class Product
     type: DataType.STRING,
   })
     image!: string;
-
-  @AllowNull(false)
-  @Column({
-    type: DataType.DATE,
-  })
-    createdAt!: Date;
-
-  @AllowNull(false)
-  @Column({
-    type: DataType.DATE,
-  })
-    updatedAt!: Date;
 }

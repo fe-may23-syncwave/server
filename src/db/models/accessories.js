@@ -2,6 +2,11 @@
 import { Model } from 'sequelize';
 export default (sequelize, DataTypes) => {
   class Accessories extends Model {
+    static associate(models) {
+      Accessories.belongsTo(models.Products, {
+        foreignKey: 'productId',
+      });
+    }
   }
   Accessories.init(
     {
@@ -9,6 +14,10 @@ export default (sequelize, DataTypes) => {
         allowNull: false,
         primaryKey: true,
         type: DataTypes.STRING,
+        references: {
+          model: 'products',
+          key: 'productId',
+        },
       },
       name: {
         allowNull: false,

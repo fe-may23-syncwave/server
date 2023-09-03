@@ -13,7 +13,7 @@
       {
         "title": "Enhance Your iPhone 11 Experience.",
         "text": [
-        "Crafted by Apple to elevate your iPhone 11, this silicone case offers a form-fitting design that seamlessly covers the volume buttons, side button, and contours of your device, all without adding extra bulk."
+          "Crafted by Apple to elevate your iPhone 11, this silicone case offers a form-fitting design that seamlessly covers the volume buttons, side button, and contours of your device, all without adding extra bulk."
         ]
       },
       {
@@ -27,7 +27,8 @@
         "text": [
           "Like all Apple-designed cases, it undergoes extensive testing during both the design and manufacturing phases. This means it not only looks fantastic but is also engineered to shield your iPhone from scratches and drops."
         ]
-      }]
+      }
+    ]
   },
   {
     "id": "iphone-11-silicone-case-blue",
@@ -315,9 +316,7 @@
     "fullPrice": 49,
     "colorsAvailable": ["black", "pink", "red", "white"],
     "color": "black",
-    "images": [
-      "img/accessories/iphone-7-cases/black/00.jpg"
-    ],
+    "images": ["img/accessories/iphone-7-cases/black/00.jpg"],
     "description": [
       {
         "title": "Enhance Your iPhone 7 Experience.",
@@ -345,9 +344,7 @@
     "fullPrice": 49,
     "colorsAvailable": ["black", "pink", "red", "white"],
     "color": "pink",
-    "images": [
-      "img/accessories/iphone-7-cases/pink/00.jpg"
-    ],
+    "images": ["img/accessories/iphone-7-cases/pink/00.jpg"],
     "description": [
       {
         "title": "Enhance Your iPhone 7 Experience.",
@@ -375,9 +372,7 @@
     "fullPrice": 49,
     "colorsAvailable": ["black", "pink", "red", "white"],
     "color": "red",
-    "images": [
-      "img/accessories/iphone-7-cases/red/00.jpg"
-    ],
+    "images": ["img/accessories/iphone-7-cases/red/00.jpg"],
     "description": [
       {
         "title": "Enhance Your iPhone 7 Experience.",
@@ -405,9 +400,7 @@
     "fullPrice": 49,
     "colorsAvailable": ["black", "pink", "red", "white"],
     "color": "white",
-    "images": [
-      "img/accessories/iphone-7-cases/white/00.jpg"
-    ],
+    "images": ["img/accessories/iphone-7-cases/white/00.jpg"],
     "description": [
       {
         "title": "Enhance Your iPhone 7 Experience.",
@@ -430,4 +423,3 @@
     ]
   }
 ]
-
