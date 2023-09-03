@@ -9,14 +9,22 @@ const { DB_USERNAME, DB_PASSWORD, DB_HOST, DB_DATABASE } = process.env;
 const URI = `postgres://${DB_USERNAME}:${DB_PASSWORD}@${DB_HOST}/${DB_DATABASE}`;
 
 export const sequelize = new Sequelize(URI, {
-  models: [models.Product, models.Category, models.Capacity, models.Colors],
+  models: [
+    models.Product,
+    models.Category,
+    models.Capacity,
+    models.Colors,
+    models.User,
+    models.Token,
+    models.Order,
+  ],
   dialect: 'postgres',
-  dialectOptions: {
-    ssl: {
-      require: true,
-      rejectUnauthorized: false,
-    },
-  },
+  // dialectOptions: {
+  //   ssl: {
+  //     require: true,
+  //     rejectUnauthorized: false,
+  //   },
+  // },
 });
 
 export async function connect() {
