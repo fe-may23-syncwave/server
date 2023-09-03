@@ -4,7 +4,7 @@ import {
   DataType,
   Model,
   Table,
-  ForeignKey
+  ForeignKey,
 } from 'sequelize-typescript';
 import { Optional } from 'sequelize';
 import { User } from './user';
@@ -16,7 +16,7 @@ interface TokenAttributes {
 }
 
 export interface TokenCreationAttributes
-  extends Optional<TokenAttributes, 'id'> { }
+  extends Optional<TokenAttributes, 'id'> {}
 
 @Table({
   tableName: 'tokens',
@@ -45,4 +45,3 @@ export class Token extends Model<TokenAttributes, TokenCreationAttributes> {
   })
     refreshToken!: string;
 }
-

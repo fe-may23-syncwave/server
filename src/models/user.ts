@@ -32,10 +32,7 @@ export interface UsersCreationAttributes
   modelName: 'User',
   timestamps: true,
 })
-export class User extends Model<
-  UsersAttributes,
-  UsersCreationAttributes
-  > {
+export class User extends Model<UsersAttributes, UsersCreationAttributes> {
   @AllowNull(false)
   @Column({
     type: DataType.INTEGER,

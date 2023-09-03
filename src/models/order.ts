@@ -20,18 +20,14 @@ interface OrderAttributes {
 }
 
 export interface OrderCreationAttributes
-  extends Optional<OrderAttributes, 'id'> { }
+  extends Optional<OrderAttributes, 'id'> {}
 
 @Table({
   tableName: 'orders',
   modelName: 'Order',
   timestamps: true,
 })
-
-export class Order extends Model<
-  OrderAttributes,
-  OrderCreationAttributes
-  > {
+export class Order extends Model<OrderAttributes, OrderCreationAttributes> {
   @AllowNull(false)
   @Column({
     type: DataType.INTEGER,
@@ -62,5 +58,3 @@ export class Order extends Model<
   })
     quantity!: number;
 }
-
-
