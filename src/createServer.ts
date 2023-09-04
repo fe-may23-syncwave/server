@@ -13,6 +13,7 @@ import { router as ProductsRouter } from './routes/products.router';
 import { userRouter } from './routes/users.router';
 import { authRouter } from './routes/auth.router';
 import { orderRouter } from './routes/orders.router';
+import { errorMiddleware } from './middlewares/errorMiddleware';
 
 const CLIENT_URL = process.env.CLIENT_URL;
 
@@ -29,6 +30,8 @@ export function createServer() {
   app.use('/users', userRouter);
   app.use('/products', ProductsRouter);
   app.use('/orders', orderRouter);
+
+  app.use(errorMiddleware);
 
   return app;
 }

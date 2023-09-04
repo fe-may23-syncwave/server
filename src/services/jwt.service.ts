@@ -7,15 +7,13 @@ interface User {
 
 function generateAccessToken(user: User) {
   return jwt.sign(user, process.env.JWT_ACCESS_SECRET as string, {
-    // expiresIn: '1h',
-    expiresIn: '1m',
+    expiresIn: '10m',
   });
 }
 
 function generateRefreshToken(user: User) {
   return jwt.sign(user, process.env.JWT_REFRESH_SECRET as string, {
-    // expiresIn: '30d',
-    expiresIn: '10m',
+    expiresIn: '10d',
   });
 }
 
