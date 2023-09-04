@@ -13,7 +13,7 @@ import { Colors } from './colors';
 interface ProductAttributes {
   id: number;
   category_id: number;
-  phoneId: string;
+  productId: string;
   itemId: string;
   name: string;
   fullPrice: number;
@@ -54,7 +54,7 @@ export class Product
   @Column({
     type: DataType.STRING,
   })
-    phoneId!: string;
+    productId!: string;
 
   @AllowNull(false)
   @Column({
