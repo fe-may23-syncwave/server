@@ -7,3 +7,8 @@ export async function getAll() {
 
   return result;
 }
+export const getById = async (id: string) => {
+  const phone = await Phone.findByPk(id);
+
+  return phone;
+};
