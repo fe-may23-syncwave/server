@@ -6,7 +6,7 @@ const transporter = nodemailer.createTransport({
   secure: false, // true for 465, false for other ports
   auth: {
     user: process.env.SMTP_USER,
-    pass: process.env.SMTP_PASS,
+    pass: process.env.SMTP_PASSWORD,
   },
 });
 
@@ -29,7 +29,7 @@ export function send({
 }
 
 export function sendActivationLink(email: string, token: string) {
-  const link = `${process.env.CLIENT_URL}/#/activate/${token}`;
+  const link = `${process.env.CLIENT_URL}/client/#/activate/${token}`;
 
   return send({
     email,

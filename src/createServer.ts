@@ -18,7 +18,7 @@ const CLIENT_URL = process.env.CLIENT_URL;
 
 export function createServer() {
   const app = express()
-    .use(cors({ origin: CLIENT_URL }))
+    .use(cors({ origin: CLIENT_URL, credentials: true }))
     .use(cookieParser())
     .use(express.json())
     .get('/', (req, res) => {
