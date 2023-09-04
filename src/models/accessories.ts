@@ -23,8 +23,10 @@ interface AccessoriesAttributes {
   modelName: 'Accessories',
   timestamps: false,
 })
-export class Accessories extends
-  Model<AccessoriesAttributes> implements AccessoriesAttributes {
+export class Accessories
+  extends Model<AccessoriesAttributes>
+  implements AccessoriesAttributes
+{
   @AllowNull(false)
   @Column({
     type: DataType.STRING,
