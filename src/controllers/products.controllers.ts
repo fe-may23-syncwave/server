@@ -1,22 +1,42 @@
 import { Request, Response } from 'express';
-import * as productsService from '../services/products.services';
+import { getAll, getProductById } from '../services/products.services';
 
-const getAllProducts = (req: Request, res: Response) => {
-  const queries = req.query;
-  productsService.getAll(queries).then((data) => res.send(data));
-};
+// const sortOptions = ['age', 'title', 'price', ''];
+// const perPageOptions = ['4', '8', '16', 'all'];
+interface MyQuery {
+  sortBy?: string;
+  search?: string;
+  page?: string;
+  perPage?: string;
+}
 
-const getOneProduct = async (req: Request, res: Response) => {
+export async function getAllProducts(req: Request, res: Response) {
+  const {
+    sortBy = '',
+    search = '',
+    page = '1',
+    perPage = 'all',
+  }: MyQuery = req.query;
+
+  const products = await getAll({
+    sortBy,
+    search,
+    page,
+    perPage,
+  });
+
+  res.send(products);
+}
+
+export const getOneProduct = async (req: Request, res: Response) => {
   const { id } = req.params;
-  const foundPhone = await productsService.getProductById(+id);
+  const foundProduct = await getProductById(+id);
 
-  if (!foundPhone) {
-    res.status(404).send('Phone not found');
+  if (!foundProduct) {
+    res.status(404).send('Product not found');
 
     return;
   }
 
-  res.status(200).send(foundPhone);
+  res.status(200).send(foundProduct);
 };
-
-export { getAllProducts, getOneProduct };

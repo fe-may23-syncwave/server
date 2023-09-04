@@ -8,7 +8,7 @@ import {
 } from 'sequelize-typescript';
 import { Product } from './products';
 
-interface PhoneAttributes {
+interface TabletAttributes {
   id: string;
   namespaceId: string;
   name: string;
@@ -34,7 +34,10 @@ interface PhoneAttributes {
   modelName: 'Tablet',
   timestamps: false,
 })
-export class Phone extends Model<PhoneAttributes> implements PhoneAttributes {
+export class Tablet
+  extends Model<TabletAttributes>
+  implements TabletAttributes
+{
   @AllowNull(false)
   @Column({
     type: DataType.STRING,

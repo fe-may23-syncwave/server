@@ -37,14 +37,21 @@ export default (sequelize, DataTypes) => {
         },
         type: DataTypes.INTEGER,
       },
-      phoneId: {
+      productId: {
         allowNull: false,
         type: DataTypes.STRING,
+        references: {
+          model: ['accessoriess'],
+          key: 'id',
+        },
       },
       itemId: {
         allowNull: false,
         type: DataTypes.STRING,
-        unique: true,
+        references: {
+          model: ['phones', 'tablets'],
+          key: 'id',
+        },
       },
       name: {
         allowNull: false,

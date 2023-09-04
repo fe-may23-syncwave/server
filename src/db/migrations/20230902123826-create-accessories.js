@@ -7,6 +7,10 @@ module.exports = {
         allowNull: false,
         primaryKey: true,
         type: Sequelize.STRING,
+        references: {
+          model: 'products',
+          key: 'productId',
+        },
       },
       name: {
         allowNull: false,

@@ -20,11 +20,17 @@ module.exports = {
       productId: {
         allowNull: false,
         type: Sequelize.STRING,
-        unique: true,
+        references: {
+          model: ['accessories'],
+          key: 'id',
+        },
       },
       itemId: {
         type: Sequelize.STRING,
-        unique: true,
+        references: {
+          model: ['phones', 'tablets'],
+          key: 'id',
+        },
       },
       name: {
         allowNull: false,

@@ -1,34 +1,60 @@
 import { Product } from '../models/products';
 
-const perPageItems = 4;
-// added for testing
+type Queries = {
+  sortBy: string;
+  search: string;
+  page: string;
+  perPage: string;
+};
 
-export interface Props {
-  page?: string;
-  perPage?: string;
-}
+export async function getAll({ sortBy, search, page, perPage }: Queries) {
+  const order = [];
 
-async function getAll(queries: Props) {
-  try {
-    const products = await Product.findAll();
-    console.log(products);
+  let products = await Product.findAll();
+  console.log(products);
 
-    let toPage = 0;
-    let fromPage = 0;
+  if (page === '1' && perPage === 'all') {
+    products = await Product.findAll();
+  } else {
+    const limit = +perPage;
+    const offset = (+page - 1) * limit || 0;
 
-    if (queries.page) {
-      toPage = perPageItems * +queries.page;
-      fromPage = toPage - perPageItems;
-    }
-
-    return products.slice(fromPage, toPage);
-  } catch (error) {
-    console.log(error);
+    products = await Product.findAll({
+      offset,
+      limit,
+    });
   }
+
+  if (search) {
+    const normalizedSearch = search.toLowerCase().trim();
+
+    products = products.filter((product) =>
+      product.name.toLowerCase().includes(normalizedSearch),
+    );
+  }
+
+  switch (sortBy) {
+  case 'age':
+    order.push(['year', 'DESC']);
+    break;
+
+  case 'title':
+    order.push(['name', 'ASC']);
+    break;
+
+  case 'cheapest':
+    order.push(['price', 'ASC']);
+    break;
+
+  default:
+    break;
+  }
+
+  return products;
 }
 
-function getProductById(id: number) {
-  return Product.findByPk(id);
-}
+export async function getProductById(id: number) {
+  const product = await Product.findByPk(id);
 
-export { getAll, getProductById };
+  return product;
+}
