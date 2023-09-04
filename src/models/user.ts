@@ -16,17 +16,18 @@ interface UsersAttributes {
   id: number;
   email: string;
   password: string;
-  activationToken: string;
+  activationToken: string | null;
+  isActivated?: boolean;
 }
 
 export interface UsersCreationAttributes
   extends Optional<UsersAttributes, 'id'> {}
 
-@Scopes(() => ({
-  defaultScope: {
-    attributes: { exclude: ['password', 'createdAt', 'updatedAt'] },
-  },
-}))
+// @Scopes(() => ({
+//   defaultScope: {
+//     attributes: { exclude: ['password', 'createdAt', 'updatedAt'] },
+//   },
+// }))
 @Table({
   tableName: 'users',
   modelName: 'User',
@@ -39,7 +40,7 @@ export class User extends Model<UsersAttributes, UsersCreationAttributes> {
     autoIncrement: true,
     primaryKey: true,
   })
-    id!: number;
+  id!: number;
 
   @IsEmail
   @AllowNull(false)
@@ -47,29 +48,29 @@ export class User extends Model<UsersAttributes, UsersCreationAttributes> {
     type: DataType.STRING(100),
     unique: true,
   })
-    email!: string;
+  email!: string;
 
-  @Length({ min: 8 })
+  @Length({ min: 6 })
   @AllowNull(false)
   @Column({
     type: DataType.STRING(100),
   })
-    password!: string;
+  password!: string;
 
   @AllowNull(true)
   @Column({
     type: DataType.STRING(100),
     unique: true,
   })
-    activationToken!: string;
+  activationToken!: string;
 
   @AllowNull(false)
   @Column({
     type: DataType.BOOLEAN,
     defaultValue: false,
   })
-    isActivated!: boolean;
+  isActivated!: boolean;
 
   @HasMany(() => Order)
-    orders!: Order[];
+  orders!: Order[];
 }

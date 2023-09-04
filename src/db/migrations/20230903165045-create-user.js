@@ -21,6 +21,7 @@ module.exports = {
       },
 
       isActivated: {
+        allowNull: false,
         type: Sequelize.BOOLEAN,
         defaultValue: false,
       },
