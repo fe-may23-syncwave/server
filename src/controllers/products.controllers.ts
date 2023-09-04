@@ -1,21 +1,28 @@
 import { Request, Response } from 'express';
 import { getAll, getProductById } from '../services/products.services';
 
+// const sortOptions = ['age', 'title', 'price', ''];
+// const perPageOptions = ['4', '8', '16', 'all'];
+interface MyQuery {
+  sortBy?: string;
+  search?: string;
+  page?: string;
+  perPage?: string;
+}
 
 export async function getAllProducts(req: Request, res: Response) {
-  const query = req.query;
   const {
     sortBy = '',
     search = '',
     page = '1',
     perPage = 'all',
-  } = query;
+  }: MyQuery = req.query;
 
   const products = await getAll({
-    sortBy: sortBy as string,
-    search: search as string,
-    page: page as string,
-    perPage: perPage as string,
+    sortBy,
+    search,
+    page,
+    perPage,
   });
 
   res.send(products);

@@ -5,15 +5,10 @@ type Queries = {
   search: string;
   page: string;
   perPage: string;
-}
+};
 
-export async function getAll({
-  sortBy,
-  search,
-  page,
-  perPage,
-}: Queries) {
-  const order =  [];
+export async function getAll({ sortBy, search, page, perPage }: Queries) {
+  const order = [];
 
   let products = await Product.findAll();
   console.log(products);
@@ -26,15 +21,16 @@ export async function getAll({
 
     products = await Product.findAll({
       offset,
-      limit
+      limit,
     });
   }
 
   if (search) {
     const normalizedSearch = search.toLowerCase().trim();
 
-    products = products.filter(product => (
-      product.name.toLowerCase().includes(normalizedSearch)));
+    products = products.filter((product) =>
+      product.name.toLowerCase().includes(normalizedSearch),
+    );
   }
 
   switch (sortBy) {
