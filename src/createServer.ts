@@ -19,9 +19,7 @@ export function createServer() {
   const app = express()
     .use(cors({ origin: '*' }))
     .use(express.json())
-    .get('/', (req, res) => {
-      res.send('Product catalog API fe-may23-syncwave');
-    });
+    .use('/', productsRouter);
 
   app
     .use('/products', productsRouter)

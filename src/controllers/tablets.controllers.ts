@@ -14,7 +14,7 @@ export const getOneTablet = async (req: Request, res: Response) => {
   const foundTablet = await getById(id);
 
   if (!foundTablet) {
-    res.status(404).send('Phone not found');
+    res.status(404).send('Tablet not found');
 
     return;
   }

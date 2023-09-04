@@ -1,7 +1,7 @@
 'use strict';
 
 import { Request, Response } from 'express';
-import { getAll, getById } from '../services/phones.services';
+import { getAll, getById } from '../services/accessories.service';
 
 export const getAllAccessories = async (req: Request, res: Response) => {
   const accessory = await getAll();
@@ -14,7 +14,7 @@ export const getOneAccessory = async (req: Request, res: Response) => {
   const foundAccessory = await getById(id);
 
   if (!foundAccessory) {
-    res.status(404).send('Phone not found');
+    res.status(404).send('Accessory not found');
 
     return;
   }
