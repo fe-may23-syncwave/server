@@ -8,6 +8,7 @@ export const getAllPhones = async (req: Request, res: Response) => {
 
   res.send(phones);
 };
+
 export const getOnePhone = async (req: Request, res: Response) => {
   const { id } = req.params;
   const foundPhone = await getById(id);
