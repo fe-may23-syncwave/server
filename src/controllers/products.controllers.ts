@@ -8,15 +8,15 @@ const getAllProducts = (req: Request, res: Response) => {
 
 const getOneProduct = async (req: Request, res: Response) => {
   const { id } = req.params;
-  const foundPhone = await productsService.getProductById(+id);
+  const foundProduct = await productsService.getProductById(+id);
 
-  if (!foundPhone) {
+  if (!foundProduct) {
     res.status(404).send('Phone not found');
 
     return;
   }
 
-  res.status(200).send(foundPhone);
+  res.status(200).send(foundProduct);
 };
 
 export { getAllProducts, getOneProduct };

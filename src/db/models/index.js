@@ -1,18 +1,13 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 'use strict';
 
-import fs from 'fs';
-import path from 'path';
-import dotenv from 'dotenv';
-import { Sequelize } from 'sequelize';
-import process from 'process';
-import configJs from '../config/config.cjs';
-
-dotenv.config();
-
+const fs = require('fs');
+const path = require('path');
+const Sequelize = require('sequelize');
+const process = require('process');
 const basename = path.basename(__filename);
 const env = process.env.NODE_ENV || 'development';
-const config = configJs[env];
-
+const config = require(__dirname + '/../config/config.json')[env];
 const db = {};
 
 let sequelize;
@@ -37,7 +32,7 @@ fs.readdirSync(__dirname)
     );
   })
   .forEach((file) => {
-    const model = import(path.join(__dirname, file))(
+    const model = require(path.join(__dirname, file))(
       sequelize,
       Sequelize.DataTypes,
     );

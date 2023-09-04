@@ -1,14 +1,18 @@
 import {
-  AllowNull,
   Column,
-  DataType,
   Model,
+  AllowNull,
   Table,
+  PrimaryKey,
   ForeignKey,
+  DataType,
 } from 'sequelize-typescript';
 import { Category } from './category';
 import { Capacity } from './capacity';
 import { Colors } from './colors';
+import { Accessories } from './accessories';
+import { Phone } from './phones';
+import { Tablet } from './tablets';
 
 interface ProductAttributes {
   id: number;
@@ -35,85 +39,66 @@ export class Product
   extends Model<ProductAttributes>
   implements ProductAttributes
 {
+  @PrimaryKey
   @AllowNull(false)
-  @Column({
-    type: DataType.INTEGER,
-    autoIncrement: true,
-    primaryKey: true,
-  })
+  @Column
     id!: number;
 
   @ForeignKey(() => Category)
   @Column({
-    type: DataType.INTEGER,
-    allowNull: false,
+    field: 'category_id',
   })
     category_id!: number;
 
+  @ForeignKey(() => Accessories)
   @AllowNull(false)
   @Column({
-    type: DataType.STRING,
+    field: 'productId',
   })
     productId!: string;
 
-  @AllowNull(false)
+  @ForeignKey(() => Phone)
+  @ForeignKey(() => Tablet)
   @Column({
-    type: DataType.STRING,
+    field: 'itemId',
   })
     itemId!: string;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     name!: string;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.FLOAT,
-  })
+  @Column
     fullPrice!: number;
 
   @Column({
-    type: DataType.FLOAT,
+    type: DataType.NUMBER,
   })
     discountPrice!: number | null;
 
-  @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     screen!: string;
 
   @ForeignKey(() => Capacity)
   @Column({
-    type: DataType.INTEGER,
-    allowNull: false,
+    field: 'capacity_id',
   })
     capacity_id!: number;
 
   @ForeignKey(() => Colors)
   @Column({
-    type: DataType.INTEGER,
-    allowNull: false,
+    field: 'color_id',
   })
     color_id!: number;
 
-  @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     ram!: string;
 
-  @AllowNull(false)
-  @Column({
-    type: DataType.INTEGER,
-  })
+  @Column
     year!: number;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     image!: string;
 }
