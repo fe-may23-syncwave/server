@@ -4,7 +4,6 @@ import {
   DataType,
   Model,
   Table,
-  Scopes,
   IsEmail,
   Length,
   HasMany,
@@ -23,11 +22,6 @@ interface UsersAttributes {
 export interface UsersCreationAttributes
   extends Optional<UsersAttributes, 'id'> {}
 
-// @Scopes(() => ({
-//   defaultScope: {
-//     attributes: { exclude: ['password', 'createdAt', 'updatedAt'] },
-//   },
-// }))
 @Table({
   tableName: 'users',
   modelName: 'User',
