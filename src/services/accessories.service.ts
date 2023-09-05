@@ -18,5 +18,4 @@ export const getById = async (id: string) => {
   accessory.images = JSON.parse(accessory.images);
 
   return accessory;
-
 };
