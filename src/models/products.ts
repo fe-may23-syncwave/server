@@ -102,12 +102,12 @@ export class Product
   @Column
     image!: string;
 
-    @BelongsTo(() => Category, 'category_id')
-      categories!: Category;
+  @BelongsTo(() => Category, 'category_id')
+    categories!: Category;
 
-    @BelongsTo(() => Capacity, 'capacity_id')
-      capacities!: Capacity;
+  @BelongsTo(() => Capacity, 'capacity_id')
+    capacities!: Capacity;
 
-    @BelongsTo(() => Colors, 'color_id')
-      colors!: Colors;
+  @BelongsTo(() => Colors, 'color_id')
+    colors!: Colors;
 }

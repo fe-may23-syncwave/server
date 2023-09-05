@@ -63,7 +63,7 @@ export async function getCategoryProductCounts() {
     const categoryName = category.name;
 
     const productsInCategory = products.filter(
-      product => product.category_id === categoryId,
+      (product) => product.category_id === categoryId,
     );
 
     const productCount = productsInCategory.length;

@@ -10,5 +10,13 @@ export async function getAll() {
 export const getById = async (id: string) => {
   const accessory = await Accessories.findByPk(id);
 
+  if (!accessory) {
+    return null;
+  }
+
+  accessory.colorsAvailable = JSON.parse(accessory.colorsAvailable);
+  accessory.images = JSON.parse(accessory.images);
+
   return accessory;
+
 };

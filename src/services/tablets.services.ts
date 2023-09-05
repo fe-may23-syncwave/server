@@ -10,5 +10,13 @@ export async function getAll() {
 export const getById = async (id: string) => {
   const tablet = await Tablet.findByPk(id);
 
+  if (!tablet) {
+    return null;
+  }
+
+  tablet.capacityAvailable = JSON.parse(tablet.capacityAvailable);
+  tablet.colorsAvailable = JSON.parse(tablet.colorsAvailable);
+  tablet.images = JSON.parse(tablet.images);
+
   return tablet;
 };

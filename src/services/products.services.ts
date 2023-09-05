@@ -56,7 +56,7 @@ export async function getAll({ sortBy, search, page, perPage }: Queries) {
   if (page === '1' && perPage === 'all') {
     products = await Product.findAll({
       order,
-      include: includeOptions
+      include: includeOptions,
     });
   } else {
     const limit = +perPage;
@@ -66,7 +66,7 @@ export async function getAll({ sortBy, search, page, perPage }: Queries) {
       offset,
       limit,
       order,
-      include: includeOptions
+      include: includeOptions,
     });
   }
 
