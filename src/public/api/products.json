@@ -1373,7 +1373,7 @@
   },
   {
     "category_id": 3,
-    "itemId": "iphone-11-silicon-case-black",
+    "itemId": "iphone-11-silicone-case-black",
     "color_id": 9,
     "name": "iPhone 11 Silicone Case Black",
     "fullPrice": 49,
@@ -1381,7 +1381,7 @@
   },
   {
     "category_id": 3,
-    "itemId": "iphone-11-silicon-case-blue",
+    "itemId": "iphone-11-silicone-case-blue",
     "color_id": 14,
     "name": "iPhone 11 Silicone Case Blue",
     "fullPrice": 49,
@@ -1389,7 +1389,7 @@
   },
   {
     "category_id": 3,
-    "itemId": "iphone-11-silicon-case-white",
+    "itemId": "iphone-11-silicone-case-white",
     "color_id": 8,
     "name": "iPhone 11 Silicone Case White",
     "fullPrice": 49,
@@ -1397,7 +1397,7 @@
   },
   {
     "category_id": 3,
-    "itemId": "iphone-11-silicon-case-red",
+    "itemId": "iphone-11-silicone-case-red",
     "color_id": 7,
     "name": "iPhone 11 Silicone Case Red",
     "fullPrice": 49,
@@ -1405,7 +1405,7 @@
   },
   {
     "category_id": 3,
-    "itemId": "iphone-xs-silicon-case-blue",
+    "itemId": "iphone-xs-silicone-case-blue",
     "color_id": 14,
     "name": "iPhone XS Silicone Case Blue",
     "fullPrice": 49,
@@ -1413,7 +1413,7 @@
   },
   {
     "category_id": 3,
-    "itemId": "iphone-xs-silicon-case-pink",
+    "itemId": "iphone-xs-silicone-case-pink",
     "color_id": 15,
     "name": "iPhone XS Silicone Case Pink",
     "fullPrice": 49,
@@ -1421,7 +1421,7 @@
   },
   {
     "category_id": 3,
-    "itemId": "iphone-xs-silicon-case-red",
+    "itemId": "iphone-xs-silicone-case-red",
     "color_id": 7,
     "name": "iPhone XS Silicone Case Red",
     "fullPrice": 49,
@@ -1429,7 +1429,7 @@
   },
   {
     "category_id": 3,
-    "itemId": "iphone-xr-silicon-case-red",
+    "itemId": "iphone-xr-silicone-case-red",
     "color_id": 7,
     "name": "iPhone XR Silicone Case Red",
     "fullPrice": 49,
@@ -1437,7 +1437,7 @@
   },
   {
     "category_id": 3,
-    "itemId": "iphone-xr-silicon-case-white",
+    "itemId": "iphone-xr-silicone-case-white",
     "color_id": 8,
     "name": "iPhone XR Silicone Case White",
     "fullPrice": 49,
@@ -1445,7 +1445,7 @@
   },
   {
     "category_id": 3,
-    "itemId": "iphone-xr-silicon-case-green",
+    "itemId": "iphone-xr-silicone-case-green",
     "color_id": 15,
     "name": "iPhone XR Silicone Case Green",
     "fullPrice": 49,
@@ -1453,7 +1453,7 @@
   },
   {
     "category_id": 3,
-    "itemId": "iphone-7-silicon-case-black",
+    "itemId": "iphone-7-silicone-case-black",
     "color_id": 9,
     "name": "iPhone 7 Silicone Case Black",
     "fullPrice": 49,
@@ -1461,7 +1461,7 @@
   },
   {
     "category_id": 3,
-    "itemId": "iphone-7-silicon-case-pink",
+    "itemId": "iphone-7-silicone-case-pink",
     "color_id": 15,
     "name": "iPhone 7 Silicone Case Pink",
     "fullPrice": 49,
@@ -1469,7 +1469,7 @@
   },
   {
     "category_id": 3,
-    "itemId": "iphone-7-silicon-case-red",
+    "itemId": "iphone-7-silicone-case-red",
     "color_id": 7,
     "name": "iPhone 7 Silicone Case Red",
     "fullPrice": 49,
@@ -1477,7 +1477,7 @@
   },
   {
     "category_id": 3,
-    "itemId": "iphone-7-silicon-case-white",
+    "itemId": "iphone-7-silicone-case-white",
     "color_id": 8,
     "name": "iPhone 7 Silicone Case White",
     "fullPrice": 49,

@@ -9,6 +9,9 @@ module.exports = {
   async up(queryInterface) {
     const tabletsWithDescriptionStringified = tablets.map((tablet) => ({
       ...tablet,
+      capacityAvailable: JSON.stringify(tablet.capacityAvailable),
+      colorsAvailable: JSON.stringify(tablet.colorsAvailable),
+      images: JSON.stringify(tablet.images),
       description: JSON.stringify(tablet.description),
     }));
 

@@ -14,13 +14,13 @@ interface PhoneAttributes {
   id: string;
   namespaceId: string;
   name: string;
-  capacityAvailable: string;
+  capacityAvailable: string[];
   capacity: string;
   fullPrice: number;
   discountPrice: number;
-  colorsAvailable: string;
+  colorsAvailable: string[];
   color: string;
-  images: string;
+  images: string[];
   description: Record<string, string>;
   screen: string;
   resolution: string;
@@ -28,7 +28,7 @@ interface PhoneAttributes {
   ram: string;
   camera: string | null;
   zoom: string;
-  cell: string;
+  cell: string[];
 }
 
 @Table({
@@ -40,7 +40,9 @@ export class Phone extends Model<PhoneAttributes> implements PhoneAttributes {
   @ForeignKey(() => Product)
   @PrimaryKey
   @AllowNull(false)
-  @Column
+  @Column({
+    field: 'itemId',
+  })
     id!: string;
 
   @AllowNull(false)
@@ -52,8 +54,10 @@ export class Phone extends Model<PhoneAttributes> implements PhoneAttributes {
     name!: string;
 
   @AllowNull(false)
-  @Column
-    capacityAvailable!: string;
+  @Column({
+    type: DataType.JSONB,
+  })
+    capacityAvailable!: string[];
 
   @AllowNull(false)
   @Column
@@ -70,16 +74,20 @@ export class Phone extends Model<PhoneAttributes> implements PhoneAttributes {
     discountPrice!: number;
 
   @AllowNull(false)
-  @Column
-    colorsAvailable!: string;
+  @Column({
+    type: DataType.JSONB,
+  })
+    colorsAvailable!: string[];
 
   @AllowNull(false)
   @Column
     color!: string;
 
   @AllowNull(false)
-  @Column
-    images!: string;
+  @Column({
+    type: DataType.JSONB,
+  })
+    images!: string[];
 
   @AllowNull(false)
   @Column({
@@ -111,8 +119,10 @@ export class Phone extends Model<PhoneAttributes> implements PhoneAttributes {
     zoom!: string;
 
   @AllowNull(false)
-  @Column
-    cell!: string;
+  @Column({
+    type: DataType.JSONB,
+  })
+    cell!: string[];
 
   @BelongsTo(() => Product)
     product!: Product;

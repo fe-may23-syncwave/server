@@ -14,9 +14,5 @@ export const getById = async (id: string) => {
     return null;
   }
 
-  phone.capacityAvailable = JSON.parse(phone.capacityAvailable);
-  phone.colorsAvailable = JSON.parse(phone.colorsAvailable);
-  phone.images = JSON.parse(phone.images);
-
   return phone;
 };

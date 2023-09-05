@@ -14,8 +14,5 @@ export const getById = async (id: string) => {
     return null;
   }
 
-  accessory.colorsAvailable = JSON.parse(accessory.colorsAvailable);
-  accessory.images = JSON.parse(accessory.images);
-
   return accessory;
 };

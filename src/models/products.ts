@@ -7,6 +7,7 @@ import {
   ForeignKey,
   DataType,
   BelongsTo,
+  HasOne,
 } from 'sequelize-typescript';
 import { Category } from './category';
 import { Capacity } from './capacity';
@@ -22,7 +23,7 @@ interface ProductAttributes {
   itemId: string;
   name: string;
   fullPrice: number;
-  discountPrice: number | null;
+  discountPrice: number;
   screen: string;
   capacity_id: number;
   color_id: number;
@@ -75,14 +76,17 @@ export class Product
   @Column({
     type: DataType.INTEGER,
   })
-    discountPrice!: number | null;
+    discountPrice!: number;
 
-  @Column
+  @Column({
+    type: DataType.STRING,
+  })
     screen!: string;
 
   @ForeignKey(() => Capacity)
   @Column({
     field: 'capacity_id',
+    type: DataType.INTEGER,
   })
     capacity_id!: number;
 
@@ -92,10 +96,14 @@ export class Product
   })
     color_id!: number;
 
-  @Column
+  @Column({
+    type: DataType.STRING,
+  })
     ram!: string;
 
-  @Column
+  @Column({
+    type: DataType.INTEGER,
+  })
     year!: number;
 
   @AllowNull(false)
@@ -103,11 +111,20 @@ export class Product
     image!: string;
 
   @BelongsTo(() => Category, 'category_id')
-    categories!: Category;
-
-  @BelongsTo(() => Capacity, 'capacity_id')
-    capacities!: Capacity;
+    category!: Category;
 
   @BelongsTo(() => Colors, 'color_id')
-    colors!: Colors;
+    color!: Colors;
+
+  @BelongsTo(() => Capacity, 'capacity_id')
+    capacity!: Capacity;
+
+  @HasOne(() => Phone, 'itemId')
+    phones!: Phone;
+
+  @HasOne(() => Tablet, 'itemId')
+    tablet!: Tablet;
+
+  @HasOne(() => Accessories, 'itemId')
+    accessory!: Accessories;
 }
