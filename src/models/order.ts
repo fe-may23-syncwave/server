@@ -15,8 +15,6 @@ interface OrderAttributes {
   userId: number;
   totalPrice: number;
   quantity: number;
-  createdAt: Date;
-  updatedAt: Date;
 }
 
 export interface OrderCreationAttributes
@@ -34,27 +32,27 @@ export class Order extends Model<OrderAttributes, OrderCreationAttributes> {
     autoIncrement: true,
     primaryKey: true,
   })
-    id!: number;
+  id!: number;
 
   @AllowNull(false)
   @ForeignKey(() => User)
   @Column({
     type: DataType.INTEGER,
   })
-    userId!: number;
+  userId!: number;
 
   @BelongsTo(() => User)
-    user!: User;
+  user!: User;
 
   @AllowNull(false)
   @Column({
     type: DataType.INTEGER,
   })
-    totalPrice!: number;
+  totalPrice!: number;
 
   @AllowNull(false)
   @Column({
     type: DataType.INTEGER,
   })
-    quantity!: number;
+  quantity!: number;
 }
