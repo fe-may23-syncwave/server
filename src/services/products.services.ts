@@ -1,5 +1,6 @@
 import { Order, Sequelize } from 'sequelize';
 import { Product } from '../models/products';
+import { Capacity, Category, Colors } from '../models';
 
 type Queries = {
   sortBy: string;
@@ -9,6 +10,24 @@ type Queries = {
 };
 
 export async function getAll({ sortBy, search, page, perPage }: Queries) {
+  const includeOptions = [
+    {
+      model: Category,
+      as: 'categories',
+      attributes: ['id', 'name'],
+    },
+    {
+      model: Capacity,
+      as: 'capacities',
+      attributes: ['id', 'name'],
+    },
+    {
+      model: Colors,
+      as: 'colors',
+      attributes: ['id', 'name'],
+    },
+  ];
+
   const order: Order = [];
 
   let products;
@@ -37,6 +56,7 @@ export async function getAll({ sortBy, search, page, perPage }: Queries) {
   if (page === '1' && perPage === 'all') {
     products = await Product.findAll({
       order,
+      include: includeOptions
     });
   } else {
     const limit = +perPage;
@@ -46,6 +66,7 @@ export async function getAll({ sortBy, search, page, perPage }: Queries) {
       offset,
       limit,
       order,
+      include: includeOptions
     });
   }
 

@@ -9,6 +9,7 @@ import { connect } from './utils/db';
 
 connect();
 
+import { mainPageRouter } from './routes/mainPage.router';
 import { productsRouter } from './routes/products.router';
 import { phonesRouter } from './routes/phones.router';
 import { tabletsRouter } from './routes/tablets.router';
@@ -25,9 +26,7 @@ export function createServer() {
     .use(cors({ origin: CLIENT_URL, credentials: true }))
     .use(cookieParser())
     .use(express.json())
-    .get('/', (req, res) => {
-      res.send('Product catalog API fe-may23-syncwave');
-    });
+    .get('/', mainPageRouter);
 
   app
     .use('/products', productsRouter)

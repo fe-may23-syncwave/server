@@ -6,6 +6,7 @@ import {
   PrimaryKey,
   ForeignKey,
   DataType,
+  BelongsTo,
 } from 'sequelize-typescript';
 import { Category } from './category';
 import { Capacity } from './capacity';
@@ -100,4 +101,13 @@ export class Product
   @AllowNull(false)
   @Column
     image!: string;
+
+    @BelongsTo(() => Category, 'category_id')
+      categories!: Category;
+
+    @BelongsTo(() => Capacity, 'capacity_id')
+      capacities!: Capacity;
+
+    @BelongsTo(() => Colors, 'color_id')
+      colors!: Colors;
 }

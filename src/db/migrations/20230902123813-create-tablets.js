@@ -45,7 +45,7 @@ module.exports = {
         allowNull: false,
       },
       images: {
-        type: Sequelize.STRING,
+        type: Sequelize.ARRAY(Sequelize.STRING),
         allowNull: false,
       },
       description: {
