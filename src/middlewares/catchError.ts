@@ -1,8 +1,7 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Request, Response, NextFunction } from 'express';
 
 export function catchError(
-  action: (req: Request, res: Response, next: NextFunction) => Promise<void>,
+  action: (req: Request, res: Response, next: NextFunction) => void,
 ) {
   return async (req: Request, res: Response, next: NextFunction) => {
     try {
