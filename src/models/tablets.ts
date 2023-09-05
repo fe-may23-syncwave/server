@@ -53,12 +53,11 @@ export class Tablet
   @Column
     name!: string;
 
-    @AllowNull(false)
-    @Column({
-      type: DataType.JSONB,
-    })
-      capacityAvailable!: string[];
-
+  @AllowNull(false)
+  @Column({
+    type: DataType.JSONB,
+  })
+    capacityAvailable!: string[];
 
   @AllowNull(false)
   @Column

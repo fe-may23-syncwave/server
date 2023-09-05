@@ -13,6 +13,6 @@ export const getById = async (id: string) => {
   if (!accessory) {
     return null;
   }
-  
+
   return accessory;
 };

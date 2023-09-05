@@ -96,15 +96,15 @@ export class Product
   })
     color_id!: number;
 
-    @Column({
-      type: DataType.STRING,
-    })
-      ram!: string;
+  @Column({
+    type: DataType.STRING,
+  })
+    ram!: string;
 
-    @Column({
-      type: DataType.INTEGER,
-    })
-      year!: number;
+  @Column({
+    type: DataType.INTEGER,
+  })
+    year!: number;
 
   @AllowNull(false)
   @Column
