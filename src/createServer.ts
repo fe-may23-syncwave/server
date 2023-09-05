@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import express from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
@@ -22,11 +23,32 @@ import { errorMiddleware } from './middlewares/errorMiddleware';
 const CLIENT_URL = process.env.CLIENT_URL;
 
 export function createServer() {
-  const app = express()
-    .use(cors({ origin: CLIENT_URL, credentials: true }))
-    .use(cookieParser())
-    .use(express.json())
-    .get('/', mainPageRouter);
+  const app = express();
+
+  const whitelist = [
+    CLIENT_URL,
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+  ];
+
+  const corsOptions = {
+    origin: function (origin: any, callback: any) {
+      if (whitelist.indexOf(origin) !== -1 || !origin) {
+        callback(null, true);
+      } else {
+        console.log(origin);
+        callback(new Error('Not allowed by CORS'));
+      }
+    },
+    credentials: true,
+  };
+
+  app.use(cors(corsOptions));
+
+  // app.use(cors({ origin: CLIENT_URL, credentials: true }));
+  app.use(cookieParser());
+  app.use(express.json());
+  app.get('/', mainPageRouter);
 
   app
     .use('/products', productsRouter)
