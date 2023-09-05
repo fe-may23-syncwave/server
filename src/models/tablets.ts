@@ -5,6 +5,8 @@ import {
   Model,
   Table,
   BelongsTo,
+  PrimaryKey,
+  ForeignKey,
 } from 'sequelize-typescript';
 import { Product } from './products';
 
@@ -24,9 +26,6 @@ interface TabletAttributes {
   resolution: string;
   processor: string;
   ram: string;
-  camera: string | null;
-  zoom: string;
-  cell: string;
 }
 
 @Table({
@@ -38,39 +37,26 @@ export class Tablet
   extends Model<TabletAttributes>
   implements TabletAttributes
 {
+  @ForeignKey(() => Product)
+  @PrimaryKey
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-    primaryKey: true,
-    references: {
-      model: 'products',
-      key: 'itemId',
-    },
-  })
+  @Column
     id!: string;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     namespaceId!: string;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     name!: string;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     capacityAvailable!: string;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     capacity!: string;
 
   @AllowNull(false)
@@ -132,24 +118,6 @@ export class Tablet
     type: DataType.STRING,
   })
     ram!: string;
-
-  @Column({
-    type: DataType.STRING,
-    allowNull: true,
-  })
-    camera!: string | null;
-
-  @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
-    zoom!: string;
-
-  @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
-    cell!: string;
 
   @BelongsTo(() => Product)
     product!: Product;

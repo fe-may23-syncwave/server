@@ -34,7 +34,7 @@ export class User extends Model<UsersAttributes, UsersCreationAttributes> {
     autoIncrement: true,
     primaryKey: true,
   })
-  id!: number;
+    id!: number;
 
   @IsEmail
   @AllowNull(false)
@@ -42,29 +42,29 @@ export class User extends Model<UsersAttributes, UsersCreationAttributes> {
     type: DataType.STRING(100),
     unique: true,
   })
-  email!: string;
+    email!: string;
 
   @Length({ min: 6 })
   @AllowNull(false)
   @Column({
     type: DataType.STRING(100),
   })
-  password!: string;
+    password!: string;
 
   @AllowNull(true)
   @Column({
     type: DataType.STRING(100),
     unique: true,
   })
-  activationToken!: string;
+    activationToken!: string;
 
   @AllowNull(false)
   @Column({
     type: DataType.BOOLEAN,
     defaultValue: false,
   })
-  isActivated!: boolean;
+    isActivated!: boolean;
 
   @HasMany(() => Order)
-  orders!: Order[];
+    orders!: Order[];
 }

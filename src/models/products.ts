@@ -50,15 +50,12 @@ export class Product
   })
     category_id!: number;
 
-  @ForeignKey(() => Accessories)
-  @AllowNull(false)
-  @Column({
-    field: 'productId',
-  })
+  @Column
     productId!: string;
 
   @ForeignKey(() => Phone)
   @ForeignKey(() => Tablet)
+  @ForeignKey(() => Accessories)
   @Column({
     field: 'itemId',
   })
@@ -69,11 +66,13 @@ export class Product
     name!: string;
 
   @AllowNull(false)
-  @Column
+  @Column({
+    type: DataType.INTEGER,
+  })
     fullPrice!: number;
 
   @Column({
-    type: DataType.NUMBER,
+    type: DataType.INTEGER,
   })
     discountPrice!: number | null;
 

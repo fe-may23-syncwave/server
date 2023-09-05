@@ -5,6 +5,8 @@ import {
   Model,
   Table,
   BelongsTo,
+  PrimaryKey,
+  ForeignKey,
 } from 'sequelize-typescript';
 import { Product } from './products';
 
@@ -35,39 +37,26 @@ interface PhoneAttributes {
   timestamps: false,
 })
 export class Phone extends Model<PhoneAttributes> implements PhoneAttributes {
+  @ForeignKey(() => Product)
+  @PrimaryKey
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-    primaryKey: true,
-    references: {
-      model: 'products',
-      key: 'itemId',
-    },
-  })
+  @Column
     id!: string;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     namespaceId!: string;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     name!: string;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     capacityAvailable!: string;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     capacity!: string;
 
   @AllowNull(false)
@@ -77,27 +66,19 @@ export class Phone extends Model<PhoneAttributes> implements PhoneAttributes {
     fullPrice!: number;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.INTEGER,
-  })
+  @Column
     discountPrice!: number;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     colorsAvailable!: string;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     color!: string;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     images!: string;
 
   @AllowNull(false)
@@ -107,45 +88,30 @@ export class Phone extends Model<PhoneAttributes> implements PhoneAttributes {
     description!: Record<string, string>;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     screen!: string;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     resolution!: string;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     processor!: string;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     ram!: string;
 
-  @Column({
-    type: DataType.STRING,
-    allowNull: true,
-  })
-    camera!: string | null;
+  @Column
+    camera!: string;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     zoom!: string;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     cell!: string;
 
   @BelongsTo(() => Product)
