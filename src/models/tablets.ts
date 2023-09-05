@@ -59,11 +59,11 @@ export class Tablet
   @Column
     capacity!: string;
 
-    @AllowNull(false)
-    @Column({
-      type: DataType.INTEGER,
-    })
-      fullPrice!: number;
+  @AllowNull(false)
+  @Column({
+    type: DataType.INTEGER,
+  })
+    fullPrice!: number;
 
   @AllowNull(false)
   @Column({

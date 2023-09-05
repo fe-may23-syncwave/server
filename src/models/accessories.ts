@@ -39,11 +39,11 @@ export class Accessories
   @Column
     name!: string;
 
-    @AllowNull(false)
-    @Column({
-      type: DataType.INTEGER,
-    })
-      fullPrice!: number;
+  @AllowNull(false)
+  @Column({
+    type: DataType.INTEGER,
+  })
+    fullPrice!: number;
 
   @AllowNull(false)
   @Column

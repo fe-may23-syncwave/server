@@ -1,7 +1,6 @@
 import { Order, Sequelize } from 'sequelize';
 import { Product } from '../models/products';
 
-
 type Queries = {
   sortBy: string;
   search: string;
@@ -16,9 +15,10 @@ export async function getAll({ sortBy, search, page, perPage }: Queries) {
 
   switch (sortBy) {
   case 'age':
-    order.push(
-      [Sequelize.literal('CASE WHEN "year" IS NULL THEN 1 ELSE 0 END'), 'ASC']
-    );
+    order.push([
+      Sequelize.literal('CASE WHEN "year" IS NULL THEN 1 ELSE 0 END'),
+      'ASC',
+    ]);
     order.push(['year', 'DESC']);
     break;
 

@@ -18,10 +18,12 @@ export async function getAllProducts(req: Request, res: Response) {
     perPage = 'all',
   }: MyQuery = req.query;
 
-  if (typeof sortBy !== 'string'
-    || typeof perPage !== 'string'
-    || typeof page !== 'string'
-    || typeof search !== 'string') {
+  if (
+    typeof sortBy !== 'string' ||
+    typeof perPage !== 'string' ||
+    typeof page !== 'string' ||
+    typeof search !== 'string'
+  ) {
     res.sendStatus(422);
     return;
   }
