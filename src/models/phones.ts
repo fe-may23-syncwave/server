@@ -59,9 +59,11 @@ export class Phone extends Model<PhoneAttributes> implements PhoneAttributes {
   @Column
     capacity!: string;
 
-  @AllowNull(false)
-  @Column
-    fullPrice!: number;
+    @AllowNull(false)
+    @Column({
+      type: DataType.INTEGER,
+    })
+      fullPrice!: number;
 
   @AllowNull(false)
   @Column

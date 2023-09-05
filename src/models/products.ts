@@ -66,11 +66,13 @@ export class Product
     name!: string;
 
   @AllowNull(false)
-  @Column
+  @Column({
+    type: DataType.INTEGER,
+  })
     fullPrice!: number;
 
   @Column({
-    type: DataType.NUMBER,
+    type: DataType.INTEGER,
   })
     discountPrice!: number | null;
 

@@ -8,6 +8,8 @@ interface MyQuery {
   perPage?: string;
 }
 
+// const sortOptions = ['age', 'title', 'fullPrice', ''];
+
 export async function getAllProducts(req: Request, res: Response) {
   const {
     sortBy = '',
@@ -15,6 +17,14 @@ export async function getAllProducts(req: Request, res: Response) {
     page = '1',
     perPage = 'all',
   }: MyQuery = req.query;
+
+  if (typeof sortBy !== 'string'
+    || typeof perPage !== 'string'
+    || typeof page !== 'string'
+    || typeof search !== 'string') {
+    res.sendStatus(422);
+    return;
+  }
 
   const products = await getAll({
     sortBy,

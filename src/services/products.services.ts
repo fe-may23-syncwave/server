@@ -1,4 +1,6 @@
+import { Order, Sequelize } from 'sequelize';
 import { Product } from '../models/products';
+
 
 type Queries = {
   sortBy: string;
@@ -8,13 +10,34 @@ type Queries = {
 };
 
 export async function getAll({ sortBy, search, page, perPage }: Queries) {
-  const order = [];
+  const order: Order = [];
 
-  let products = await Product.findAll();
-  console.log(products);
+  let products;
+
+  switch (sortBy) {
+  case 'age':
+    order.push(
+      [Sequelize.literal('CASE WHEN "year" IS NULL THEN 1 ELSE 0 END'), 'ASC']
+    );
+    order.push(['year', 'DESC']);
+    break;
+
+  case 'title':
+    order.push(['name', 'ASC']);
+    break;
+
+  case 'cheapest':
+    order.push(['fullPrice', 'ASC']);
+    break;
+
+  default:
+    break;
+  }
 
   if (page === '1' && perPage === 'all') {
-    products = await Product.findAll();
+    products = await Product.findAll({
+      order,
+    });
   } else {
     const limit = +perPage;
     const offset = (+page - 1) * limit || 0;
@@ -22,6 +45,7 @@ export async function getAll({ sortBy, search, page, perPage }: Queries) {
     products = await Product.findAll({
       offset,
       limit,
+      order,
     });
   }
 
@@ -31,23 +55,6 @@ export async function getAll({ sortBy, search, page, perPage }: Queries) {
     products = products.filter((product) =>
       product.name.toLowerCase().includes(normalizedSearch),
     );
-  }
-
-  switch (sortBy) {
-  case 'age':
-    order.push(['year', 'DESC']);
-    break;
-
-  case 'title':
-    order.push(['name', 'ASC']);
-    break;
-
-  case 'cheapest':
-    order.push(['price', 'ASC']);
-    break;
-
-  default:
-    break;
   }
 
   return products;

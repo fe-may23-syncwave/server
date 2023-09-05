@@ -26,9 +26,6 @@ interface TabletAttributes {
   resolution: string;
   processor: string;
   ram: string;
-  camera: string | null;
-  zoom: string;
-  cell: string;
 }
 
 @Table({
@@ -62,9 +59,11 @@ export class Tablet
   @Column
     capacity!: string;
 
-  @AllowNull(false)
-  @Column
-    fullPrice!: number;
+    @AllowNull(false)
+    @Column({
+      type: DataType.INTEGER,
+    })
+      fullPrice!: number;
 
   @AllowNull(false)
   @Column({
@@ -119,24 +118,6 @@ export class Tablet
     type: DataType.STRING,
   })
     ram!: string;
-
-  @Column({
-    type: DataType.STRING,
-    allowNull: true,
-  })
-    camera!: string | null;
-
-  @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
-    zoom!: string;
-
-  @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
-    cell!: string;
 
   @BelongsTo(() => Product)
     product!: Product;
