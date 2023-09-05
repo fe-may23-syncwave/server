@@ -1,7 +1,7 @@
 'use strict';
 
 import { Request, Response } from 'express';
-import { getAll, getById } from '../services/phones.services';
+import { getAll, getById } from '../services/tablets.services';
 
 export const getAllTablets = async (req: Request, res: Response) => {
   const tablets = await getAll();

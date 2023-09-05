@@ -2,9 +2,11 @@
 import { ApiError } from '../exceptions/ApiError';
 import { Request, Response, NextFunction } from 'express';
 
-
 export function errorMiddleware(
-  err: Error, req: Request, res: Response, next: NextFunction
+  err: Error,
+  req: Request,
+  res: Response,
+  next: NextFunction,
 ) {
   console.error(err);
   if (err instanceof ApiError) {
@@ -13,5 +15,5 @@ export function errorMiddleware(
     res.status(status).send({ message, errors });
     return;
   }
-  res.status(500).send({message: 'Something went wrong'});
+  res.status(500).send({ message: 'Something went wrong' });
 }

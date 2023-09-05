@@ -30,18 +30,18 @@ export class Token extends Model<TokenAttributes, TokenCreationAttributes> {
     autoIncrement: true,
     primaryKey: true,
   })
-  id!: number;
+    id!: number;
 
   @ForeignKey(() => User)
   @AllowNull(false)
   @Column({
     type: DataType.INTEGER,
   })
-  userId!: number;
+    userId!: number;
 
   @AllowNull(false)
   @Column({
     type: DataType.STRING,
   })
-  refreshToken!: string;
+    refreshToken!: string;
 }

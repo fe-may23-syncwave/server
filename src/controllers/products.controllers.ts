@@ -1,8 +1,6 @@
 import { Request, Response } from 'express';
 import { getAll, getProductById } from '../services/products.services';
 
-// const sortOptions = ['age', 'title', 'price', ''];
-// const perPageOptions = ['4', '8', '16', 'all'];
 interface MyQuery {
   sortBy?: string;
   search?: string;

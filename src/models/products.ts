@@ -50,15 +50,12 @@ export class Product
   })
     category_id!: number;
 
-  @ForeignKey(() => Accessories)
-  @AllowNull(false)
-  @Column({
-    field: 'productId',
-  })
+  @Column
     productId!: string;
 
   @ForeignKey(() => Phone)
   @ForeignKey(() => Tablet)
+  @ForeignKey(() => Accessories)
   @Column({
     field: 'itemId',
   })

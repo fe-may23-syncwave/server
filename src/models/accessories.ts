@@ -5,6 +5,8 @@ import {
   Model,
   Table,
   BelongsTo,
+  PrimaryKey,
+  ForeignKey,
 } from 'sequelize-typescript';
 import { Product } from './products';
 
@@ -27,45 +29,30 @@ export class Accessories
   extends Model<AccessoriesAttributes>
   implements AccessoriesAttributes
 {
+  @ForeignKey(() => Product)
+  @PrimaryKey
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-    primaryKey: true,
-    references: {
-      model: 'products',
-      key: 'productId',
-    },
-  })
+  @Column
     id!: string;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     name!: string;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.INTEGER,
-  })
+  @Column
     fullPrice!: number;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     colorsAvailable!: string;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     color!: string;
 
   @AllowNull(false)
-  @Column({
-    type: DataType.STRING,
-  })
+  @Column
     images!: string;
 
   @AllowNull(false)

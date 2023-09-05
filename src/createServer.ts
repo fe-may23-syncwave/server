@@ -18,7 +18,7 @@ import { authRouter } from './routes/auth.router';
 import { orderRouter } from './routes/orders.router';
 import { errorMiddleware } from './middlewares/errorMiddleware';
 
-// const CLIENT_URL = process.env.CLIENT_URL;
+const CLIENT_URL = process.env.CLIENT_URL;
 
 export function createServer() {
   const app = express()
@@ -34,7 +34,7 @@ export function createServer() {
     .use('/phones', phonesRouter)
     .use('/tablets', tabletsRouter)
     .use('/accessories', accessoriesRouter);
-  
+
   app.use(authRouter);
   app.use('/users', userRouter);
   app.use('/orders', orderRouter);
