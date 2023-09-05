@@ -9,7 +9,7 @@ module.exports = {
         type: Sequelize.STRING,
         references: {
           model: 'products',
-          key: 'productId',
+          key: 'itemId',
         },
       },
       name: {
@@ -21,7 +21,7 @@ module.exports = {
         allowNull: false,
       },
       colorsAvailable: {
-        type: Sequelize.STRING,
+        type: Sequelize.JSONB,
         allowNull: false,
       },
       color: {
@@ -29,7 +29,7 @@ module.exports = {
         allowNull: false,
       },
       images: {
-        type: Sequelize.ARRAY(Sequelize.STRING),
+        type: Sequelize.JSONB,
         allowNull: false,
       },
       description: {

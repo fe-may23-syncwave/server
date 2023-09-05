@@ -3,8 +3,8 @@ import { Model } from 'sequelize';
 export default (sequelize, DataTypes) => {
   class Accessories extends Model {
     static associate(models) {
-      Accessories.belongsTo(models.Products, {
-        foreignKey: 'productId',
+      Accessories.hasOne(models.Products, {
+        foreignKey: 'itemId',
       });
     }
   }
@@ -16,7 +16,7 @@ export default (sequelize, DataTypes) => {
         type: DataTypes.STRING,
         references: {
           model: 'products',
-          key: 'productId',
+          key: 'itemId',
         },
       },
       name: {
@@ -28,7 +28,7 @@ export default (sequelize, DataTypes) => {
         allowNull: false,
       },
       colorsAvailable: {
-        type: DataTypes.STRING,
+        type: DataTypes.JSONB,
         allowNull: false,
       },
       color: {
@@ -36,7 +36,7 @@ export default (sequelize, DataTypes) => {
         allowNull: false,
       },
       images: {
-        type: DataTypes.STRING,
+        type: DataTypes.JSONB,
         allowNull: false,
       },
       description: {

@@ -3,7 +3,7 @@ import { Model } from 'sequelize';
 export default (sequelize, DataTypes) => {
   class Tablets extends Model {
     static associate(models) {
-      Tablets.belongsTo(models.Products, {
+      Tablets.hasOne(models.Products, {
         foreignKey: 'itemId',
       });
     }
@@ -28,7 +28,7 @@ export default (sequelize, DataTypes) => {
         type: DataTypes.STRING,
       },
       capacityAvailable: {
-        type: DataTypes.STRING,
+        type: DataTypes.JSONB,
         allowNull: false,
       },
       capacity: {
@@ -44,7 +44,7 @@ export default (sequelize, DataTypes) => {
         allowNull: false,
       },
       colorsAvailable: {
-        type: DataTypes.STRING,
+        type: DataTypes.JSONB,
         allowNull: false,
       },
       color: {
@@ -52,7 +52,7 @@ export default (sequelize, DataTypes) => {
         allowNull: false,
       },
       images: {
-        type: DataTypes.STRING,
+        type: DataTypes.JSONB,
         allowNull: false,
       },
       description: {

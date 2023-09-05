@@ -14,13 +14,13 @@ interface TabletAttributes {
   id: string;
   namespaceId: string;
   name: string;
-  capacityAvailable: string;
+  capacityAvailable: string[];
   capacity: string;
   fullPrice: number;
   discountPrice: number;
-  colorsAvailable: string;
+  colorsAvailable: string[];
   color: string;
-  images: string;
+  images: string[];
   description: Record<string, string>;
   screen: string;
   resolution: string;
@@ -40,7 +40,9 @@ export class Tablet
   @ForeignKey(() => Product)
   @PrimaryKey
   @AllowNull(false)
-  @Column
+  @Column({
+    field: 'itemId',
+  })
     id!: string;
 
   @AllowNull(false)
@@ -51,9 +53,12 @@ export class Tablet
   @Column
     name!: string;
 
-  @AllowNull(false)
-  @Column
-    capacityAvailable!: string;
+    @AllowNull(false)
+    @Column({
+      type: DataType.JSONB,
+    })
+      capacityAvailable!: string[];
+
 
   @AllowNull(false)
   @Column
@@ -73,9 +78,9 @@ export class Tablet
 
   @AllowNull(false)
   @Column({
-    type: DataType.STRING,
+    type: DataType.JSONB,
   })
-    colorsAvailable!: string;
+    colorsAvailable!: string[];
 
   @AllowNull(false)
   @Column({
@@ -85,9 +90,9 @@ export class Tablet
 
   @AllowNull(false)
   @Column({
-    type: DataType.STRING,
+    type: DataType.JSONB,
   })
-    images!: string;
+    images!: string[];
 
   @AllowNull(false)
   @Column({

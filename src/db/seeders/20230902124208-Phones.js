@@ -8,7 +8,11 @@ module.exports = {
   async up(queryInterface) {
     const phonesWithDescriptionStringified = phones.map((phone) => ({
       ...phone,
+      capacityAvailable: JSON.stringify(phone.capacityAvailable),
+      colorsAvailable: JSON.stringify(phone.colorsAvailable),
+      images: JSON.stringify(phone.images),
       description: JSON.stringify(phone.description),
+      cell: JSON.stringify(phone.cell),
     }));
 
     await queryInterface.bulkInsert(

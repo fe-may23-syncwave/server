@@ -19,6 +19,9 @@ export default (sequelize, DataTypes) => {
       Products.hasOne(models.Tablets, {
         foreignKey: 'itemId',
       });
+      Products.hasOne(models.Accessories, {
+        foreignKey: 'itemId',
+      });
     }
   }
   Products.init(
@@ -31,6 +34,7 @@ export default (sequelize, DataTypes) => {
       },
       category_id: {
         allowNull: false,
+        field: 'category_id',
         references: {
           model: 'categories',
           key: 'id',
@@ -38,18 +42,15 @@ export default (sequelize, DataTypes) => {
         type: DataTypes.INTEGER,
       },
       productId: {
-        allowNull: false,
+        allowNull: true,
         type: DataTypes.STRING,
-        references: {
-          model: ['accessoriess'],
-          key: 'id',
-        },
       },
       itemId: {
         allowNull: false,
+        field: 'itemId',
         type: DataTypes.STRING,
         references: {
-          model: ['phones', 'tablets'],
+          model: ['phones', 'tablets', 'accessories'],
           key: 'id',
         },
       },
@@ -62,14 +63,16 @@ export default (sequelize, DataTypes) => {
         type: DataTypes.FLOAT,
       },
       discountPrice: {
+        allowNull: true,
         type: DataTypes.FLOAT,
       },
       screen: {
-        allowNull: false,
+        allowNull: true,
         type: DataTypes.STRING,
       },
       capacity_id: {
-        allowNull: false,
+        allowNull: true,
+        field: 'capacity_id',
         references: {
           model: 'capacities',
           key: 'id',
@@ -78,6 +81,7 @@ export default (sequelize, DataTypes) => {
       },
       color_id: {
         allowNull: false,
+        field: 'color_id',
         references: {
           model: 'colors',
           key: 'id',
@@ -85,12 +89,12 @@ export default (sequelize, DataTypes) => {
         type: DataTypes.INTEGER,
       },
       ram: {
-        type: DataTypes.STRING,
         allowNull: true,
+        type: DataTypes.STRING,
       },
       year: {
-        type: DataTypes.INTEGER,
         allowNull: true,
+        type: DataTypes.INTEGER,
       },
       image: {
         allowNull: false,

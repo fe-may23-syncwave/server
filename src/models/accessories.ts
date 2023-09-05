@@ -14,9 +14,9 @@ interface AccessoriesAttributes {
   id: string;
   name: string;
   fullPrice: number;
-  colorsAvailable: string;
+  colorsAvailable: string[];
   color: string;
-  images: string;
+  images: string[];
   description: Record<string, string>;
 }
 
@@ -32,7 +32,9 @@ export class Accessories
   @ForeignKey(() => Product)
   @PrimaryKey
   @AllowNull(false)
-  @Column
+  @Column({
+    field: 'itemId',
+  })
     id!: string;
 
   @AllowNull(false)
@@ -46,16 +48,20 @@ export class Accessories
     fullPrice!: number;
 
   @AllowNull(false)
-  @Column
-    colorsAvailable!: string;
+  @Column({
+    type: DataType.JSONB,
+  })
+    colorsAvailable!: string[];
 
   @AllowNull(false)
   @Column
     color!: string;
 
   @AllowNull(false)
-  @Column
-    images!: string;
+  @Column({
+    type: DataType.JSONB,
+  })
+    images!: string[];
 
   @AllowNull(false)
   @Column({

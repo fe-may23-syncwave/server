@@ -21,7 +21,7 @@ module.exports = {
         type: Sequelize.STRING,
       },
       capacityAvailable: {
-        type: Sequelize.STRING,
+        type: Sequelize.JSONB,
         allowNull: false,
       },
       capacity: {
@@ -37,7 +37,7 @@ module.exports = {
         allowNull: false,
       },
       colorsAvailable: {
-        type: Sequelize.STRING,
+        type: Sequelize.JSONB,
         allowNull: false,
       },
       color: {
@@ -45,7 +45,7 @@ module.exports = {
         allowNull: false,
       },
       images: {
-        type: Sequelize.ARRAY(Sequelize.STRING),
+        type: Sequelize.JSONB,
         allowNull: false,
       },
       description: {
