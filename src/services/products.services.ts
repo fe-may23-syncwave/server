@@ -62,10 +62,7 @@ export async function getAll({
       ),
       'ASC',
     ]);
-    order.push([
-      Sequelize.literal('"fullPrice" - "discountPrice"'),
-      'DESC',
-    ]);
+    order.push([Sequelize.literal('"fullPrice" - "discountPrice"'), 'DESC']);
     break;
 
   default:
