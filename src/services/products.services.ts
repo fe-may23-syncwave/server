@@ -102,8 +102,8 @@ export async function getOne(productId: string) {
   const product = Product.findOne({
     where: {
       productId,
-    } }
-  );
+    },
+  });
 
   return product;
 }
