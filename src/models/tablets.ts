@@ -40,9 +40,7 @@ export class Tablet
   @ForeignKey(() => Product)
   @PrimaryKey
   @AllowNull(false)
-  @Column({
-    field: 'itemId',
-  })
+  @Column
     id!: string;
 
   @AllowNull(false)

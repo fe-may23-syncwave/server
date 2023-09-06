@@ -32,9 +32,7 @@ export class Accessories
   @ForeignKey(() => Product)
   @PrimaryKey
   @AllowNull(false)
-  @Column({
-    field: 'itemId',
-  })
+  @Column
     id!: string;
 
   @AllowNull(false)
