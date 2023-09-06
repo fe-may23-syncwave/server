@@ -98,8 +98,12 @@ export async function getAll({
   return Product.findAll(queryParameters);
 }
 
-export async function getProductById(id: number) {
-  const product = await Product.findByPk(id);
+export async function getOne(productId: string) {
+  const product = Product.findOne({
+    where: {
+      productId,
+    },
+  });
 
   return product;
 }
