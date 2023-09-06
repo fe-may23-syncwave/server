@@ -1,52 +1,28 @@
-import { Order, Sequelize } from 'sequelize';
-import { Product } from '../models/products';
 import { Category } from '../models';
+import { getAll } from './products.services';
 
 export async function getNewest12Products() {
-  const order: Order = [];
-
-  order.push([
-    Sequelize.literal('CASE WHEN "year" IS NULL THEN 1 ELSE 0 END'),
-    'ASC',
-  ]);
-  order.push(['year', 'DESC']);
-
-  const products = await Product.findAll({
-    limit: 12,
-    order,
+  return getAll({
+    sortBy: 'age',
+    perPage: '12',
+    page: '1',
   });
-
-  return products;
 }
 
 export async function getBestDiscount12Products() {
-  const order: Order = [];
-
-  order.push([
-    Sequelize.literal('CASE WHEN "discountPrice" IS NULL THEN 1 ELSE 0 END'),
-    'DESC',
-  ]);
-  order.push(['discountPrice', 'DESC']);
-
-  const products = await Product.findAll({
-    limit: 12,
-    order,
+  return getAll({
+    sortBy: 'bestDiscount',
+    perPage: '12',
+    page: '1',
   });
-
-  return products;
 }
 
 export async function getHightPrice12Products() {
-  const order: Order = [];
-
-  order.push(['fullPrice', 'DESC']);
-
-  const products = await Product.findAll({
-    limit: 12,
-    order,
+  return getAll({
+    sortBy: 'expensive',
+    perPage: '12',
+    page: '1',
   });
-
-  return products;
 }
 
 interface CategoryCounts {
@@ -54,17 +30,17 @@ interface CategoryCounts {
 }
 
 export async function getCategoryProductCounts() {
-  const products = await Product.findAll();
   const categories = await Category.findAll();
   const counts: CategoryCounts = {};
 
   for (const category of categories) {
-    const categoryId = category.id;
     const categoryName = category.name;
 
-    const productsInCategory = products.filter(
-      (product) => product.category_id === categoryId,
-    );
+    const productsInCategory = await getAll({
+      perPage: 'all',
+      page: '1',
+      category: categoryName,
+    });
 
     const productCount = productsInCategory.length;
 
