@@ -11,7 +11,7 @@ export async function getNewest12Products() {
 
 export async function getBestDiscount12Products() {
   return getAll({
-    sortBy: 'age',
+    sortBy: 'bestDiscount',
     perPage: '12',
     page: '1',
   });

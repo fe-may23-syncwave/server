@@ -60,9 +60,12 @@ export async function getAll({
       Sequelize.literal(
         'CASE WHEN "discountPrice" IS NULL THEN 1 ELSE 0 END',
       ),
+      'ASC',
+    ]);
+    order.push([
+      Sequelize.literal('"fullPrice" - "discountPrice"'),
       'DESC',
     ]);
-    order.push(['discountPrice', 'DESC']);
     break;
 
   default:
