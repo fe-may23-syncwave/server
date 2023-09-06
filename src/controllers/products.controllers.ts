@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { getAll, getProductById } from '../services/products.services';
+import { getAll, getOne } from '../services/products.services';
 
 interface MyQuery {
   sortBy?: string;
@@ -40,8 +40,8 @@ export async function getAllProducts(req: Request, res: Response) {
 }
 
 export const getOneProduct = async (req: Request, res: Response) => {
-  const { id } = req.params;
-  const foundProduct = await getProductById(+id);
+  const { productId } = req.params;
+  const foundProduct = await getOne(productId);
 
   if (!foundProduct) {
     res.status(404).send('Product not found');
