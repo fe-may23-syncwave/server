@@ -14,7 +14,7 @@ export async function getAllProducts(req: Request, res: Response) {
     sortBy = '',
     search = '',
     page = '1',
-    perPage = 'all',
+    perPage = '4',
     category = '',
   }: MyQuery = req.query;
 

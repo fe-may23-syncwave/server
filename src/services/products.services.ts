@@ -57,7 +57,7 @@ export async function getAll({
 
   queryParameters.order = order;
 
-  if (page !== '1' && perPage !== 'all') {
+  if (perPage !== 'all') {
     const limit = +perPage;
     const offset = (+page - 1) * limit || 0;
 
