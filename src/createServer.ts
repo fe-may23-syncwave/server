@@ -10,7 +10,7 @@ import { connect } from './utils/db';
 
 connect();
 
-import { mainPageRouter } from './routes/mainPage.router';
+import { homeRouter } from './routes/home.router';
 import { productsRouter } from './routes/products.router';
 import { phonesRouter } from './routes/phones.router';
 import { tabletsRouter } from './routes/tablets.router';
@@ -53,7 +53,7 @@ export function createServer() {
   });
 
   app
-    .use('/home', mainPageRouter)
+    .use('/home', homeRouter)
     .use('/products', productsRouter)
     .use('/phones', phonesRouter)
     .use('/tablets', tabletsRouter)
