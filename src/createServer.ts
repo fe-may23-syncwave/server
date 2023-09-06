@@ -48,9 +48,12 @@ export function createServer() {
   // app.use(cors({ origin: CLIENT_URL, credentials: true }));
   app.use(cookieParser());
   app.use(express.json());
-  app.get('/', mainPageRouter);
+  app.get('/', (req, res) => {
+    res.send('✨Syncwave Server✨');
+  });
 
   app
+    .use('/home', mainPageRouter)
     .use('/products', productsRouter)
     .use('/phones', phonesRouter)
     .use('/tablets', tabletsRouter)

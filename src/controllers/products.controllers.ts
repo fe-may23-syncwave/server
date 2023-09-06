@@ -6,9 +6,8 @@ interface MyQuery {
   search?: string;
   page?: string;
   perPage?: string;
+  category?: string;
 }
-
-// const sortOptions = ['age', 'title', 'fullPrice', ''];
 
 export async function getAllProducts(req: Request, res: Response) {
   const {
@@ -16,6 +15,7 @@ export async function getAllProducts(req: Request, res: Response) {
     search = '',
     page = '1',
     perPage = 'all',
+    category = '',
   }: MyQuery = req.query;
 
   if (
@@ -33,6 +33,7 @@ export async function getAllProducts(req: Request, res: Response) {
     search,
     page,
     perPage,
+    category,
   });
 
   res.send(products);

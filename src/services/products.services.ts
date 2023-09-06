@@ -1,36 +1,38 @@
-import { Order, Sequelize } from 'sequelize';
+import { Op, Order, OrderItem, Sequelize } from 'sequelize';
 import { Product } from '../models/products';
-import { Capacity, Category, Colors } from '../models';
+import { getCategoryIdByName } from './categories.service';
 
 type Queries = {
   sortBy: string;
   search: string;
   page: string;
   perPage: string;
+  category: string;
 };
 
-export async function getAll({ sortBy, search, page, perPage }: Queries) {
-  const includeOptions = [
-    {
-      model: Category,
-      as: 'categories',
-      attributes: ['id', 'name'],
+type QueryParameters = {
+  order?: OrderItem[]
+  offset?: number,
+  limit?: number,
+  where: {
+    name?: {
+      [Op.iLike]: string,
     },
-    {
-      model: Capacity,
-      as: 'capacities',
-      attributes: ['id', 'name'],
-    },
-    {
-      model: Colors,
-      as: 'colors',
-      attributes: ['id', 'name'],
-    },
-  ];
+    category_id?: number,
+  },
+}
 
+export async function getAll({
+  sortBy,
+  search,
+  page,
+  perPage,
+  category,
+}: Queries) {
+  const queryParameters: QueryParameters = {
+    where: {},
+  };
   const order: Order = [];
-
-  let products;
 
   switch (sortBy) {
   case 'age':
@@ -53,32 +55,33 @@ export async function getAll({ sortBy, search, page, perPage }: Queries) {
     break;
   }
 
-  if (page === '1' && perPage === 'all') {
-    products = await Product.findAll({
-      order,
-      include: includeOptions,
-    });
-  } else {
+  queryParameters.order = order;
+
+  if (page !== '1' && perPage !== 'all') {
     const limit = +perPage;
     const offset = (+page - 1) * limit || 0;
 
-    products = await Product.findAll({
-      offset,
-      limit,
-      order,
-      include: includeOptions,
-    });
+    queryParameters.limit = limit;
+    queryParameters.offset = offset;
   }
 
   if (search) {
     const normalizedSearch = search.toLowerCase().trim();
 
-    products = products.filter((product) =>
-      product.name.toLowerCase().includes(normalizedSearch),
-    );
+    queryParameters.where.name = {
+      [Op.iLike]: normalizedSearch? `%${normalizedSearch}%` : '',
+    };
   }
 
-  return products;
+  if(category) {
+    const category_id = await getCategoryIdByName(category);
+
+    if (category_id) {
+      queryParameters.where.category_id = category_id;
+    }
+  }
+
+  return Product.findAll(queryParameters);
 }
 
 export async function getProductById(id: number) {
