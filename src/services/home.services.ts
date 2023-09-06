@@ -5,7 +5,7 @@ export async function getNewest12Products() {
   return getAll({
     sortBy: 'age',
     perPage: '12',
-    page: '1'
+    page: '1',
   });
 }
 

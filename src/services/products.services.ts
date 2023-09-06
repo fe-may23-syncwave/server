@@ -57,7 +57,9 @@ export async function getAll({
 
   case 'bestDiscount':
     order.push([
-      Sequelize.literal('CASE WHEN "discountPrice" IS NULL THEN 1 ELSE 0 END'),
+      Sequelize.literal(
+        'CASE WHEN "discountPrice" IS NULL THEN 1 ELSE 0 END',
+      ),
       'DESC',
     ]);
     order.push(['discountPrice', 'DESC']);
