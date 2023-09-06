@@ -3,14 +3,14 @@ import { Product } from '../models/products';
 import { getCategoryIdByName } from './categories.service';
 
 type Queries = {
-  sortBy: string;
-  search: string;
+  sortBy?: string;
+  search?: string;
   page: string;
   perPage: string;
-  category: string;
+  category?: string;
 };
 
-type QueryParameters = {
+export type QueryParameters = {
   order?: OrderItem[];
   offset?: number;
   limit?: number;
@@ -49,6 +49,18 @@ export async function getAll({
 
   case 'cheapest':
     order.push(['fullPrice', 'ASC']);
+    break;
+
+  case 'expensive':
+    order.push(['fullPrice', 'DESC']);
+    break;
+
+  case 'bestDiscount':
+    order.push([
+      Sequelize.literal('CASE WHEN "discountPrice" IS NULL THEN 1 ELSE 0 END'),
+      'DESC',
+    ]);
+    order.push(['discountPrice', 'DESC']);
     break;
 
   default:
