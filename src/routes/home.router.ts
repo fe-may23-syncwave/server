@@ -4,7 +4,7 @@ import {
   getNewest,
   getBestDiscount,
   getHightPrice,
-  getProductCounts
+  getProductCounts,
 } from '../controllers/home.controller';
 
 homeRouter.get('/newest', getNewest);

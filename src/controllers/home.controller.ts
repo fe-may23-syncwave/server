@@ -16,7 +16,6 @@ export const getNewest = async (req: Request, res: Response) => {
 export const getBestDiscount = async (req: Request, res: Response) => {
   const bestDiscount = await getBestDiscount12Products();
 
-
   res.send({ bestDiscount });
 };
 export const getHightPrice = async (req: Request, res: Response) => {
