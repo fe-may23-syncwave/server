@@ -98,10 +98,10 @@ export async function getAll({
   return Product.findAll(queryParameters);
 }
 
-export async function getOne(productId: string) {
+export async function getOne(itemId: string) {
   const product = Product.findOne({
     where: {
-      productId,
+      itemId,
     },
   });
 
