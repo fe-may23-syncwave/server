@@ -7,7 +7,6 @@ import {
   ForeignKey,
   DataType,
   BelongsTo,
-  HasOne,
 } from 'sequelize-typescript';
 import { Category } from './category';
 import { Capacity } from './capacity';
@@ -118,13 +117,4 @@ export class Product
 
   @BelongsTo(() => Capacity, 'capacity_id')
     capacity!: Capacity;
-
-  @HasOne(() => Phone, 'itemId')
-    phones!: Phone;
-
-  @HasOne(() => Tablet, 'itemId')
-    tablet!: Tablet;
-
-  @HasOne(() => Accessories, 'itemId')
-    accessory!: Accessories;
 }

@@ -40,9 +40,7 @@ export class Phone extends Model<PhoneAttributes> implements PhoneAttributes {
   @ForeignKey(() => Product)
   @PrimaryKey
   @AllowNull(false)
-  @Column({
-    field: 'itemId',
-  })
+  @Column
     id!: string;
 
   @AllowNull(false)

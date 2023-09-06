@@ -11,16 +11,16 @@ type Queries = {
 };
 
 type QueryParameters = {
-  order?: OrderItem[]
-  offset?: number,
-  limit?: number,
+  order?: OrderItem[];
+  offset?: number;
+  limit?: number;
   where: {
     name?: {
-      [Op.iLike]: string,
-    },
-    category_id?: number,
-  },
-}
+      [Op.iLike]: string;
+    };
+    category_id?: number;
+  };
+};
 
 export async function getAll({
   sortBy,
@@ -69,11 +69,11 @@ export async function getAll({
     const normalizedSearch = search.toLowerCase().trim();
 
     queryParameters.where.name = {
-      [Op.iLike]: normalizedSearch? `%${normalizedSearch}%` : '',
+      [Op.iLike]: normalizedSearch ? `%${normalizedSearch}%` : '',
     };
   }
 
-  if(category) {
+  if (category) {
     const category_id = await getCategoryIdByName(category);
 
     if (category_id) {
