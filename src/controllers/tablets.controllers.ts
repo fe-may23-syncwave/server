@@ -6,7 +6,13 @@ import { getAll, getById } from '../services/tablets.services';
 export const getAllTablets = async (req: Request, res: Response) => {
   const tablets = await getAll();
 
-  res.send(tablets);
+  if (!tablets.length) {
+    res.status(404).send('Tablets not found');
+
+    return;
+  }
+
+  res.status(200).send(tablets);
 };
 
 export const getOneTablet = async (req: Request, res: Response) => {
