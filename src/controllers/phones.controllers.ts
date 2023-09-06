@@ -6,7 +6,13 @@ import { getAll, getById } from '../services/phones.services';
 export const getAllPhones = async (req: Request, res: Response) => {
   const phones = await getAll();
 
-  res.send(phones);
+  if (!phones.length) {
+    res.status(404).send('Phones not found');
+
+    return;
+  }
+
+  res.status(200).send(phones);
 };
 
 export const getOnePhone = async (req: Request, res: Response) => {

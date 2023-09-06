@@ -11,7 +11,7 @@
     "color_id": 1,
     "ram": "2GB",
     "year": 2016,
-    "image": "img/phones/apple-iphone-7/black/00.jpg"
+    "image": "img/phones/apple-iphone-7/black/00.png"
   },
   {
     "category_id": 1,
@@ -25,7 +25,7 @@
     "color_id": 1,
     "ram": "3GB",
     "year": 2016,
-    "image": "img/phones/apple-iphone-7-plus/black/00.jpg"
+    "image": "img/phones/apple-iphone-7-plus/black/00.png"
   },
   {
     "category_id": 1,
@@ -39,7 +39,7 @@
     "color_id": 2,
     "ram": "2GB",
     "year": 2017,
-    "image": "img/phones/apple-iphone-8/gold/00.jpg"
+    "image": "img/phones/apple-iphone-8/gold/00.png"
   },
   {
     "category_id": 1,
@@ -53,7 +53,7 @@
     "color_id": 1,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/black/00.jpg"
+    "image": "img/phones/apple-iphone-11/black/00.png"
   },
   {
     "category_id": 1,
@@ -67,7 +67,7 @@
     "color_id": 3,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/yellow/00.jpg"
+    "image": "img/phones/apple-iphone-11/yellow/00.png"
   },
   {
     "category_id": 1,
@@ -81,7 +81,7 @@
     "color_id": 4,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/green/00.jpg"
+    "image": "img/phones/apple-iphone-11/green/00.png"
   },
   {
     "category_id": 1,
@@ -95,7 +95,7 @@
     "color_id": 2,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro/gold/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro/gold/00.png"
   },
   {
     "category_id": 1,
@@ -109,7 +109,7 @@
     "color_id": 10,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro/midnightgreen/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro/midnightgreen/00.png"
   },
   {
     "category_id": 1,
@@ -123,7 +123,7 @@
     "color_id": 5,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro/silver/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro/silver/00.png"
   },
   {
     "category_id": 1,
@@ -137,7 +137,7 @@
     "color_id": 6,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro-max/spacegray/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro-max/spacegray/00.png"
   },
   {
     "category_id": 1,
@@ -151,7 +151,7 @@
     "color_id": 2,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro-max/gold/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro-max/gold/00.png"
   },
   {
     "category_id": 1,
@@ -165,7 +165,7 @@
     "color_id": 6,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro-max/spacegray/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro-max/spacegray/00.png"
   },
   {
     "category_id": 1,
@@ -179,7 +179,7 @@
     "color_id": 7,
     "ram": "3GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xr/red/00.jpg"
+    "image": "img/phones/apple-iphone-xr/red/00.png"
   },
   {
     "category_id": 1,
@@ -193,7 +193,7 @@
     "color_id": 8,
     "ram": "3GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xr/white/00.jpg"
+    "image": "img/phones/apple-iphone-xr/white/00.png"
   },
   {
     "category_id": 1,
@@ -207,7 +207,7 @@
     "color_id": 6,
     "ram": "4GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xs/spacegray/00.jpg"
+    "image": "img/phones/apple-iphone-xs/spacegray/00.png"
   },
   {
     "category_id": 1,
@@ -221,7 +221,7 @@
     "color_id": 2,
     "ram": "4GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xs-max/gold/00.jpg"
+    "image": "img/phones/apple-iphone-xs-max/gold/00.png"
   },
   {
     "category_id": 1,
@@ -235,7 +235,7 @@
     "color_id": 5,
     "ram": "4GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xs-max/silver/00.jpg"
+    "image": "img/phones/apple-iphone-xs-max/silver/00.png"
   },
   {
     "category_id": 1,
@@ -249,7 +249,7 @@
     "color_id": 2,
     "ram": "2GB",
     "year": 2016,
-    "image": "img/phones/apple-iphone-7/gold/00.jpg"
+    "image": "img/phones/apple-iphone-7/gold/00.png"
   },
   {
     "category_id": 1,
@@ -263,7 +263,7 @@
     "color_id": 5,
     "ram": "3GB",
     "year": 2016,
-    "image": "img/phones/apple-iphone-7-plus/silver/00.jpg"
+    "image": "img/phones/apple-iphone-7-plus/silver/00.png"
   },
   {
     "category_id": 1,
@@ -277,7 +277,7 @@
     "color_id": 6,
     "ram": "2GB",
     "year": 2017,
-    "image": "img/phones/apple-iphone-8/spacegray/00.jpg"
+    "image": "img/phones/apple-iphone-8/spacegray/00.png"
   },
   {
     "category_id": 1,
@@ -291,7 +291,7 @@
     "color_id": 4,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/green/00.jpg"
+    "image": "img/phones/apple-iphone-11/green/00.png"
   },
   {
     "category_id": 1,
@@ -305,7 +305,7 @@
     "color_id": 9,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/purple/00.jpg"
+    "image": "img/phones/apple-iphone-11/purple/00.png"
   },
   {
     "category_id": 1,
@@ -319,7 +319,7 @@
     "color_id": 3,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/yellow/00.jpg"
+    "image": "img/phones/apple-iphone-11/yellow/00.png"
   },
   {
     "category_id": 1,
@@ -333,7 +333,7 @@
     "color_id": 2,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro/gold/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro/gold/00.png"
   },
   {
     "category_id": 1,
@@ -347,7 +347,7 @@
     "color_id": 6,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro/spacegray/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro/spacegray/00.png"
   },
   {
     "category_id": 1,
@@ -361,7 +361,7 @@
     "color_id": 5,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro-max/silver/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro-max/silver/00.png"
   },
   {
     "category_id": 1,
@@ -375,7 +375,7 @@
     "color_id": 10,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro-max/midnightgreen/00.png"
   },
   {
     "category_id": 1,
@@ -389,7 +389,7 @@
     "color_id": 5,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro-max/silver/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro-max/silver/00.png"
   },
   {
     "category_id": 1,
@@ -403,7 +403,7 @@
     "color_id": 8,
     "ram": "3GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xr/white/00.jpg"
+    "image": "img/phones/apple-iphone-xr/white/00.png"
   },
   {
     "category_id": 1,
@@ -417,7 +417,7 @@
     "color_id": 11,
     "ram": "3GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xr/coral/00.jpg"
+    "image": "img/phones/apple-iphone-xr/coral/00.png"
   },
   {
     "category_id": 1,
@@ -431,7 +431,7 @@
     "color_id": 2,
     "ram": "4GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xs/gold/00.jpg"
+    "image": "img/phones/apple-iphone-xs/gold/00.png"
   },
   {
     "category_id": 1,
@@ -445,7 +445,7 @@
     "color_id": 6,
     "ram": "4GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xs/spacegray/00.jpg"
+    "image": "img/phones/apple-iphone-xs/spacegray/00.png"
   },
   {
     "category_id": 1,
@@ -459,7 +459,7 @@
     "color_id": 5,
     "ram": "4GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xs-max/silver/00.jpg"
+    "image": "img/phones/apple-iphone-xs-max/silver/00.png"
   },
   {
     "category_id": 1,
@@ -473,7 +473,7 @@
     "color_id": 2,
     "ram": "4GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xs-max/gold/00.jpg"
+    "image": "img/phones/apple-iphone-xs-max/gold/00.png"
   },
   {
     "category_id": 1,
@@ -487,7 +487,7 @@
     "color_id": 12,
     "ram": "2GB",
     "year": 2016,
-    "image": "img/phones/apple-iphone-7/rosegold/00.jpg"
+    "image": "img/phones/apple-iphone-7/rosegold/00.png"
   },
   {
     "category_id": 1,
@@ -501,7 +501,7 @@
     "color_id": 9,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/purple/00.jpg"
+    "image": "img/phones/apple-iphone-11/purple/00.png"
   },
   {
     "category_id": 1,
@@ -515,7 +515,7 @@
     "color_id": 7,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/red/00.jpg"
+    "image": "img/phones/apple-iphone-11/red/00.png"
   },
   {
     "category_id": 1,
@@ -529,7 +529,7 @@
     "color_id": 1,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/black/00.jpg"
+    "image": "img/phones/apple-iphone-11/black/00.png"
   },
   {
     "category_id": 1,
@@ -543,7 +543,7 @@
     "color_id": 7,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/red/00.jpg"
+    "image": "img/phones/apple-iphone-11/red/00.png"
   },
   {
     "category_id": 1,
@@ -557,7 +557,7 @@
     "color_id": 10,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro/midnightgreen/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro/midnightgreen/00.png"
   },
   {
     "category_id": 1,
@@ -571,7 +571,7 @@
     "color_id": 5,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro/silver/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro/silver/00.png"
   },
   {
     "category_id": 1,
@@ -585,7 +585,7 @@
     "color_id": 2,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro/gold/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro/gold/00.png"
   },
   {
     "category_id": 1,
@@ -599,7 +599,7 @@
     "color_id": 10,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro-max/midnightgreen/00.png"
   },
   {
     "category_id": 1,
@@ -613,7 +613,7 @@
     "color_id": 6,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro-max/spacegray/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro-max/spacegray/00.png"
   },
   {
     "category_id": 1,
@@ -627,7 +627,7 @@
     "color_id": 11,
     "ram": "3GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xr/coral/00.jpg"
+    "image": "img/phones/apple-iphone-xr/coral/00.png"
   },
   {
     "category_id": 1,
@@ -641,7 +641,7 @@
     "color_id": 7,
     "ram": "3GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xr/red/00.jpg"
+    "image": "img/phones/apple-iphone-xr/red/00.png"
   },
   {
     "category_id": 1,
@@ -655,7 +655,7 @@
     "color_id": 2,
     "ram": "4GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xs/gold/00.jpg"
+    "image": "img/phones/apple-iphone-xs/gold/00.png"
   },
   {
     "category_id": 1,
@@ -669,7 +669,7 @@
     "color_id": 6,
     "ram": "4GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xs-max/spacegray/00.jpg"
+    "image": "img/phones/apple-iphone-xs-max/spacegray/00.png"
   },
   {
     "category_id": 1,
@@ -683,7 +683,7 @@
     "color_id": 12,
     "ram": "3GB",
     "year": 2016,
-    "image": "img/phones/apple-iphone-7-plus/rosegold/00.jpg"
+    "image": "img/phones/apple-iphone-7-plus/rosegold/00.png"
   },
   {
     "category_id": 1,
@@ -697,7 +697,7 @@
     "color_id": 8,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/white/00.jpg"
+    "image": "img/phones/apple-iphone-11/white/00.png"
   },
   {
     "category_id": 1,
@@ -711,7 +711,7 @@
     "color_id": 4,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/green/00.jpg"
+    "image": "img/phones/apple-iphone-11/green/00.png"
   },
   {
     "category_id": 1,
@@ -725,7 +725,7 @@
     "color_id": 8,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/white/00.jpg"
+    "image": "img/phones/apple-iphone-11/white/00.png"
   },
   {
     "category_id": 1,
@@ -739,7 +739,7 @@
     "color_id": 1,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/black/00.jpg"
+    "image": "img/phones/apple-iphone-11/black/00.png"
   },
   {
     "category_id": 1,
@@ -753,7 +753,7 @@
     "color_id": 8,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/white/00.jpg"
+    "image": "img/phones/apple-iphone-11/white/00.png"
   },
   {
     "category_id": 1,
@@ -767,7 +767,7 @@
     "color_id": 6,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro/spacegray/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro/spacegray/00.png"
   },
   {
     "category_id": 1,
@@ -781,7 +781,7 @@
     "color_id": 10,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro/midnightgreen/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro/midnightgreen/00.png"
   },
   {
     "category_id": 1,
@@ -795,7 +795,7 @@
     "color_id": 2,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro-max/gold/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro-max/gold/00.png"
   },
   {
     "category_id": 1,
@@ -809,7 +809,7 @@
     "color_id": 5,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro-max/silver/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro-max/silver/00.png"
   },
   {
     "category_id": 1,
@@ -823,7 +823,7 @@
     "color_id": 10,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro-max/midnightgreen/00.png"
   },
   {
     "category_id": 1,
@@ -837,7 +837,7 @@
     "color_id": 3,
     "ram": "3GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xr/yellow/00.jpg"
+    "image": "img/phones/apple-iphone-xr/yellow/00.png"
   },
   {
     "category_id": 1,
@@ -851,7 +851,7 @@
     "color_id": 5,
     "ram": "2GB",
     "year": 2016,
-    "image": "img/phones/apple-iphone-7/silver/00.jpg"
+    "image": "img/phones/apple-iphone-7/silver/00.png"
   },
   {
     "category_id": 1,
@@ -865,7 +865,7 @@
     "color_id": 9,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/purple/00.jpg"
+    "image": "img/phones/apple-iphone-11/purple/00.png"
   },
   {
     "category_id": 1,
@@ -879,7 +879,7 @@
     "color_id": 2,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro-max/gold/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro-max/gold/00.png"
   },
   {
     "category_id": 1,
@@ -893,7 +893,7 @@
     "color_id": 3,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/yellow/00.jpg"
+    "image": "img/phones/apple-iphone-11/yellow/00.png"
   },
   {
     "category_id": 1,
@@ -907,7 +907,7 @@
     "color_id": 6,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro/spacegray/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro/spacegray/00.png"
   },
   {
     "category_id": 1,
@@ -921,7 +921,7 @@
     "color_id": 5,
     "ram": "2GB",
     "year": 2017,
-    "image": "img/phones/apple-iphone-8/silver/00.jpg"
+    "image": "img/phones/apple-iphone-8/silver/00.png"
   },
   {
     "category_id": 1,
@@ -935,7 +935,7 @@
     "color_id": 7,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/red/00.jpg"
+    "image": "img/phones/apple-iphone-11/red/00.png"
   },
   {
     "category_id": 1,
@@ -949,7 +949,7 @@
     "color_id": 6,
     "ram": "4GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xs-max/spacegray/00.jpg"
+    "image": "img/phones/apple-iphone-xs-max/spacegray/00.png"
   },
   {
     "category_id": 1,
@@ -963,7 +963,7 @@
     "color_id": 2,
     "ram": "3GB",
     "year": 2016,
-    "image": "img/phones/apple-iphone-7-plus/gold/00.jpg"
+    "image": "img/phones/apple-iphone-7-plus/gold/00.png"
   },
   {
     "category_id": 1,
@@ -977,7 +977,7 @@
     "color_id": 5,
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro/silver/00.jpg"
+    "image": "img/phones/apple-iphone-11-pro/silver/00.png"
   },
   {
     "category_id": 1,
@@ -991,7 +991,7 @@
     "color_id": 3,
     "ram": "3GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xr/yellow/00.jpg"
+    "image": "img/phones/apple-iphone-xr/yellow/00.png"
   },
   {
     "category_id": 2,
@@ -1005,7 +1005,7 @@
     "screen": "10,9' IPS",
     "ram": "4GB",
     "year": 2020,
-    "image": "img/tablets/apple-ipad-air-4/gold/00.jpg"
+    "image": "img/tablets/apple-ipad-air-4/gold/00.png"
   },
   {
     "category_id": 2,
@@ -1019,7 +1019,7 @@
     "screen": "10,9' IPS",
     "ram": "4GB",
     "year": 2020,
-    "image": "img/tablets/apple-ipad-air-4/gray/00.jpg"
+    "image": "img/tablets/apple-ipad-air-4/gray/00.png"
   },
   {
     "category_id": 2,
@@ -1033,7 +1033,7 @@
     "screen": "10,9' IPS",
     "ram": "4GB",
     "year": 2020,
-    "image": "img/tablets/apple-ipad-air-4/blue/00.jpg"
+    "image": "img/tablets/apple-ipad-air-4/blue/00.png"
   },
   {
     "category_id": 2,
@@ -1047,7 +1047,7 @@
     "screen": "10,9' IPS",
     "ram": "4GB",
     "year": 2020,
-    "image": "img/tablets/apple-ipad-air-4/green/00.jpg"
+    "image": "img/tablets/apple-ipad-air-4/green/00.png"
   },
   {
     "category_id": 2,
@@ -1061,7 +1061,7 @@
     "screen": "10,9' IPS",
     "ram": "4GB",
     "year": 2020,
-    "image": "img/tablets/apple-ipad-air-4/silver/00.jpg"
+    "image": "img/tablets/apple-ipad-air-4/silver/00.png"
   },
   {
     "category_id": 2,
@@ -1075,7 +1075,7 @@
     "screen": "10,9' IPS",
     "ram": "4GB",
     "year": 2020,
-    "image": "img/tablets/apple-ipad-air-4/gold/00.jpg"
+    "image": "img/tablets/apple-ipad-air-4/gold/00.png"
   },
   {
     "category_id": 2,
@@ -1089,7 +1089,7 @@
     "screen": "10,9' IPS",
     "ram": "4GB",
     "year": 2020,
-    "image": "img/tablets/apple-ipad-air-4/gray/00.jpg"
+    "image": "img/tablets/apple-ipad-air-4/gray/00.png"
   },
   {
     "category_id": 2,
@@ -1103,7 +1103,7 @@
     "screen": "10,9' IPS",
     "ram": "4GB",
     "year": 2020,
-    "image": "img/tablets/apple-ipad-air-4/blue/00.jpg"
+    "image": "img/tablets/apple-ipad-air-4/blue/00.png"
   },
   {
     "category_id": 2,
@@ -1117,7 +1117,7 @@
     "screen": "10,9' IPS",
     "ram": "4GB",
     "year": 2020,
-    "image": "img/tablets/apple-ipad-air-4/green/00.jpg"
+    "image": "img/tablets/apple-ipad-air-4/green/00.png"
   },
   {
     "category_id": 2,
@@ -1131,7 +1131,7 @@
     "screen": "10,9' IPS",
     "ram": "4GB",
     "year": 2020,
-    "image": "img/tablets/apple-ipad-air-4/silver/00.jpg"
+    "image": "img/tablets/apple-ipad-air-4/silver/00.png"
   },
   {
     "category_id": 2,
@@ -1145,7 +1145,7 @@
     "screen": "10,9' IPS",
     "ram": "4GB",
     "year": 2020,
-    "image": "img/tablets/apple-ipad-air-4/gold/00.jpg"
+    "image": "img/tablets/apple-ipad-air-4/gold/00.png"
   },
   {
     "category_id": 2,
@@ -1159,7 +1159,7 @@
     "screen": "10,9' IPS",
     "ram": "4GB",
     "year": 2020,
-    "image": "img/tablets/apple-ipad-air-4/gray/00.jpg"
+    "image": "img/tablets/apple-ipad-air-4/gray/00.png"
   },
   {
     "category_id": 2,
@@ -1173,7 +1173,7 @@
     "screen": "10,9' IPS",
     "ram": "4GB",
     "year": 2020,
-    "image": "img/tablets/apple-ipad-air-4/blue/00.jpg"
+    "image": "img/tablets/apple-ipad-air-4/blue/00.png"
   },
   {
     "category_id": 2,
@@ -1187,7 +1187,7 @@
     "screen": "10,9' IPS",
     "ram": "4GB",
     "year": 2020,
-    "image": "img/tablets/apple-ipad-air-4/green/00.jpg"
+    "image": "img/tablets/apple-ipad-air-4/green/00.png"
   },
   {
     "category_id": 2,
@@ -1201,7 +1201,7 @@
     "screen": "10,9' IPS",
     "ram": "4GB",
     "year": 2020,
-    "image": "img/tablets/apple-ipad-air-4/silver/00.jpg"
+    "image": "img/tablets/apple-ipad-air-4/silver/00.png"
   },
   {
     "category_id": 2,
@@ -1215,7 +1215,7 @@
     "screen": "8,3' IPS",
     "ram": "4GB",
     "year": 2021,
-    "image": "img/tablets/apple-ipad-mini-6/gold/00.jpg"
+    "image": "img/tablets/apple-ipad-mini-6/gold/00.png"
   },
   {
     "category_id": 2,
@@ -1229,7 +1229,7 @@
     "screen": "8,3' IPS",
     "ram": "4GB",
     "year": 2021,
-    "image": "img/tablets/apple-ipad-mini-6/gray/00.jpg"
+    "image": "img/tablets/apple-ipad-mini-6/gray/00.png"
   },
   {
     "category_id": 2,
@@ -1243,7 +1243,7 @@
     "screen": "8,3' IPS",
     "ram": "4GB",
     "year": 2021,
-    "image": "img/tablets/apple-ipad-mini-6/pink/00.jpg"
+    "image": "img/tablets/apple-ipad-mini-6/pink/00.png"
   },
   {
     "category_id": 2,
@@ -1257,7 +1257,7 @@
     "screen": "8,3' IPS",
     "ram": "4GB",
     "year": 2021,
-    "image": "img/tablets/apple-ipad-mini-6/purple/00.jpg"
+    "image": "img/tablets/apple-ipad-mini-6/purple/00.png"
   },
   {
     "category_id": 2,
@@ -1271,7 +1271,7 @@
     "screen": "8,3' IPS",
     "ram": "4GB",
     "year": 2021,
-    "image": "img/tablets/apple-ipad-mini-6/gold/00.jpg"
+    "image": "img/tablets/apple-ipad-mini-6/gold/00.png"
   },
   {
     "category_id": 2,
@@ -1285,7 +1285,7 @@
     "screen": "8,3' IPS",
     "ram": "4GB",
     "year": 2021,
-    "image": "img/tablets/apple-ipad-mini-6/gray/00.jpg"
+    "image": "img/tablets/apple-ipad-mini-6/gray/00.png"
   },
   {
     "category_id": 2,
@@ -1299,7 +1299,7 @@
     "screen": "8,3' IPS",
     "ram": "4GB",
     "year": 2021,
-    "image": "img/tablets/apple-ipad-mini-6/pink/00.jpg"
+    "image": "img/tablets/apple-ipad-mini-6/pink/00.png"
   },
   {
     "category_id": 2,
@@ -1313,7 +1313,7 @@
     "screen": "8,3' IPS",
     "ram": "4GB",
     "year": 2021,
-    "image": "img/tablets/apple-ipad-mini-6/purple/00.jpg"
+    "image": "img/tablets/apple-ipad-mini-6/purple/00.png"
   },
   {
     "category_id": 2,
@@ -1327,7 +1327,7 @@
     "screen": "8,3' IPS",
     "ram": "4GB",
     "year": 2021,
-    "image": "img/tablets/apple-ipad-mini-6/gold/00.jpg"
+    "image": "img/tablets/apple-ipad-mini-6/gold/00.png"
   },
   {
     "category_id": 2,
@@ -1341,7 +1341,7 @@
     "screen": "8,3' IPS",
     "ram": "4GB",
     "year": 2021,
-    "image": "img/tablets/apple-ipad-mini-6/gray/00.jpg"
+    "image": "img/tablets/apple-ipad-mini-6/gray/00.png"
   },
   {
     "category_id": 2,
@@ -1355,7 +1355,7 @@
     "screen": "8,3' IPS",
     "ram": "4GB",
     "year": 2021,
-    "image": "img/tablets/apple-ipad-mini-6/pink/00.jpg"
+    "image": "img/tablets/apple-ipad-mini-6/pink/00.png"
   },
   {
     "category_id": 2,
@@ -1369,7 +1369,7 @@
     "screen": "8,3' IPS",
     "ram": "4GB",
     "year": 2021,
-    "image": "img/tablets/apple-ipad-mini-6/purple/00.jpg"
+    "image": "img/tablets/apple-ipad-mini-6/purple/00.png"
   },
   {
     "category_id": 3,
@@ -1377,7 +1377,7 @@
     "color_id": 9,
     "name": "iPhone 11 Silicone Case Black",
     "fullPrice": 49,
-    "image": "img/accessories/iphone-11-cases/black/00.jpg"
+    "image": "img/accessories/iphone-11-cases/black/00.png"
   },
   {
     "category_id": 3,
@@ -1385,7 +1385,7 @@
     "color_id": 14,
     "name": "iPhone 11 Silicone Case Blue",
     "fullPrice": 49,
-    "image": "img/accessories/iphone-11-cases/blue/00.jpg"
+    "image": "img/accessories/iphone-11-cases/blue/00.png"
   },
   {
     "category_id": 3,
@@ -1393,7 +1393,7 @@
     "color_id": 8,
     "name": "iPhone 11 Silicone Case White",
     "fullPrice": 49,
-    "image": "img/accessories/iphone-11-cases/white/00.jpg"
+    "image": "img/accessories/iphone-11-cases/white/00.png"
   },
   {
     "category_id": 3,
@@ -1401,7 +1401,7 @@
     "color_id": 7,
     "name": "iPhone 11 Silicone Case Red",
     "fullPrice": 49,
-    "image": "img/accessories/iphone-11-cases/red/00.jpg"
+    "image": "img/accessories/iphone-11-cases/red/00.png"
   },
   {
     "category_id": 3,
@@ -1409,7 +1409,7 @@
     "color_id": 14,
     "name": "iPhone XS Silicone Case Blue",
     "fullPrice": 49,
-    "image": "img/accessories/iphone-xs-cases/blue/00.jpg"
+    "image": "img/accessories/iphone-xs-cases/blue/00.png"
   },
   {
     "category_id": 3,
@@ -1417,7 +1417,7 @@
     "color_id": 15,
     "name": "iPhone XS Silicone Case Pink",
     "fullPrice": 49,
-    "image": "img/accessories/iphone-xs-cases/pink/00.jpg"
+    "image": "img/accessories/iphone-xs-cases/pink/00.png"
   },
   {
     "category_id": 3,
@@ -1425,7 +1425,7 @@
     "color_id": 7,
     "name": "iPhone XS Silicone Case Red",
     "fullPrice": 49,
-    "image": "img/accessories/iphone-xs-cases/red/00.jpg"
+    "image": "img/accessories/iphone-xs-cases/red/00.png"
   },
   {
     "category_id": 3,
@@ -1433,7 +1433,7 @@
     "color_id": 7,
     "name": "iPhone XR Silicone Case Red",
     "fullPrice": 49,
-    "image": "img/accessories/iphone-xr-cases/red/00.jpg"
+    "image": "img/accessories/iphone-xr-cases/red/00.png"
   },
   {
     "category_id": 3,
@@ -1441,7 +1441,7 @@
     "color_id": 8,
     "name": "iPhone XR Silicone Case White",
     "fullPrice": 49,
-    "image": "img/accessories/iphone-xr-cases/white/00.jpg"
+    "image": "img/accessories/iphone-xr-cases/white/00.png"
   },
   {
     "category_id": 3,
@@ -1449,7 +1449,7 @@
     "color_id": 15,
     "name": "iPhone XR Silicone Case Green",
     "fullPrice": 49,
-    "image": "img/accessories/iphone-xr-cases/green/00.jpg"
+    "image": "img/accessories/iphone-xr-cases/green/00.png"
   },
   {
     "category_id": 3,
@@ -1457,7 +1457,7 @@
     "color_id": 9,
     "name": "iPhone 7 Silicone Case Black",
     "fullPrice": 49,
-    "image": "img/accessories/iphone-7-cases/black/00.jpg"
+    "image": "img/accessories/iphone-7-cases/black/00.png"
   },
   {
     "category_id": 3,
@@ -1465,7 +1465,7 @@
     "color_id": 15,
     "name": "iPhone 7 Silicone Case Pink",
     "fullPrice": 49,
-    "image": "img/accessories/iphone-7-cases/pink/00.jpg"
+    "image": "img/accessories/iphone-7-cases/pink/00.png"
   },
   {
     "category_id": 3,
@@ -1473,7 +1473,7 @@
     "color_id": 7,
     "name": "iPhone 7 Silicone Case Red",
     "fullPrice": 49,
-    "image": "img/accessories/iphone-7-cases/red/00.jpg"
+    "image": "img/accessories/iphone-7-cases/red/00.png"
   },
   {
     "category_id": 3,
@@ -1481,6 +1481,6 @@
     "color_id": 8,
     "name": "iPhone 7 Silicone Case White",
     "fullPrice": 49,
-    "image": "img/accessories/iphone-7-cases/white/00.jpg"
+    "image": "img/accessories/iphone-7-cases/white/00.png"
   }
 ]

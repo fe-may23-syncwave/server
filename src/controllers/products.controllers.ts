@@ -36,7 +36,13 @@ export async function getAllProducts(req: Request, res: Response) {
     category,
   });
 
-  res.send(products);
+  if (!products.length) {
+    res.status(404).send('Products not found');
+
+    return;
+  }
+
+  res.status(200).send(products);
 }
 
 export const getOneProduct = async (req: Request, res: Response) => {

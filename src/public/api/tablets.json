@@ -10,11 +10,11 @@
     "colorsAvailable": ["gold", "gray", "blue", "green", "silver"],
     "color": "blue",
     "images": [
-      "img/tablets/apple-ipad-air-4/blue/00.jpg",
-      "img/tablets/apple-ipad-air-4/blue/01.jpg",
-      "img/tablets/apple-ipad-air-4/blue/02.jpg",
-      "img/tablets/apple-ipad-air-4/blue/03.jpg",
-      "img/tablets/apple-ipad-air-4/blue/04.jpg"
+      "img/tablets/apple-ipad-air-4/blue/00.png",
+      "img/tablets/apple-ipad-air-4/blue/01.png",
+      "img/tablets/apple-ipad-air-4/blue/02.png",
+      "img/tablets/apple-ipad-air-4/blue/03.png",
+      "img/tablets/apple-ipad-air-4/blue/04.png"
     ],
     "description": [
       {
@@ -56,11 +56,11 @@
     "colorsAvailable": ["gold", "gray", "blue", "green", "silver"],
     "color": "gold",
     "images": [
-      "img/tablets/apple-ipad-air-4/gold/00.jpg",
-      "img/tablets/apple-ipad-air-4/gold/01.jpg",
-      "img/tablets/apple-ipad-air-4/gold/02.jpg",
-      "img/tablets/apple-ipad-air-4/gold/03.jpg",
-      "img/tablets/apple-ipad-air-4/gold/04.jpg"
+      "img/tablets/apple-ipad-air-4/gold/00.png",
+      "img/tablets/apple-ipad-air-4/gold/01.png",
+      "img/tablets/apple-ipad-air-4/gold/02.png",
+      "img/tablets/apple-ipad-air-4/gold/03.png",
+      "img/tablets/apple-ipad-air-4/gold/04.png"
     ],
     "description": [
       {
@@ -102,11 +102,11 @@
     "colorsAvailable": ["gold", "gray", "blue", "green", "silver"],
     "color": "gray",
     "images": [
-      "img/tablets/apple-ipad-air-4/gray/00.jpg",
-      "img/tablets/apple-ipad-air-4/gray/01.jpg",
-      "img/tablets/apple-ipad-air-4/gray/02.jpg",
-      "img/tablets/apple-ipad-air-4/gray/03.jpg",
-      "img/tablets/apple-ipad-air-4/gray/04.jpg"
+      "img/tablets/apple-ipad-air-4/gray/00.png",
+      "img/tablets/apple-ipad-air-4/gray/01.png",
+      "img/tablets/apple-ipad-air-4/gray/02.png",
+      "img/tablets/apple-ipad-air-4/gray/03.png",
+      "img/tablets/apple-ipad-air-4/gray/04.png"
     ],
     "description": [
       {
@@ -148,11 +148,11 @@
     "colorsAvailable": ["gold", "gray", "blue", "green", "silver"],
     "color": "green",
     "images": [
-      "img/tablets/apple-ipad-air-4/green/00.jpg",
-      "img/tablets/apple-ipad-air-4/green/01.jpg",
-      "img/tablets/apple-ipad-air-4/green/02.jpg",
-      "img/tablets/apple-ipad-air-4/green/03.jpg",
-      "img/tablets/apple-ipad-air-4/green/04.jpg"
+      "img/tablets/apple-ipad-air-4/green/00.png",
+      "img/tablets/apple-ipad-air-4/green/01.png",
+      "img/tablets/apple-ipad-air-4/green/02.png",
+      "img/tablets/apple-ipad-air-4/green/03.png",
+      "img/tablets/apple-ipad-air-4/green/04.png"
     ],
     "description": [
       {
@@ -194,11 +194,11 @@
     "colorsAvailable": ["gold", "gray", "blue", "green", "silver"],
     "color": "silver",
     "images": [
-      "img/tablets/apple-ipad-air-4/silver/00.jpg",
-      "img/tablets/apple-ipad-air-4/silver/01.jpg",
-      "img/tablets/apple-ipad-air-4/silver/02.jpg",
-      "img/tablets/apple-ipad-air-4/silver/03.jpg",
-      "img/tablets/apple-ipad-air-4/silver/04.jpg"
+      "img/tablets/apple-ipad-air-4/silver/00.png",
+      "img/tablets/apple-ipad-air-4/silver/01.png",
+      "img/tablets/apple-ipad-air-4/silver/02.png",
+      "img/tablets/apple-ipad-air-4/silver/03.png",
+      "img/tablets/apple-ipad-air-4/silver/04.png"
     ],
     "description": [
       {
@@ -240,11 +240,11 @@
     "colorsAvailable": ["gold", "gray", "blue", "green", "silver"],
     "color": "blue",
     "images": [
-      "img/tablets/apple-ipad-air-4/blue/00.jpg",
-      "img/tablets/apple-ipad-air-4/blue/01.jpg",
-      "img/tablets/apple-ipad-air-4/blue/02.jpg",
-      "img/tablets/apple-ipad-air-4/blue/03.jpg",
-      "img/tablets/apple-ipad-air-4/blue/04.jpg"
+      "img/tablets/apple-ipad-air-4/blue/00.png",
+      "img/tablets/apple-ipad-air-4/blue/01.png",
+      "img/tablets/apple-ipad-air-4/blue/02.png",
+      "img/tablets/apple-ipad-air-4/blue/03.png",
+      "img/tablets/apple-ipad-air-4/blue/04.png"
     ],
     "description": [
       {
@@ -286,11 +286,11 @@
     "colorsAvailable": ["gold", "gray", "blue", "green", "silver"],
     "color": "gold",
     "images": [
-      "img/tablets/apple-ipad-air-4/gold/00.jpg",
-      "img/tablets/apple-ipad-air-4/gold/01.jpg",
-      "img/tablets/apple-ipad-air-4/gold/02.jpg",
-      "img/tablets/apple-ipad-air-4/gold/03.jpg",
-      "img/tablets/apple-ipad-air-4/gold/04.jpg"
+      "img/tablets/apple-ipad-air-4/gold/00.png",
+      "img/tablets/apple-ipad-air-4/gold/01.png",
+      "img/tablets/apple-ipad-air-4/gold/02.png",
+      "img/tablets/apple-ipad-air-4/gold/03.png",
+      "img/tablets/apple-ipad-air-4/gold/04.png"
     ],
     "description": [
       {
@@ -332,11 +332,11 @@
     "colorsAvailable": ["gold", "gray", "blue", "green", "silver"],
     "color": "gray",
     "images": [
-      "img/tablets/apple-ipad-air-4/gray/00.jpg",
-      "img/tablets/apple-ipad-air-4/gray/01.jpg",
-      "img/tablets/apple-ipad-air-4/gray/02.jpg",
-      "img/tablets/apple-ipad-air-4/gray/03.jpg",
-      "img/tablets/apple-ipad-air-4/gray/04.jpg"
+      "img/tablets/apple-ipad-air-4/gray/00.png",
+      "img/tablets/apple-ipad-air-4/gray/01.png",
+      "img/tablets/apple-ipad-air-4/gray/02.png",
+      "img/tablets/apple-ipad-air-4/gray/03.png",
+      "img/tablets/apple-ipad-air-4/gray/04.png"
     ],
     "description": [
       {
@@ -378,11 +378,11 @@
     "colorsAvailable": ["gold", "gray", "blue", "green", "silver"],
     "color": "green",
     "images": [
-      "img/tablets/apple-ipad-air-4/green/00.jpg",
-      "img/tablets/apple-ipad-air-4/green/01.jpg",
-      "img/tablets/apple-ipad-air-4/green/02.jpg",
-      "img/tablets/apple-ipad-air-4/green/03.jpg",
-      "img/tablets/apple-ipad-air-4/green/04.jpg"
+      "img/tablets/apple-ipad-air-4/green/00.png",
+      "img/tablets/apple-ipad-air-4/green/01.png",
+      "img/tablets/apple-ipad-air-4/green/02.png",
+      "img/tablets/apple-ipad-air-4/green/03.png",
+      "img/tablets/apple-ipad-air-4/green/04.png"
     ],
     "description": [
       {
@@ -424,11 +424,11 @@
     "colorsAvailable": ["gold", "gray", "blue", "green", "silver"],
     "color": "silver",
     "images": [
-      "img/tablets/apple-ipad-air-4/silver/00.jpg",
-      "img/tablets/apple-ipad-air-4/silver/01.jpg",
-      "img/tablets/apple-ipad-air-4/silver/02.jpg",
-      "img/tablets/apple-ipad-air-4/silver/03.jpg",
-      "img/tablets/apple-ipad-air-4/silver/04.jpg"
+      "img/tablets/apple-ipad-air-4/silver/00.png",
+      "img/tablets/apple-ipad-air-4/silver/01.png",
+      "img/tablets/apple-ipad-air-4/silver/02.png",
+      "img/tablets/apple-ipad-air-4/silver/03.png",
+      "img/tablets/apple-ipad-air-4/silver/04.png"
     ],
     "description": [
       {
@@ -470,11 +470,11 @@
     "colorsAvailable": ["gold", "gray", "blue", "green", "silver"],
     "color": "blue",
     "images": [
-      "img/tablets/apple-ipad-air-4/blue/00.jpg",
-      "img/tablets/apple-ipad-air-4/blue/01.jpg",
-      "img/tablets/apple-ipad-air-4/blue/02.jpg",
-      "img/tablets/apple-ipad-air-4/blue/03.jpg",
-      "img/tablets/apple-ipad-air-4/blue/04.jpg"
+      "img/tablets/apple-ipad-air-4/blue/00.png",
+      "img/tablets/apple-ipad-air-4/blue/01.png",
+      "img/tablets/apple-ipad-air-4/blue/02.png",
+      "img/tablets/apple-ipad-air-4/blue/03.png",
+      "img/tablets/apple-ipad-air-4/blue/04.png"
     ],
     "description": [
       {
@@ -516,11 +516,11 @@
     "colorsAvailable": ["gold", "gray", "blue", "green", "silver"],
     "color": "gold",
     "images": [
-      "img/tablets/apple-ipad-air-4/gold/00.jpg",
-      "img/tablets/apple-ipad-air-4/gold/01.jpg",
-      "img/tablets/apple-ipad-air-4/gold/02.jpg",
-      "img/tablets/apple-ipad-air-4/gold/03.jpg",
-      "img/tablets/apple-ipad-air-4/gold/04.jpg"
+      "img/tablets/apple-ipad-air-4/gold/00.png",
+      "img/tablets/apple-ipad-air-4/gold/01.png",
+      "img/tablets/apple-ipad-air-4/gold/02.png",
+      "img/tablets/apple-ipad-air-4/gold/03.png",
+      "img/tablets/apple-ipad-air-4/gold/04.png"
     ],
     "description": [
       {
@@ -562,11 +562,11 @@
     "colorsAvailable": ["gold", "gray", "blue", "green", "silver"],
     "color": "gray",
     "images": [
-      "img/tablets/apple-ipad-air-4/gray/00.jpg",
-      "img/tablets/apple-ipad-air-4/gray/01.jpg",
-      "img/tablets/apple-ipad-air-4/gray/02.jpg",
-      "img/tablets/apple-ipad-air-4/gray/03.jpg",
-      "img/tablets/apple-ipad-air-4/gray/04.jpg"
+      "img/tablets/apple-ipad-air-4/gray/00.png",
+      "img/tablets/apple-ipad-air-4/gray/01.png",
+      "img/tablets/apple-ipad-air-4/gray/02.png",
+      "img/tablets/apple-ipad-air-4/gray/03.png",
+      "img/tablets/apple-ipad-air-4/gray/04.png"
     ],
     "description": [
       {
@@ -608,11 +608,11 @@
     "colorsAvailable": ["gold", "gray", "blue", "green", "silver"],
     "color": "green",
     "images": [
-      "img/tablets/apple-ipad-air-4/green/00.jpg",
-      "img/tablets/apple-ipad-air-4/green/01.jpg",
-      "img/tablets/apple-ipad-air-4/green/02.jpg",
-      "img/tablets/apple-ipad-air-4/green/03.jpg",
-      "img/tablets/apple-ipad-air-4/green/04.jpg"
+      "img/tablets/apple-ipad-air-4/green/00.png",
+      "img/tablets/apple-ipad-air-4/green/01.png",
+      "img/tablets/apple-ipad-air-4/green/02.png",
+      "img/tablets/apple-ipad-air-4/green/03.png",
+      "img/tablets/apple-ipad-air-4/green/04.png"
     ],
     "description": [
       {
@@ -654,11 +654,11 @@
     "colorsAvailable": ["gold", "gray", "blue", "green", "silver"],
     "color": "silver",
     "images": [
-      "img/tablets/apple-ipad-air-4/silver/00.jpg",
-      "img/tablets/apple-ipad-air-4/silver/01.jpg",
-      "img/tablets/apple-ipad-air-4/silver/02.jpg",
-      "img/tablets/apple-ipad-air-4/silver/03.jpg",
-      "img/tablets/apple-ipad-air-4/silver/04.jpg"
+      "img/tablets/apple-ipad-air-4/silver/00.png",
+      "img/tablets/apple-ipad-air-4/silver/01.png",
+      "img/tablets/apple-ipad-air-4/silver/02.png",
+      "img/tablets/apple-ipad-air-4/silver/03.png",
+      "img/tablets/apple-ipad-air-4/silver/04.png"
     ],
     "description": [
       {
@@ -700,11 +700,11 @@
     "colorsAvailable": ["gold", "gray", "pink", "purple"],
     "color": "gold",
     "images": [
-      "img/tablets/apple-ipad-mini-6/gold/00.jpg",
-      "img/tablets/apple-ipad-mini-6/gold/01.jpg",
-      "img/tablets/apple-ipad-mini-6/gold/02.jpg",
-      "img/tablets/apple-ipad-mini-6/gold/03.jpg",
-      "img/tablets/apple-ipad-mini-6/gold/04.jpg"
+      "img/tablets/apple-ipad-mini-6/gold/00.png",
+      "img/tablets/apple-ipad-mini-6/gold/01.png",
+      "img/tablets/apple-ipad-mini-6/gold/02.png",
+      "img/tablets/apple-ipad-mini-6/gold/03.png",
+      "img/tablets/apple-ipad-mini-6/gold/04.png"
     ],
     "description": [
       {
@@ -746,11 +746,11 @@
     "colorsAvailable": ["gold", "gray", "pink", "purple"],
     "color": "gray",
     "images": [
-      "img/tablets/apple-ipad-mini-6/gray/00.jpg",
-      "img/tablets/apple-ipad-mini-6/gray/01.jpg",
-      "img/tablets/apple-ipad-mini-6/gray/02.jpg",
-      "img/tablets/apple-ipad-mini-6/gray/03.jpg",
-      "img/tablets/apple-ipad-mini-6/gray/04.jpg"
+      "img/tablets/apple-ipad-mini-6/gray/00.png",
+      "img/tablets/apple-ipad-mini-6/gray/01.png",
+      "img/tablets/apple-ipad-mini-6/gray/02.png",
+      "img/tablets/apple-ipad-mini-6/gray/03.png",
+      "img/tablets/apple-ipad-mini-6/gray/04.png"
     ],
     "description": [
       {
@@ -792,11 +792,11 @@
     "colorsAvailable": ["gold", "gray", "pink", "purple"],
     "color": "pink",
     "images": [
-      "img/tablets/apple-ipad-mini-6/pink/00.jpg",
-      "img/tablets/apple-ipad-mini-6/pink/01.jpg",
-      "img/tablets/apple-ipad-mini-6/pink/02.jpg",
-      "img/tablets/apple-ipad-mini-6/pink/03.jpg",
-      "img/tablets/apple-ipad-mini-6/pink/04.jpg"
+      "img/tablets/apple-ipad-mini-6/pink/00.png",
+      "img/tablets/apple-ipad-mini-6/pink/01.png",
+      "img/tablets/apple-ipad-mini-6/pink/02.png",
+      "img/tablets/apple-ipad-mini-6/pink/03.png",
+      "img/tablets/apple-ipad-mini-6/pink/04.png"
     ],
     "description": [
       {
@@ -838,11 +838,11 @@
     "colorsAvailable": ["gold", "gray", "pink", "purple"],
     "color": "purple",
     "images": [
-      "img/tablets/apple-ipad-mini-6/purple/00.jpg",
-      "img/tablets/apple-ipad-mini-6/purple/01.jpg",
-      "img/tablets/apple-ipad-mini-6/purple/02.jpg",
-      "img/tablets/apple-ipad-mini-6/purple/03.jpg",
-      "img/tablets/apple-ipad-mini-6/purple/04.jpg"
+      "img/tablets/apple-ipad-mini-6/purple/00.png",
+      "img/tablets/apple-ipad-mini-6/purple/01.png",
+      "img/tablets/apple-ipad-mini-6/purple/02.png",
+      "img/tablets/apple-ipad-mini-6/purple/03.png",
+      "img/tablets/apple-ipad-mini-6/purple/04.png"
     ],
     "description": [
       {
@@ -883,11 +883,11 @@
     "colorsAvailable": ["gold", "gray", "pink", "purple"],
     "color": "gold",
     "images": [
-      "img/tablets/apple-ipad-mini-6/gold/00.jpg",
-      "img/tablets/apple-ipad-mini-6/gold/01.jpg",
-      "img/tablets/apple-ipad-mini-6/gold/02.jpg",
-      "img/tablets/apple-ipad-mini-6/gold/03.jpg",
-      "img/tablets/apple-ipad-mini-6/gold/04.jpg"
+      "img/tablets/apple-ipad-mini-6/gold/00.png",
+      "img/tablets/apple-ipad-mini-6/gold/01.png",
+      "img/tablets/apple-ipad-mini-6/gold/02.png",
+      "img/tablets/apple-ipad-mini-6/gold/03.png",
+      "img/tablets/apple-ipad-mini-6/gold/04.png"
     ],
     "description": [
       {
@@ -929,11 +929,11 @@
     "colorsAvailable": ["gold", "gray", "pink", "purple"],
     "color": "gray",
     "images": [
-      "img/tablets/apple-ipad-mini-6/gray/00.jpg",
-      "img/tablets/apple-ipad-mini-6/gray/01.jpg",
-      "img/tablets/apple-ipad-mini-6/gray/02.jpg",
-      "img/tablets/apple-ipad-mini-6/gray/03.jpg",
-      "img/tablets/apple-ipad-mini-6/gray/04.jpg"
+      "img/tablets/apple-ipad-mini-6/gray/00.png",
+      "img/tablets/apple-ipad-mini-6/gray/01.png",
+      "img/tablets/apple-ipad-mini-6/gray/02.png",
+      "img/tablets/apple-ipad-mini-6/gray/03.png",
+      "img/tablets/apple-ipad-mini-6/gray/04.png"
     ],
     "description": [
       {
@@ -975,11 +975,11 @@
     "colorsAvailable": ["gold", "gray", "pink", "purple"],
     "color": "pink",
     "images": [
-      "img/tablets/apple-ipad-mini-6/pink/00.jpg",
-      "img/tablets/apple-ipad-mini-6/pink/01.jpg",
-      "img/tablets/apple-ipad-mini-6/pink/02.jpg",
-      "img/tablets/apple-ipad-mini-6/pink/03.jpg",
-      "img/tablets/apple-ipad-mini-6/pink/04.jpg"
+      "img/tablets/apple-ipad-mini-6/pink/00.png",
+      "img/tablets/apple-ipad-mini-6/pink/01.png",
+      "img/tablets/apple-ipad-mini-6/pink/02.png",
+      "img/tablets/apple-ipad-mini-6/pink/03.png",
+      "img/tablets/apple-ipad-mini-6/pink/04.png"
     ],
     "description": [
       {
@@ -1021,11 +1021,11 @@
     "colorsAvailable": ["gold", "gray", "pink", "purple"],
     "color": "purple",
     "images": [
-      "img/tablets/apple-ipad-mini-6/purple/00.jpg",
-      "img/tablets/apple-ipad-mini-6/purple/01.jpg",
-      "img/tablets/apple-ipad-mini-6/purple/02.jpg",
-      "img/tablets/apple-ipad-mini-6/purple/03.jpg",
-      "img/tablets/apple-ipad-mini-6/purple/04.jpg"
+      "img/tablets/apple-ipad-mini-6/purple/00.png",
+      "img/tablets/apple-ipad-mini-6/purple/01.png",
+      "img/tablets/apple-ipad-mini-6/purple/02.png",
+      "img/tablets/apple-ipad-mini-6/purple/03.png",
+      "img/tablets/apple-ipad-mini-6/purple/04.png"
     ],
     "description": [
       {
@@ -1066,11 +1066,11 @@
     "colorsAvailable": ["gold", "gray", "pink", "purple"],
     "color": "gold",
     "images": [
-      "img/tablets/apple-ipad-mini-6/gold/00.jpg",
-      "img/tablets/apple-ipad-mini-6/gold/01.jpg",
-      "img/tablets/apple-ipad-mini-6/gold/02.jpg",
-      "img/tablets/apple-ipad-mini-6/gold/03.jpg",
-      "img/tablets/apple-ipad-mini-6/gold/04.jpg"
+      "img/tablets/apple-ipad-mini-6/gold/00.png",
+      "img/tablets/apple-ipad-mini-6/gold/01.png",
+      "img/tablets/apple-ipad-mini-6/gold/02.png",
+      "img/tablets/apple-ipad-mini-6/gold/03.png",
+      "img/tablets/apple-ipad-mini-6/gold/04.png"
     ],
     "description": [
       {
@@ -1112,11 +1112,11 @@
     "colorsAvailable": ["gold", "gray", "pink", "purple"],
     "color": "gray",
     "images": [
-      "img/tablets/apple-ipad-mini-6/gray/00.jpg",
-      "img/tablets/apple-ipad-mini-6/gray/01.jpg",
-      "img/tablets/apple-ipad-mini-6/gray/02.jpg",
-      "img/tablets/apple-ipad-mini-6/gray/03.jpg",
-      "img/tablets/apple-ipad-mini-6/gray/04.jpg"
+      "img/tablets/apple-ipad-mini-6/gray/00.png",
+      "img/tablets/apple-ipad-mini-6/gray/01.png",
+      "img/tablets/apple-ipad-mini-6/gray/02.png",
+      "img/tablets/apple-ipad-mini-6/gray/03.png",
+      "img/tablets/apple-ipad-mini-6/gray/04.png"
     ],
     "description": [
       {
@@ -1158,11 +1158,11 @@
     "colorsAvailable": ["gold", "gray", "pink", "purple"],
     "color": "pink",
     "images": [
-      "img/tablets/apple-ipad-mini-6/pink/00.jpg",
-      "img/tablets/apple-ipad-mini-6/pink/01.jpg",
-      "img/tablets/apple-ipad-mini-6/pink/02.jpg",
-      "img/tablets/apple-ipad-mini-6/pink/03.jpg",
-      "img/tablets/apple-ipad-mini-6/pink/04.jpg"
+      "img/tablets/apple-ipad-mini-6/pink/00.png",
+      "img/tablets/apple-ipad-mini-6/pink/01.png",
+      "img/tablets/apple-ipad-mini-6/pink/02.png",
+      "img/tablets/apple-ipad-mini-6/pink/03.png",
+      "img/tablets/apple-ipad-mini-6/pink/04.png"
     ],
     "description": [
       {
@@ -1204,11 +1204,11 @@
     "colorsAvailable": ["gold", "gray", "pink", "purple"],
     "color": "purple",
     "images": [
-      "img/tablets/apple-ipad-mini-6/purple/00.jpg",
-      "img/tablets/apple-ipad-mini-6/purple/01.jpg",
-      "img/tablets/apple-ipad-mini-6/purple/02.jpg",
-      "img/tablets/apple-ipad-mini-6/purple/03.jpg",
-      "img/tablets/apple-ipad-mini-6/purple/04.jpg"
+      "img/tablets/apple-ipad-mini-6/purple/00.png",
+      "img/tablets/apple-ipad-mini-6/purple/01.png",
+      "img/tablets/apple-ipad-mini-6/purple/02.png",
+      "img/tablets/apple-ipad-mini-6/purple/03.png",
+      "img/tablets/apple-ipad-mini-6/purple/04.png"
     ],
     "description": [
       {

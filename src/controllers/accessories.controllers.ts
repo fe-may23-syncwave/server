@@ -4,9 +4,15 @@ import { Request, Response } from 'express';
 import { getAll, getById } from '../services/accessories.service';
 
 export const getAllAccessories = async (req: Request, res: Response) => {
-  const accessory = await getAll();
+  const accessories = await getAll();
 
-  res.send(accessory);
+  if (!accessories.length) {
+    res.status(404).send('Accessories not found');
+
+    return;
+  }
+
+  res.status(200).send(accessories);
 };
 
 export const getOneAccessory = async (req: Request, res: Response) => {
