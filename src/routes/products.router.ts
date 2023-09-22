@@ -5,9 +5,16 @@ export const productsRouter = express.Router();
 
 /**
  * @swagger
+ * tags:
+ *   name: Products
+ *   description: Products management
+ */
+
+/**
+ * @swagger
  * /products:
  *   get:
- *     summary: Get a list of products.
+ *     summary: Get a list of products based on query parameters.
  *     description: Retrieves a list of products based on query parameters.
  *     parameters:
  *       - in: query

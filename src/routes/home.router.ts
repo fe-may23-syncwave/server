@@ -9,6 +9,13 @@ import {
 
 /**
  * @swagger
+ * tags:
+ *   name: Home
+ *   description: Home page information management
+ */
+
+/**
+ * @swagger
  * /home/newest:
  *   get:
  *     summary: Get the newest products (limited to 12 items).
