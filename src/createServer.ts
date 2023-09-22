@@ -3,7 +3,8 @@ import express from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
-
+import swaggerUi from 'swagger-ui-express';
+import swaggerJsdoc from 'swagger-jsdoc';
 dotenv.config();
 
 import { connect } from './utils/db';
@@ -25,9 +26,29 @@ const CLIENT_URL = process.env.CLIENT_URL;
 export function createServer() {
   const app = express();
 
+  const swaggerOptions = {
+    definition: {
+      openapi: '3.0.0',
+      info: {
+        title: '✨Syncwave Server✨',
+        version: '1.0.0',
+        description: 'API documentation for Nice gadgets store application.',
+      },
+      servers: [
+        {
+          url: 'http://localhost:5000',
+        },
+      ],
+    },
+    apis: ['./src/routes/*.ts'],
+  };
+
+  const swaggerSpec = swaggerJsdoc(swaggerOptions);
+
   const whitelist = [
     CLIENT_URL,
     'http://localhost:3000',
+    'http://localhost:5000',
     'http://127.0.0.1:3000',
   ];
 
@@ -65,5 +86,6 @@ export function createServer() {
 
   app.use(errorMiddleware);
 
+  app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
   return app;
 }
