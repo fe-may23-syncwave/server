@@ -59,7 +59,6 @@ orderRouter.post(
   catchError(orderController.create),
 );
 
-
 /**
  * @swagger
  * /orders/{id}:
