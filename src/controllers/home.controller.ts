@@ -16,6 +16,7 @@ import {
  *     responses:
  *       200:
  *         description: Successful request. Returns a list of the newest products (up to 12 items).
+ *    tags: [Home]
  */
 
 export const getNewest = async (req: Request, res: Response) => {
@@ -33,6 +34,7 @@ export const getNewest = async (req: Request, res: Response) => {
  *     responses:
  *       200:
  *         description: Successful request. Returns a list of the products with the best discounts (up to 12 items).
+ *    tags: [Home]
  */
 export const getBestDiscount = async (req: Request, res: Response) => {
   const bestDiscount = await getBestDiscount12Products();
@@ -49,6 +51,7 @@ export const getBestDiscount = async (req: Request, res: Response) => {
  *     responses:
  *       200:
  *         description: Successful request. Returns a list of the products with the hight price (up to 12 items).
+ *     tags: [Home]
  */
 export const getHightPrice = async (req: Request, res: Response) => {
   const hightPrice = await getHightPrice12Products();
@@ -65,6 +68,7 @@ export const getHightPrice = async (req: Request, res: Response) => {
  *     responses:
  *       200:
  *         description: Successful request. Returns an object with category product counts.
+ * 
  */
 export const getProductCounts = async (req: Request, res: Response) => {
   const counts = await getCategoryProductCounts();

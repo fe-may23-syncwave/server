@@ -16,6 +16,7 @@ import {
  *     responses:
  *       200:
  *         description: Successful request. Returns a list of the newest products (up to 12 items).
+ *     tags: [Home]
  */
 homeRouter.get('/newest', getNewest);
 
@@ -28,6 +29,7 @@ homeRouter.get('/newest', getNewest);
  *     responses:
  *       200:
  *         description: Successful request. Returns a list of the products with the best discounts (up to 12 items).
+ *     tags: [Home]
  */
 homeRouter.get('/bestDiscount', getBestDiscount);
 
@@ -40,6 +42,7 @@ homeRouter.get('/bestDiscount', getBestDiscount);
  *     responses:
  *       200:
  *         description: Successful request. Returns a list of the products with the hight price (up to 12 items).
+ *     tags: [Home]
  */
 homeRouter.get('/hightPrice', getHightPrice);
 
@@ -52,5 +55,6 @@ homeRouter.get('/hightPrice', getHightPrice);
  *     responses:
  *       200:
  *         description: Successful request. Returns an object with category product counts.
+ *     tags: [Home]
  */
 homeRouter.get('/productCounts', getProductCounts);
