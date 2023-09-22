@@ -68,7 +68,7 @@ export const getHightPrice = async (req: Request, res: Response) => {
  *     responses:
  *       200:
  *         description: Successful request. Returns an object with category product counts.
- * 
+ *
  */
 export const getProductCounts = async (req: Request, res: Response) => {
   const counts = await getCategoryProductCounts();
