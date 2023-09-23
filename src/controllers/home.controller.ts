@@ -13,16 +13,19 @@ export const getNewest = async (req: Request, res: Response) => {
 
   res.send({ newest });
 };
+
 export const getBestDiscount = async (req: Request, res: Response) => {
   const bestDiscount = await getBestDiscount12Products();
 
   res.send({ bestDiscount });
 };
+
 export const getHightPrice = async (req: Request, res: Response) => {
   const hightPrice = await getHightPrice12Products();
 
   res.send({ hightPrice });
 };
+
 export const getProductCounts = async (req: Request, res: Response) => {
   const counts = await getCategoryProductCounts();
 
