@@ -6,6 +6,7 @@ import { userService } from '../services/user.service';
 import { User } from '../models';
 import { jwtService } from '../services/jwt.service';
 import { tokenService } from '../services/token.service';
+import { googleService } from '../services/google.service';
 
 function validateEmail(value: string) {
   if (!value) {
@@ -146,10 +147,41 @@ async function sendAuthentication(res: Response, user: User) {
   });
 }
 
+async function googleLogin(req: Request, res: Response) {
+  const { token } = req.body;
+  const googleData = await googleService.verifyGoogleToken(token);
+
+  if (!googleData.payload?.email) {
+    throw ApiError.BadRequest('Invalid user detected. Please try again', {});
+  }
+  console.log('googleLogin user✅', googleData);
+
+  const { email } = googleData.payload;
+
+  const user = await userService.getByEmail(email);
+
+  if (!user) {
+    await userService.register({
+      email,
+      password: '',
+    });
+
+    const newUser = await userService.getByEmail(email);
+    console.log('googleLogin newUser✅', newUser);
+
+    await sendAuthentication(res, newUser as User);
+  }
+
+  console.log('googleLogin sendAuthentication✅', user);
+
+  await sendAuthentication(res, user as User);
+}
+
 export const authController = {
   register,
   activate,
   login,
   logout,
   refresh,
+  googleLogin,
 };

@@ -14,6 +14,8 @@ authRouter.get(
 
 authRouter.post('/login', catchError(authController.login));
 
+authRouter.post('/google', catchError(authController.googleLogin));
+
 authRouter.post('/logout', catchError(authController.logout));
 
 authRouter.get('/refresh', catchError(authController.refresh));
